@@ -38,8 +38,7 @@ def _create_practice_pages():
             yield from create_scenario_pages(domain=domain, label=label, scenario_num=scenario_num,
                                                     puzzle_text_1=puzzle1[0], word_1=puzzle1[1],
                                                     comp_question=question, answers=choices,
-                                                    correct_answer=answer, word_2=puzzle2[1],
-                                                    puzzle_text_2=puzzle2[0], image_url=image_url,
+                                                    correct_answer=answer, image_url=image_url,
                                                     is_first=scenario_num==0)
             scenario_num += 1
 
@@ -97,11 +96,11 @@ def create_long_sessions():
                 domain_1 = row[1].strip()
                 domain_2 = row[2].strip() if row[1] else None
                 label = row[3]
-                image_url = media_url(row[29])
-                scenario_description = row[28]
-                thoughts = row[30:35]
-                feelings = row[35:40]
-                behaviors = row[40:]
+                image_url = media_url(row[31])
+                scenario_description = row[29]
+                thoughts = row[32:37]
+                feelings = row[37:42]
+                behaviors = row[42:]
 
                 if not has_value(scenario_description) or not has_value(label): continue
 
@@ -131,7 +130,7 @@ def create_short_sessions():
             for row in islice(csv.reader(read_obj),1,None):
 
                 label     = row[1]
-                image_url = media_url(row[9])
+                image_url = media_url(row[10])
                 tipe      = row[4].strip()
 
                 if not domain or not label: continue
@@ -150,7 +149,7 @@ def create_short_sessions():
                     if lower(answer) in ["yes","no"]: choices = ["Yes","No"]
                     shuffle(choices)
 
-                    if row[10]: letters_missing = row[10]
+                    if row[11]: letters_missing = row[11]
 
                     is_first_session = len(sessions[domain]) == 0
                     is_first_scenario = len(scenarios[domain]) == 0
