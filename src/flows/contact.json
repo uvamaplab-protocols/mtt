@@ -1,0 +1,6 @@
+{
+    "header_text": "Contact Us",
+    "elements": [
+        {"type": "Text", "html": true, "text": "<b>Study Team</b><br><br><p>You can contact <a href=mailto:rpu3zk@virginia.edu>rpu3zk@virginia.edu</a> if you would like to reach out to the study team.</p><br><br><b>Technical Support</b><br><br>You can contact <a href=\"mailto:mr2an@virginia.edu?cc=rpu3zk@virginia.edu&subject=MindTrails%20Teen%20Technical%20Issue&body=The%20device%20I%20am%20using%20%28e.g.%2C%20iPhone%2C%20Android%20phone%29%20is%3A%0AThe%20operating%20system%20version%20I%20am%20using%20%28e.g.%2C%20iOS%2026.6.1%29%20is%3A%0AWhat%20app%20version%20I%20have%20%28e.g.%2C%201.9.8%29%20is%3A%0AMy%20issue%20is%3A\">mr2an@virginia.edu</a> if you are experiencing any technical issues. For best assistance, please include the following information in your email:<br><ul><li>What device are you using (e.g., iPhone, Android phone)?</li><li>What operating system version are you using (e.g., iOS 26.6.1)?</li><li>What app version do you have (e.g., 1.9.8)?</li>"}
+    ]
+}
