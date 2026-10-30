@@ -9,7 +9,11 @@
         {
             "type": "Buttons",
             "buttons": [
-                "1::1: Doesn't pop up in my mind;2::2;3::3: Might pop up in my mind;4::4;5::5: Definitely pops up in my mind;"
+                "1::1: Doesn't pop up in my mind",
+                "2::2",
+                "3::3: Might pop up in my mind",
+                "4::4",
+                "5::5: Definitely pops up in my mind"
             ],
             "selectable": true,
             "variable_name": "3A"

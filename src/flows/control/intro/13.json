@@ -11,13 +11,8 @@
             "buttons": [
                 "1::Therapy (talking with a trained professional)",
                 "2::Prescription medications ",
-                "3::Seeking social support (e.g. from friends",
-                "teachers",
-                "parents",
-                "etc)",
-                "4::Self-guided help (e.g. from books",
-                "social media",
-                "apps)",
+                "3::Seeking social support (e.g. from friends, teachers, parents, etc)",
+                "4::Self-guided help (e.g. from books, social media, apps)",
                 "5::!Other",
                 "6::^I am not receiving help",
                 "7::^Prefer not to answer"
