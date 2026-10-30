@@ -1,7 +1,7 @@
 Name of Survey,Dose,Interval ,Type,Number,Conditional? ,Text,Scale Labels,1,2,3,4,5,6,7,8,9,10,11,Dropdown Options
 Demographics,1,Dose,Radio Button,1A,,What is your gender identity?,,Female,Male,Transgender Female,Transgender Male,!Another Identity (please specify),^Prefer not to answer,,,,,,
 Demographics,1,Dose,Free Text,1B,1A = 5,Please specify your gender identity,,,,,,,,,,,,,
-Demographics,1,Dose,Radio Button,2A,,What is your racial background? (Please select all that apply.),,White/Caucasian,Asian,Black/African-American,Middle Eastern,American Indian/Alaska Native,Native Hawaiian/Pacific Islander,!Racial background not listed (please specify),^Prefer not to answer,,,,
+Demographics,1,Dose,Checkboxes,2A,,What is your racial background? (Please select all that apply.),,White/Caucasian,Asian,Black/African-American,Middle Eastern,American Indian/Alaska Native,Native Hawaiian/Pacific Islander,!Racial background not listed (please specify),^Prefer not to answer,,,,
 Demographics,1,Dose,Free Text,2B,2A = 7,Please specify your racial background,,,,,,,,,,,,,
 Demographics,1,Dose,Radio Button,3,,What is your ethnic background?,,Hispanic/Latino,Not Hispanic/Latino,Prefer not to answer,,,,,,,,,
 Demographics,1,Dose,Checkboxes,4A,,What is your sexual orientation? (Please select all that apply.),,Aromantic,Asexual,Bisexual,Gay,Lesbian,Pansexual,Queer,Questioning or Unsure,Straight (heterosexual),!Identity/orientation not listed (please specify),^Prefer not to answer,

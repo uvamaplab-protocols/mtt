@@ -57,7 +57,8 @@ def _create_survey_page(row):
     else: 
         items=""
         for i, item in enumerate(filter(lambda x: x!='', row[8:19])):
-            items += f"{i+1}::{item};"
+            items += f"{i+1}::{item}, "
+        items = items.strip(", ")
     image_framed = None
     timeout = None
     show_buttons = None

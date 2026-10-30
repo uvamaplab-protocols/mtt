@@ -43,7 +43,7 @@ def create_nav_conditions(buttons:Literal["WhenCorrect","AfterTimeout","Never","
 def create_input(tipe, items=None, min=None, max=None, text=None):
     if not tipe: return None
 
-    if items: items = list(filter(lambda x: x!='', clean_up_unicode(items).split(";")))
+    if items: items = list(filter(lambda x: x!='', clean_up_unicode(items).split(", ")))
     if items == [""]: items = None
     if items: [i.strip() for i in items]
 

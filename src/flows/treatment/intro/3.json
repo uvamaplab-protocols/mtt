@@ -19,6 +19,7 @@
                 "8::^Prefer not to answer"
             ],
             "selectable": true,
+            "multiselect": true,
             "variable_name": "2A"
         }
     ]
