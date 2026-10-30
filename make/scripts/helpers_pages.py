@@ -10,7 +10,7 @@ dir_root = "./make"
 dir_csv  = f"{dir_root}/CSV"
 
 def create_conditions(args):
-    if args: args = args.split(';')
+    if args: args = args.split(' ')
     if args == [''] or not args: return {}
 
     args = [a.strip() for a in args]
@@ -43,19 +43,19 @@ def create_nav_conditions(buttons:Literal["WhenCorrect","AfterTimeout","Never","
 def create_input(tipe, items=None, min=None, max=None, text=None):
     if not tipe: return None
 
-    if items: items = clean_up_unicode(items).split("; ")
+    if items: items = list(filter(lambda x: x!='', clean_up_unicode(items).split(";")))
     if items == [""]: items = None
     if items: [i.strip() for i in items]
 
     tipe = lower(tipe)
 
     ## Based on what the input is, create input "add"
-    if tipe == "picker"   : return {"type": "Picker", "items": items}
+    if tipe == "dropdown"   : return {"type": "Picker", "items": items}
     if tipe == "slider"   : return {"type": "Slider", "min": min, "max": max, "others": items or ["^Prefer not to respond"]} # changed
-    if tipe == "entry"    : return {"type": "Entry" }
-    if tipe == "buttons" or tipe=="button"  : return {"type": "Buttons", "buttons": items, "selectable": True, **({"ColumnCount": 2} if is_yesno(items) else {}) }
+    if tipe == "free text"    : return {"type": "Entry" }
+    if tipe == "radio button"   : return {"type": "Buttons", "buttons": items, "selectable": True, **({"ColumnCount": 2} if is_yesno(items) else {}) }
     if tipe == "scheduler": return {"type": "Scheduler", "days_ahead": 1, "flow": "flow://flows/sessions", "count":2, "message": "It's time to practice flexible thinking! Head to MindTrails for your scheduled session."}
-    if tipe == "checkbox" : return {"type": "Buttons", "buttons": items, "selectable": True, "multiselect": True }
+    if tipe == "checkboxes" : return {"type": "Buttons", "buttons": items, "selectable": True, "multiselect": True }
     if tipe == "timedtext": return {"type": "TimedText", "texts": text,  "Duration": 15000 }
     if tipe == "puzzle"   : return {
         "type": "WordPuzzle",

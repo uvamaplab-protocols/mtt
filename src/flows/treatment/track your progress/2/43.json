@@ -1,0 +1,22 @@
+{
+    "header_text": "AIBQ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post a photo of a tasty dish that you've made on Instagram. \nAfter an hour one of your followers responds ‘What dish is that? What is meant by this response? \n\n \nI've clearly made a mess of the dish because it isn't recognizable.  \n\nOn a scale of 1-5, how likely is this thought to pop into your mind?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "1::1: Doesn't pop up in my mind",
+                "2::2",
+                "3::3: Might pop up in my mind",
+                "4::4",
+                "5::5: Definitely pops up in my mind"
+            ],
+            "selectable": true,
+            "variable_name": "6B"
+        }
+    ]
+}

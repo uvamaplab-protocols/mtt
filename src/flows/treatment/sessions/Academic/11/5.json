@@ -1,19 +1,19 @@
 {
-    "header_text": "Balencing Responsbilities: Thoughts",
+    "header_text": "Important Test: Thoughts",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You have a lot of chores that you have to do tonight, and you also have a big project that's due tomorrow. Both have to get done, and you think about how you'll handle it all. \n\nHere are some thoughts that might pop into mind:"
+            "text": "You have a science test next week that's going to count for a lot of your grade. You haven't understood this unit's course material that well and you wonder how the test is going to go.\n\nHere are some thoughts that might pop into mind:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I'm not going to be able to do all of this tonight.",
-                "I don't know how I'm going to fit all of this in tonight, but I'll be able to figure it out.",
-                "I'm able to balance a lot.",
-                "It feels overwhelming having so much to do, but I'll do my best.",
-                "I think about how great it is to be busy."
+                "I think that I may never catch on, but know that if I try, I'll be able to.",
+                "I can ask for help to study for this test.",
+                "This class is so hard to keep up in, but decide to try a little harder.",
+                "This test will go well.",
+                "My teacher will think I'm dumb if I do not do well."
             ],
             "Duration": 15000
         }

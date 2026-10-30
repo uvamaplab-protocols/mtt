@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "less impressive than where they're going.",
-                "just as worthwhile as their own choices."
+                "just as worthwhile as their own choices.",
+                "less impressive than where they're going."
             ],
             "column_Count": 1,
             "correct_value": "just as worthwhile as their own choices."

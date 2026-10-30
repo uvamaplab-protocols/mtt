@@ -8,7 +8,7 @@
         },
         {
             "type": "Media",
-            "url": "./images/bank.jpg"
+            "url": null
         }
     ],
     "type": "Resilience",

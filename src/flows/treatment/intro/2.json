@@ -1,10 +1,19 @@
 {
-    "header_text": "Interpretation Scale Sample Question",
+    "header_text": "Demographics",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Instructions: Here are some descriptions of situations in which it is not quite clear what is happening. After each one, you will see 3 possible explanations for the situation. Please imagine yourself in each situation, then rate the extent to which you think each explanation would be likely to be true if you found yourself in that situation. Please provide a response for each of the 3 explanations under each question."
+            "text": "Please specify your gender identity"
+        },
+        {
+            "type": "Entry",
+            "variable_name": "1B"
         }
+    ],
+    "condition": [
+        "1A",
+        "=",
+        "5"
     ]
 }

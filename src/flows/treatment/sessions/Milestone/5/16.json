@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "overlooked compared to your sibling.",
-                "proud of your sibling's accomplishment."
+                "proud of your sibling's accomplishment.",
+                "overlooked compared to your sibling."
             ],
             "column_Count": 1,
             "correct_value": "proud of your sibling's accomplishment."

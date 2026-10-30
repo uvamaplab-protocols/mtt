@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "annoyed and upset with your choice.",
-                "busy and didn't have much to say right then."
+                "busy and didn't have much to say right then.",
+                "annoyed and upset with your choice."
             ],
             "column_Count": 1,
             "correct_value": "busy and didn't have much to say right then."

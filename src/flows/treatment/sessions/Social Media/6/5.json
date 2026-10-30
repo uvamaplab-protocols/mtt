@@ -1,19 +1,19 @@
 {
-    "header_text": "Close Friends Hanging Out: Thoughts",
+    "header_text": "Messaging Crush: Thoughts",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You are looking through your social media app and see a number of your friends have posted to their stories. As you look through their photos, you realize that a few of your close friends were all hanging out without you. \n\nHere are some thoughts that might pop into mind:"
+            "text": "You've been talking to your crush on Snapchat and they're usually quick to respond. You see that they opened your message a couple of hours ago and did not respond. \n\nHere are some thoughts that might pop into mind:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "Others might wonder if I was excluded intentionally, but I doubt that will actually happen.",
-                "I think about all the wonderful photos I took with my friends.",
-                "I think they meant to leave me out of the gathering.",
-                "My friends must not actually like me. But, I know that's not the case; we have a lot of fun together.",
-                "My friends look really happy."
+                "My crush must have a lot to do today.",
+                "If my crush likes someone else and not me, I won't like it, but I can handle it.",
+                "My crush will get back to me when they have time.",
+                "Maybe I'm annoying my crush, but they also might be busy.",
+                "My crush will never respond to me."
             ],
             "Duration": 15000
         }

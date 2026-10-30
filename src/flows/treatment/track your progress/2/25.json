@@ -1,0 +1,10 @@
+{
+    "header_text": "AIBQ_Example",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "[The 1 here means that the thought that your mentor might want to ask you something did not pop up in your mind]."
+        }
+    ]
+}

@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "still a success overall.",
-                "a failure because of that one mistake."
+                "a failure because of that one mistake.",
+                "still a success overall."
             ],
             "column_Count": 1,
             "correct_value": "still a success overall."

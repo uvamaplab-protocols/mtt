@@ -1,19 +1,19 @@
 {
-    "header_text": "Parent Teacher Conference: Thoughts",
+    "header_text": "Friend's Cheating: Thoughts",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "During tonight's parent-teacher conference, your guardian is going to talk to your math teacher. You're not doing well in math, and you haven't told your guardian this yet. \n\nHere are some thoughts that might pop into mind:"
+            "text": "You're working on your math homework with a few friends and get stuck on a problem. Your friend suggests that you find the answer online, but that's considered cheating on the assignment. \n\nHere are some thoughts that might pop into mind:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "My parents will think I need some extra help, and I am okay with that.",
-                "My guardian may be upset, but that is something that I can understand.",
-                "I have been trying really hard in that class.",
-                "My guardian will be proud of me that I'm trying hard.",
-                "My teacher will tell my parents I am not doing well."
+                "I'll get a bad grade if I don't cheat.",
+                "I feel like I may not get the best grade on the assignment, but at least I didn't cheat.",
+                "I feel like my teacher will not be okay with me getting wrong answers, but it is a part of learning.",
+                "I can get great answers all on my own.",
+                "I think that this will be better if i don't cheat and actually learn the material."
             ],
             "Duration": 15000
         }

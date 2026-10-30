@@ -1,19 +1,19 @@
 {
-    "header_text": "Group discussion: Feelings",
+    "header_text": "Messaging Crush: Feelings",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Your teacher tells your class that tomorrow you'll divide into small groups to discuss the book you're reading. She also says that you'll have to pick your group, but you realize you don't have any close friends in the class. \n\nHere are some feelings that might happen in the moment:"
+            "text": "You've been talking to your crush on Snapchat and they're usually quick to respond. You see that they opened your message a couple of hours ago and did not respond. \n\nHere are some feelings that might happen in the moment:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I feel driven to put my best work in.",
-                "I am nervous no one will want to get to know me.",
-                "I feel sad that no one knows me that well, but feel better thinking they will like me once they do.",
-                "I am excited to make new friends.",
-                "I am scared I will end up alone, but know that there will be a group that needs an extra person."
+                "I'm worried this has something to do with me, but realize this person has a lot of other things going on in their life.",
+                "I'm sad that my crush didn't respond quickly, but know that I won't feel sad forever.",
+                "I'm eager to hear back.",
+                "I'm sad that my crush didn't message back immediately.",
+                "I feel happy with my ability to send fun messages."
             ],
             "Duration": 15000
         }

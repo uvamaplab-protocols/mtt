@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "weren't sure if you'd want to be posted.",
-                "didn't think you looked good enough to include."
+                "didn't think you looked good enough to include.",
+                "weren't sure if you'd want to be posted."
             ],
             "column_Count": 1,
             "correct_value": "weren't sure if you'd want to be posted."

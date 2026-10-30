@@ -1,19 +1,19 @@
 {
-    "header_text": "Group discussion: Feelings",
+    "header_text": "Essay Typo: Feelings",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Your teacher tells your class that tomorrow you'll divide into small groups to discuss the book you're reading. She also says that you'll have to pick your group, but you realize you don't have any close friends in the class. \n\nHere are some feelings that might happen in the moment:"
+            "text": "You just turned in an important paper. As you're checking your submission, you notice you made an embarrassing typo in the first sentence\n\nHere are some feelings that might happen in the moment:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I feel driven to put my best work in.",
-                "I am nervous no one will want to get to know me.",
-                "I feel sad that no one knows me that well, but feel better thinking they will like me once they do.",
-                "I am excited to make new friends.",
-                "I am scared I will end up alone, but know that there will be a group that needs an extra person."
+                "I'm confident that the essay otherwise reflects the effort I put in.",
+                "I'm relieved that the paper is submitted and the hard part is done",
+                "I'm frustrated with myself, but know it isn't a huge deal.",
+                "I'm a little embarassed, but know a small error won't change how my teacher sees me.",
+                "I'm ashamed that I missed such an obvious typo."
             ],
             "Duration": 15000
         }

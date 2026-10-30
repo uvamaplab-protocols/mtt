@@ -1,19 +1,19 @@
 {
-    "header_text": "Close Friends Hanging Out: Feelings",
+    "header_text": "Messaging Crush: Feelings",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You are looking through your social media app and see a number of your friends have posted to their stories. As you look through their photos, you realize that a few of your close friends were all hanging out without you. \n\nHere are some feelings that might happen in the moment:"
+            "text": "You've been talking to your crush on Snapchat and they're usually quick to respond. You see that they opened your message a couple of hours ago and did not respond. \n\nHere are some feelings that might happen in the moment:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I worry that they left me out on purpose, but remember all of the times I have been included.",
-                "I'm feeling sad, but decide to think of the good times I have had with my friends.",
-                "I'm sad that they forgot about me.",
-                "I'm calm seeing the pictures that they posted.",
-                "I'm glad that I have such cool friends."
+                "I'm worried this has something to do with me, but realize this person has a lot of other things going on in their life.",
+                "I'm sad that my crush didn't respond quickly, but know that I won't feel sad forever.",
+                "I'm eager to hear back.",
+                "I'm sad that my crush didn't message back immediately.",
+                "I feel happy with my ability to send fun messages."
             ],
             "Duration": 15000
         }

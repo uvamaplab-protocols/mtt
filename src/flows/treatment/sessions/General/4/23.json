@@ -8,7 +8,7 @@
         },
         {
             "type": "Media",
-            "url": "./images/meeting.jpg"
+            "url": null
         }
     ],
     "type": "Resilience",

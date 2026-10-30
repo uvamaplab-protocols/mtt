@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "ready, thanks to the work you've put in.",
-                "certain to fail no matter what."
+                "certain to fail no matter what.",
+                "ready, thanks to the work you've put in."
             ],
             "column_Count": 1,
             "correct_value": "ready, thanks to the work you've put in."

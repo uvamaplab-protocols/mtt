@@ -1,13 +1,10 @@
 {
-    "header_text": "Parent Teacher Conference: Write Some Thoughts",
+    "header_text": "Friend's Cheating: Write Some Thoughts",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "During tonight's parent-teacher conference, your guardian is going to talk to your math teacher. You're not doing well in math, and you haven't told your guardian this yet. \n\nPlease take 30 seconds to write different thoughts. The next button will appear automatically. \n\nThoughts in the moment:"
-        },
-        {
-            "type": "Entry"
+            "text": "You're working on your math homework with a few friends and get stuck on a problem. Your friend suggests that you find the answer online, but that's considered cheating on the assignment. \n\nPlease take 30 seconds to write different thoughts. The next button will appear automatically. \n\nThoughts in the moment:"
         }
     ],
     "navigation_conditions": [

@@ -5,9 +5,6 @@
         {
             "type": "Text",
             "text": "You are babysitting a younger kid in your neighborhood and you're watching TV while they sleep. It's dark outside and you suddenly hear noises against the window. \n\nPlease take 30 seconds to write different thoughts. The next button will appear automatically. \n\nThoughts in the moment:"
-        },
-        {
-            "type": "Entry"
         }
     ],
     "navigation_conditions": [

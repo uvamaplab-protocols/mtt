@@ -1,19 +1,19 @@
 {
-    "header_text": "Group discussion: Thoughts",
+    "header_text": "Essay Typo: Thoughts",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Your teacher tells your class that tomorrow you'll divide into small groups to discuss the book you're reading. She also says that you'll have to pick your group, but you realize you don't have any close friends in the class. \n\nHere are some thoughts that might pop into mind:"
+            "text": "You just turned in an important paper. As you're checking your submission, you notice you made an embarrassing typo in the first sentence\n\nHere are some thoughts that might pop into mind:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "No one will want to give me a chance, but I realize that there will be some people who will want to get to know me.",
-                "I'll meet the right group for me.",
-                "Everyone will decide they want to be with people they already know, but I understand that.",
-                "There are lots of nice kids in this class.",
-                "No one will want to be in my group."
+                "My teacher will think I'm careless and grade the whole paper differently because of it",
+                "Most people move past small errors quickly.",
+                "One typo doesn't erase the quality of everything that follows it.",
+                "Even if I get one or two points off for a typo, my grade will probably be fine.",
+                "I feel like the typo is all anyone will notice, but that's not how reading works."
             ],
             "Duration": 15000
         }

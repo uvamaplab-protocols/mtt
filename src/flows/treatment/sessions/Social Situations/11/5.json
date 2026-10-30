@@ -1,19 +1,19 @@
 {
-    "header_text": "Group discussion: Thoughts",
+    "header_text": "Messaging Crush: Thoughts",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Your teacher tells your class that tomorrow you'll divide into small groups to discuss the book you're reading. She also says that you'll have to pick your group, but you realize you don't have any close friends in the class. \n\nHere are some thoughts that might pop into mind:"
+            "text": "You've been talking to your crush on Snapchat and they're usually quick to respond. You see that they opened your message a couple of hours ago and did not respond. \n\nHere are some thoughts that might pop into mind:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "No one will want to give me a chance, but I realize that there will be some people who will want to get to know me.",
-                "I'll meet the right group for me.",
-                "Everyone will decide they want to be with people they already know, but I understand that.",
-                "There are lots of nice kids in this class.",
-                "No one will want to be in my group."
+                "My crush must have a lot to do today.",
+                "If my crush likes someone else and not me, I won't like it, but I can handle it.",
+                "My crush will get back to me when they have time.",
+                "Maybe I'm annoying my crush, but they also might be busy.",
+                "My crush will never respond to me."
             ],
             "Duration": 15000
         }

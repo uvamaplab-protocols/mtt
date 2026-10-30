@@ -8,7 +8,7 @@
         },
         {
             "type": "Media",
-            "url": "./images/redphone.jpg"
+            "url": null
         }
     ],
     "type": "Resilience",

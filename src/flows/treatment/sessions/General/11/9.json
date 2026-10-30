@@ -1,19 +1,19 @@
 {
-    "header_text": "Turned Off Appliances: Feelings",
+    "header_text": "Snakes in the Park: Feelings",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You and your family are heading out of town for a few days and your parent asks you to double-check that all the appliances in your house are turned off before you leave. You had to rush to pack so didn't get to check everything. \n\nHere are some feelings that might happen in the moment:"
+            "text": "Your friend convinces you to go on a walk through a local park. You have heard that there are poisonous snakes in that park.\n\nHere are some feelings that might happen in the moment:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I feel worried about the house burning down, but know that I can tolerate this feeling and it will pass.",
-                "I'm miserable worrying about whether everything is off, but remind myself to focus on the present and take a deep breath.",
-                "I feel calm now that I'm in the car and on my way out of town with my family.",
-                "I am satisfied that I checked the appliances that I could on my way out.",
-                "I'm scared that our house is going to burn down."
+                "I'm scared to go into the park, but then realize I've never heard of someone getting bitten in that park.",
+                "I feel energized to be outdoors.",
+                "I'm excited to catch up with my friend.",
+                "I'm anxious thinking about a snake biting me, but know that I'll be OK on this walk.",
+                "I'm so worried about whether I see a snake."
             ],
             "Duration": 15000
         }

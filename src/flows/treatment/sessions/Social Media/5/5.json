@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "Happy about how much fun you have",
-                "Abandoned by your friends"
+                "Abandoned by your friends",
+                "Happy about how much fun you have"
             ],
             "column_Count": 1,
             "correct_value": "Happy about how much fun you have"

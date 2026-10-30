@@ -1,19 +1,19 @@
 {
-    "header_text": "Turned Off Appliances: Behaviors",
+    "header_text": "Snakes in the Park: Behaviors",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You and your family are heading out of town for a few days and your parent asks you to double-check that all the appliances in your house are turned off before you leave. You had to rush to pack so didn't get to check everything. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+            "text": "Your friend convinces you to go on a walk through a local park. You have heard that there are poisonous snakes in that park.\n\nHere are some behaviors that someone might do at that moment or in the future:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I focus on everything that could go wrong because I didn't have time to check.",
-                "I want to ask my family to turn around so I can go double-check all of the appliances. But, I know that I can tolerate the feelings of anxiety and these feelings will pass.",
-                "I want to be upset about the situation, but decide to chat with my family.",
-                "I'll remember to ask for help to check the appliances in the future if I am running out of time before we need to go.",
-                "I'll remember that I don't have to check all of the appliances multiple times before we leave."
+                "I meet my friend at the park entrance.",
+                "I tell my friend that I'm not feeling well and that I can't go.",
+                "I want to avoid going to the park, but challenge myself to go.",
+                "I consider bailing on my friend, but push myself to go on the walk anyway.",
+                "I put on my shoes and head out the door."
             ],
             "Duration": 15000
         }

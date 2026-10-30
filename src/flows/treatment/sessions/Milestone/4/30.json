@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "comfort behind the wheel will come with practice.",
-                "you're permanently worse at driving than they are."
+                "you're permanently worse at driving than they are.",
+                "comfort behind the wheel will come with practice."
             ],
             "column_Count": 1,
             "correct_value": "comfort behind the wheel will come with practice."

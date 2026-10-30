@@ -1,19 +1,19 @@
 {
-    "header_text": "Parent Teacher Conference: Behaviors",
+    "header_text": "Friend's Cheating: Behaviors",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "During tonight's parent-teacher conference, your guardian is going to talk to your math teacher. You're not doing well in math, and you haven't told your guardian this yet. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+            "text": "You're working on your math homework with a few friends and get stuck on a problem. Your friend suggests that you find the answer online, but that's considered cheating on the assignment. \n\nHere are some behaviors that someone might do at that moment or in the future:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I take some deep breaths while my guardian is talking to my teacher.",
-                "I'll ask my guardian for advice.",
-                "I will want to get upset, but decide to keep calm when my guardian gets home.",
-                "I'll blame my grades on my teacher.",
-                "I may want to give up on math, but decide to keep trying because I need to pass this class."
+                "I cheat off of my friend's homework.",
+                "I want to cheat so that this assignment is done, but keep trying anyway.",
+                "I am tempted to ask them what it said online, but decide not to.",
+                "I can suggest doing the problem without cheating.",
+                "I am enthusiastic about trying new ways to figure out the answer."
             ],
             "Duration": 15000
         }

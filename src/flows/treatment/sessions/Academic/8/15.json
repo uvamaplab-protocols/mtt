@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "Something you can overcome",
-                "Something that will follow you forever"
+                "Something that will follow you forever",
+                "Something you can overcome"
             ],
             "column_Count": 1,
             "correct_value": "Something you can overcome"

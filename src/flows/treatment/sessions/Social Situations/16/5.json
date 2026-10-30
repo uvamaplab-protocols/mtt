@@ -1,19 +1,19 @@
 {
-    "header_text": "Strong Opinions: Thoughts",
+    "header_text": "Loud Parent: Thoughts",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Your family members have some strong opinions and you don't always agree with them. One evening, you invite a friend over for dinner. \n\nHere are some thoughts that might pop into mind:"
+            "text": "Your parent is dropping you off at your sports practice. As they drop you off, they are really loud and everyone on your team looks at you. \n\nHere are some thoughts that might pop into mind:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "My friend will be my friend no matter what my parents think.",
-                "My parents will say something that makes my friend hate me.",
-                "I think I am smart for thinking on my own.",
-                "Even if my parents say something that's upsetting, my friend and I can talk about it later.",
-                "If my parents say things that I don't agree with, they're still my parents and I love them."
+                "Lots of people have loud parents and my teammates might roll their eyes, but some will understand.",
+                "I think about the drills that we might do today during practice.",
+                "Even if my teammates heard my parent, they probably will forget about it soon.",
+                "My teammates will think I'm such a loser because my parent is annoying.",
+                "I'm lucky to have a parent that supports my hobbies."
             ],
             "Duration": 15000
         }

@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "Stay silent",
-                "Feel comfortable speaking up"
+                "Feel comfortable speaking up",
+                "Stay silent"
             ],
             "column_Count": 1,
             "correct_value": "Feel comfortable speaking up"

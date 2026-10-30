@@ -1,19 +1,19 @@
 {
-    "header_text": "Group discussion: Behaviors",
+    "header_text": "Essay Typo: Behaviors",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Your teacher tells your class that tomorrow you'll divide into small groups to discuss the book you're reading. She also says that you'll have to pick your group, but you realize you don't have any close friends in the class. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+            "text": "You just turned in an important paper. As you're checking your submission, you notice you made an embarrassing typo in the first sentence\n\nHere are some behaviors that someone might do at that moment or in the future:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I'll go to the bathroom so that I don't have to ask anyone to be in their group.",
-                "I'll want to say I want to work alone, but give the group a try.",
-                "I want to stay quiet, but decide to contribute.",
-                "I will talk to people in class and ask to be in a group.",
-                "I'll find a few other people who don't have a group and make one with them."
+                "I want to replay the moment of hitting submit over and over, but redirect my attention to something else instead.",
+                "I check if resubmitting the essay is possible.",
+                "I feel the urge to bring it up to my teacher preemptively, but decide to wait and see if it even comes up.",
+                "I make a note to proofread the opening sentence first next time and move on.",
+                "I email my teacher immediately with a panicked explanation before they've even read it."
             ],
             "Duration": 15000
         }

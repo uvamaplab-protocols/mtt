@@ -1,14 +1,14 @@
 {
-    "header_text": "Balencing Responsbilities",
+    "header_text": "Important Test",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You have a lot of chores that you have to do tonight, and you also have a big project that's due tomorrow. Both have to get done, and you think about how you'll handle it all. \n\nClick Next to see some thoughts."
+            "text": "You have a science test next week that's going to count for a lot of your grade. You haven't understood this unit's course material that well and you wonder how the test is going to go.\n\nClick Next to see some thoughts."
         },
         {
             "type": "Media",
-            "url": "./images/https://drive.google.com/file/d/1I4HOF2-6lL6iKdgXECEzDily8_OIvcnT/view?usp=sharing",
+            "url": "./images/34.jpg",
             "border": true
         }
     ]

@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "Like an imposter",
-                "Honored to have been chosen"
+                "Honored to have been chosen",
+                "Like an imposter"
             ],
             "column_Count": 1,
             "correct_value": "Honored to have been chosen"

@@ -5,9 +5,6 @@
         {
             "type": "Text",
             "text": "Your crush hasn't responded in a few days. After long deliberation, you send a double text. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
-        },
-        {
-            "type": "Entry"
         }
     ],
     "navigation_conditions": [

@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "You don't know the answer",
-                "You are thinking"
+                "You are thinking",
+                "You don't know the answer"
             ],
             "column_Count": 1,
             "correct_value": "You are thinking"

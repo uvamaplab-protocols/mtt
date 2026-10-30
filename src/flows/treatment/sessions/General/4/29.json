@@ -8,7 +8,7 @@
         },
         {
             "type": "Media",
-            "url": "./images/brokenmug.jpg"
+            "url": null
         }
     ],
     "type": "Resilience",

@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "Focus on everyone's apperance",
-                "Scroll past quickly"
+                "Scroll past quickly",
+                "Focus on everyone's apperance"
             ],
             "column_Count": 1,
             "correct_value": "Scroll past quickly"

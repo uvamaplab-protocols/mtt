@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "most people barely look at a post for more than a second.",
-                "they'll notice every tiny detail you're unsure about."
+                "they'll notice every tiny detail you're unsure about.",
+                "most people barely look at a post for more than a second."
             ],
             "column_Count": 1,
             "correct_value": "most people barely look at a post for more than a second."

@@ -1,13 +1,10 @@
 {
-    "header_text": "Missing Out: Write Some Thoughts",
+    "header_text": "Fewer Likes: Write Some Thoughts",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You had a really long day at school and are feeling tired, so you decide to stay home from the movie night at your friend's house. When you open social media, you see everyone posting about it on Snapchat.\n\nPlease take 30 seconds to write different thoughts. The next button will appear automatically. \n\nThoughts in the moment:"
-        },
-        {
-            "type": "Entry"
+            "text": "You post something different from what you normally post. After a couple of hours, you only have about half the number of likes on your post compared to what you normally have. \n\nPlease take 30 seconds to write different thoughts. The next button will appear automatically. \n\nThoughts in the moment:"
         }
     ],
     "navigation_conditions": [

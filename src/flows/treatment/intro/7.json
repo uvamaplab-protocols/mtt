@@ -1,10 +1,19 @@
 {
-    "header_text": "Lemon Exercise",
+    "header_text": "Demographics",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "The purpose of this quick exercise is to demonstrate what imagination-based thinking is. You will imagine what seeing, touching, and smelling a lemon is like. Please imagine this as if you are really experiencing it."
+            "text": "Please specify your sexual orientation"
+        },
+        {
+            "type": "Entry",
+            "variable_name": "4B"
         }
+    ],
+    "condition": [
+        "4A",
+        "=",
+        "10"
     ]
 }

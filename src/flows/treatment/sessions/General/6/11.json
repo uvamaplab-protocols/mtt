@@ -5,9 +5,6 @@
         {
             "type": "Text",
             "text": "You are babysitting a younger kid in your neighborhood and you're watching TV while they sleep. It's dark outside and you suddenly hear noises against the window. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
-        },
-        {
-            "type": "Entry"
         }
     ],
     "navigation_conditions": [

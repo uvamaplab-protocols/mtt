@@ -8,7 +8,7 @@
         },
         {
             "type": "Media",
-            "url": "./images/tabbycat.jpg"
+            "url": null
         }
     ],
     "type": "Resilience",

@@ -1,5 +1,21 @@
 {
-    "header_text": "Pause to reflect:",
+    "header_text": "Mental Health and Treatment Questionnaire",
     "header_icon": "assets/subtitle.png",
-    "elements": []
+    "elements": [
+        {
+            "type": "Text",
+            "text": "I have been diagnosed with anxiety by a doctor or other healthcare professional. This could also include diagnoses of panic disorder, specific phobia, generalized anxiety disorder, separation anxiety disorder, social anxiety disorder, or agorophobia"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "1::Yes",
+                "2::No",
+                "3::I don't know",
+                "4::Prefer not to answer"
+            ],
+            "selectable": true,
+            "variable_name": "3"
+        }
+    ]
 }

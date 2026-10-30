@@ -8,7 +8,7 @@
         },
         {
             "type": "Media",
-            "url": "./images/cave.jpg"
+            "url": null
         }
     ],
     "type": "Resilience",

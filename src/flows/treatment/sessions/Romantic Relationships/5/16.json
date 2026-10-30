@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "come together when the time is right for you.",
-                "never turn out that close or happy."
+                "never turn out that close or happy.",
+                "come together when the time is right for you."
             ],
             "column_Count": 1,
             "correct_value": "come together when the time is right for you."

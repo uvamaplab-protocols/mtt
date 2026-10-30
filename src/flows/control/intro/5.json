@@ -1,10 +1,20 @@
 {
-    "header_text": "Interpretation Scale Sample Question",
+    "header_text": "Demographics",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You hear a knock on the front door. When you open the door, no one is there. Why? The knock was from a delivery person who left after dropping off a package."
+            "text": "What is your ethnic background?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "1::Hispanic/Latino",
+                "2::Not Hispanic/Latino",
+                "3::Prefer not to answer"
+            ],
+            "selectable": true,
+            "variable_name": "3"
         }
     ]
 }

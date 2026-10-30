@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "Be upset with you unless you lie",
-                "Know that you take action in different ways"
+                "Know that you take action in different ways",
+                "Be upset with you unless you lie"
             ],
             "column_Count": 1,
             "correct_value": "Know that you take action in different ways"

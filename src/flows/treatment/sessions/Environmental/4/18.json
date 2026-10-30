@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "Feel like efforts to fix things are pointless",
-                "Research ongoing conservation efforts"
+                "Research ongoing conservation efforts",
+                "Feel like efforts to fix things are pointless"
             ],
             "column_Count": 1,
             "correct_value": "Research ongoing conservation efforts"

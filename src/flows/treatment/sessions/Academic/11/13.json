@@ -1,19 +1,19 @@
 {
-    "header_text": "Balencing Responsbilities: Behaviors",
+    "header_text": "Important Test: Behaviors",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You have a lot of chores that you have to do tonight, and you also have a big project that's due tomorrow. Both have to get done, and you think about how you'll handle it all. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+            "text": "You have a science test next week that's going to count for a lot of your grade. You haven't understood this unit's course material that well and you wonder how the test is going to go.\n\nHere are some behaviors that someone might do at that moment or in the future:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I outline a schedule for me to follow.",
-                "I eat a snack and then get working on the chores first.",
-                "I complain about how much I have to do.",
-                "I want to procrastinate until the end of the day, but decide not to.",
-                "I sit back and think about how I can avoid both my chores and project, but decide to do the right thing and get the tasks done."
+                "I really don't want to study, but I know it will pay off on the test.",
+                "I don't want to tell my parents about how difficult this class is, but decide to tell them anyways.",
+                "I'll study really hard and ask my teacher for help if I need to.",
+                "I'll ask my friends in the class questions if I don't understand something.",
+                "I'll pretend to be sick on the day of the class so I don't have to take the test."
             ],
             "Duration": 15000
         }

@@ -1,19 +1,19 @@
 {
-    "header_text": "Close Friends Hanging Out: Behaviors",
+    "header_text": "Messaging Crush: Behaviors",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You are looking through your social media app and see a number of your friends have posted to their stories. As you look through their photos, you realize that a few of your close friends were all hanging out without you. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+            "text": "You've been talking to your crush on Snapchat and they're usually quick to respond. You see that they opened your message a couple of hours ago and did not respond. \n\nHere are some behaviors that someone might do at that moment or in the future:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I text my friends and say hi.",
-                "I want to ignore them for not inviting me, but remind myself that would be childish.",
-                "I'll ask my friends to hang out later this week.",
-                "I cry and look at other pictures that I'm not in.",
-                "I want to gossip about how awful it was that I wasn't invited, but decide that would not be nice."
+                "I message other friends.",
+                "I want to remove them from my phone, but realize that would be dramatic.",
+                "I block my crush on the app and will never talk to them again.",
+                "I focus on other important things to do today.",
+                "I want to send a bunch of messages to this person, but instead call my friends to hang out."
             ],
             "Duration": 15000
         }

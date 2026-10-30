@@ -4,7 +4,7 @@
     "elements": [
         {
             "type": "Text",
-            "text": "You just turned in an important paper. As you're checking your submission, you notice you made an embarrassing typo in the first sentence. You recognize that this was an honest mistake and feel optimistic that your teacher will...  \n"
+            "text": "You just turned in an important paper. As you're checking your submission, you notice you made an embarrassing typo in the first sentence. You recognize that this was an honest mistake and feel optimistic that your teacher will...  \r\n"
         },
         {
             "type": "Entry",

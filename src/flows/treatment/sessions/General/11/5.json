@@ -1,19 +1,19 @@
 {
-    "header_text": "Turned Off Appliances: Thoughts",
+    "header_text": "Snakes in the Park: Thoughts",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You and your family are heading out of town for a few days and your parent asks you to double-check that all the appliances in your house are turned off before you leave. You had to rush to pack so didn't get to check everything. \n\nHere are some thoughts that might pop into mind:"
+            "text": "Your friend convinces you to go on a walk through a local park. You have heard that there are poisonous snakes in that park.\n\nHere are some thoughts that might pop into mind:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I think about how I could mention the situation to my family and all will be okay.",
-                "I think about how upset my family will be with me, but know that they will understand.",
-                "I think about how something bad may happen because I didn't get to check the appliances properly.",
-                "I think about how everything is fine.",
-                "Our house is really safe, and our fire alarm would alert any neighbors if there was actually a problem."
+                "I think about telling my friend that I've changed my mind, but go with them anyway.",
+                "Even though it makes me uncomfortable thinking about snakes in the park, I know that I can go into the park anyway.",
+                "I like talking to this friend.",
+                "The weather is really nice.",
+                "I'm going to die if a snake bites me."
             ],
             "Duration": 15000
         }

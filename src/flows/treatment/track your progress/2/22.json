@@ -1,0 +1,22 @@
+{
+    "header_text": "AIBQ_Example",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A few weeks after the beginning of the new academic year, your mentor asks to speak to you. Why do they want to speak to you? \n \nThey expected much better work from me and think that I need to work harder. \n\nOn a scale of 1-5, how likely is this thought to pop into your mind?"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "1::1: Doesn't pop up in my mind",
+                "2::2",
+                "3::(3) (Circled/Bolded)",
+                "4::4",
+                "5::5: Definitely pops up in my mind"
+            ],
+            "selectable": true,
+            "variable_name": "2"
+        }
+    ]
+}

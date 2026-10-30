@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "Can fluctuate based on many factors",
-                "Signals how popular you are"
+                "Signals how popular you are",
+                "Can fluctuate based on many factors"
             ],
             "column_Count": 1,
             "correct_value": "Can fluctuate based on many factors"

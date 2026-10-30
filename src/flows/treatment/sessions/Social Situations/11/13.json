@@ -1,19 +1,19 @@
 {
-    "header_text": "Group discussion: Behaviors",
+    "header_text": "Messaging Crush: Behaviors",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Your teacher tells your class that tomorrow you'll divide into small groups to discuss the book you're reading. She also says that you'll have to pick your group, but you realize you don't have any close friends in the class. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+            "text": "You've been talking to your crush on Snapchat and they're usually quick to respond. You see that they opened your message a couple of hours ago and did not respond. \n\nHere are some behaviors that someone might do at that moment or in the future:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I'll go to the bathroom so that I don't have to ask anyone to be in their group.",
-                "I'll want to say I want to work alone, but give the group a try.",
-                "I want to stay quiet, but decide to contribute.",
-                "I will talk to people in class and ask to be in a group.",
-                "I'll find a few other people who don't have a group and make one with them."
+                "I message other friends.",
+                "I want to remove them from my phone, but realize that would be dramatic.",
+                "I block my crush on the app and will never talk to them again.",
+                "I focus on other important things to do today.",
+                "I want to send a bunch of messages to this person, but instead call my friends to hang out."
             ],
             "Duration": 15000
         }

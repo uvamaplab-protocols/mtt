@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "Means you are out of shape",
-                "Doesn't fully reflect physical fitness"
+                "Doesn't fully reflect physical fitness",
+                "Means you are out of shape"
             ],
             "column_Count": 1,
             "correct_value": "Doesn't fully reflect physical fitness"

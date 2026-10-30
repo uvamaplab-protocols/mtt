@@ -1,14 +1,14 @@
 {
-    "header_text": "Group discussion",
+    "header_text": "Essay Typo",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Your teacher tells your class that tomorrow you'll divide into small groups to discuss the book you're reading. She also says that you'll have to pick your group, but you realize you don't have any close friends in the class. \n\nClick Next to see some thoughts."
+            "text": "You just turned in an important paper. As you're checking your submission, you notice you made an embarrassing typo in the first sentence\n\nClick Next to see some thoughts."
         },
         {
             "type": "Media",
-            "url": "./images/https://drive.google.com/file/d/1kLdCzytZVknMz1nip8QkWoYf79VETyE4/view?usp=sharing",
+            "url": "./images/55.jpg",
             "border": true
         }
     ]

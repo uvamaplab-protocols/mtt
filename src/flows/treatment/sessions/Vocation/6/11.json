@@ -5,9 +5,6 @@
         {
             "type": "Text",
             "text": "A group of your friends are talking about getting allowance from their parents. Your parents can't afford to give you an allowence, and you have to work a job after school to make money. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
-        },
-        {
-            "type": "Entry"
         }
     ],
     "navigation_conditions": [

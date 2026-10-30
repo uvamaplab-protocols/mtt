@@ -1,19 +1,19 @@
 {
-    "header_text": "Strong Opinions: Feelings",
+    "header_text": "Loud Parent: Feelings",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Your family members have some strong opinions and you don't always agree with them. One evening, you invite a friend over for dinner. \n\nHere are some feelings that might happen in the moment:"
+            "text": "Your parent is dropping you off at your sports practice. As they drop you off, they are really loud and everyone on your team looks at you. \n\nHere are some feelings that might happen in the moment:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I'm happy to have my friend over for dinner.",
-                "I'm calm as we sit and eat dinner together.",
-                "I'm concerned that my friend will judge me for what my parents do at this dinner, but know that I can talk to my friend about it.",
-                "I'm worried that my parents will say something embarrassing.",
-                "I'm scared that my parents will say something offensive, but know that I can get through this dinner no matter what."
+                "I'm energized to find out what we learn today at practice.",
+                "I'm ashamed that my parent is so loud.",
+                "I'm scared to face my friends, but remind myself that I can tolerate these feelings.",
+                "I'm happy that the sun is shining at it seems like a great day to be outside with my teammates.",
+                "I'm embarrassed that my parent seems like the only one. Then, I remember that another friend has a loud parent, and I don't judge that friend for her parent."
             ],
             "Duration": 15000
         }

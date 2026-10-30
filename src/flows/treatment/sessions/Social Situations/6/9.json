@@ -1,19 +1,19 @@
 {
-    "header_text": "Tagged in a Post: Feelings",
+    "header_text": "First Kiss: Feelings",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You and your friends took some pictures together. You look through your feed and see that they tagged you in a post. You don't like how you look in the picture.\n\nHere are some feelings that might happen in the moment:"
+            "text": "You're the only one in your friend group who hasn't had your first kiss. When your friends talk about their experiecnes, you feel embarassed and left out\n\nHere are some feelings that might happen in the moment:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I'm embarrassed by the face I'm making in the photo.",
-                "I feel happy it is a group photo.",
-                "I feel like everyone else looks better than me, but realize that is irrational thinking.",
-                "I'm proud of the outfit in the picture.",
-                "I'm annoyed that such a bad photo of me was posted, but remind myself that this isn't the end of the world."
+                "I feel glad to have friends who are open enough to share personal experiences with me.",
+                "I feel secure enough in myself to know this is just one small part of a much bigger picture.",
+                "I feel a genuine sting of embarrassment during the conversation, but let it pass without letting it define how I see myself.",
+                "I feel envious of my friends' experiences, and acknowledge that feeling without acting out of it.",
+                "I feel like an outsider in my own friend group, as though I'm watching everyone else grow up without me."
             ],
             "Duration": 15000
         }

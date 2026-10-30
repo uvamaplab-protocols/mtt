@@ -1,22 +1,19 @@
 {
-    "header_text": "Interpretation Scale Sample Question",
+    "header_text": "Demographics",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You hear a knock on the front door. When you open the door, no one is there. Why? Someone is playing a joke on you and ran away after knocking."
+            "text": "Please specify your racial background"
         },
         {
-            "type": "Buttons",
-            "buttons": [
-                "0::Not at all likely",
-                "1::A little likely",
-                "2::Moderately likely",
-                "3::Very likely",
-                "4::Extremely likely",
-                "99::Prefer not to answer"
-            ],
-            "selectable": true
+            "type": "Entry",
+            "variable_name": "2B"
         }
+    ],
+    "condition": [
+        "2A",
+        "=",
+        "7"
     ]
 }

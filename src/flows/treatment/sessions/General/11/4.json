@@ -1,14 +1,14 @@
 {
-    "header_text": "Turned Off Appliances",
+    "header_text": "Snakes in the Park",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You and your family are heading out of town for a few days and your parent asks you to double-check that all the appliances in your house are turned off before you leave. You had to rush to pack so didn't get to check everything. \n\nClick Next to see some thoughts."
+            "text": "Your friend convinces you to go on a walk through a local park. You have heard that there are poisonous snakes in that park.\n\nClick Next to see some thoughts."
         },
         {
             "type": "Media",
-            "url": "./images/https://drive.google.com/file/d/1RaJAn0PT_6xZdqwaf0cQwDcTa-jISPRs/view?usp=sharing",
+            "url": "./images/31.jpg",
             "border": true
         }
     ]

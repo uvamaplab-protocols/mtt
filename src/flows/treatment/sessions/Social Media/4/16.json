@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "You will meet someone eventually",
-                "You will be forever alone"
+                "You will be forever alone",
+                "You will meet someone eventually"
             ],
             "column_Count": 1,
             "correct_value": "You will meet someone eventually"

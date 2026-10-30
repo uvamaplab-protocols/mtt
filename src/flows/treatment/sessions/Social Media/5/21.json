@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "Has a rose-colored filter",
-                "Is an accurate portrait of life"
+                "Is an accurate portrait of life",
+                "Has a rose-colored filter"
             ],
             "column_Count": 1,
             "correct_value": "Has a rose-colored filter"

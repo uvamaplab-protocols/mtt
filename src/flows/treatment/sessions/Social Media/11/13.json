@@ -1,19 +1,19 @@
 {
-    "header_text": "Missing Out: Behaviors",
+    "header_text": "Fewer Likes: Behaviors",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You had a really long day at school and are feeling tired, so you decide to stay home from the movie night at your friend's house. When you open social media, you see everyone posting about it on Snapchat.\n\nHere are some behaviors that someone might do at that moment or in the future:"
+            "text": "You post something different from what you normally post. After a couple of hours, you only have about half the number of likes on your post compared to what you normally have. \n\nHere are some behaviors that someone might do at that moment or in the future:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I want to ask my parents to take me there, but remind myself that I made my choice for a reason.",
-                "I put my phone down and actually rest the way I planned to.",
-                "I swipe up on a friend's story and make plans for next time.",
-                "I feel the urge to open Snapchat again every few minutes, but set my phone across the room instead.",
-                "I stay up late watching every story until I feel too anxious to sleep."
+                "I decide to stay in a good mood about my post.",
+                "I feel like taking down my account for a while, but keep it up instead.",
+                "I get frustrated and take down my post.",
+                "I want to ask my friends why they think I didn't get more likes, but decide to move on.",
+                "I keep posting things I want to post."
             ],
             "Duration": 15000
         }

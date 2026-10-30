@@ -1,19 +1,19 @@
 {
-    "header_text": "Missing Out: Thoughts",
+    "header_text": "Fewer Likes: Thoughts",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You had a really long day at school and are feeling tired, so you decide to stay home from the movie night at your friend's house. When you open social media, you see everyone posting about it on Snapchat.\n\nHere are some thoughts that might pop into mind:"
+            "text": "You post something different from what you normally post. After a couple of hours, you only have about half the number of likes on your post compared to what you normally have. \n\nHere are some thoughts that might pop into mind:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I feel like I made the wrong choice, but I couldn't have known how the night would unfold when I decided to stay home.",
-                "I really needed some rest.",
-                "There will be more chances to see my friends in the future.",
-                "Everyone is bonding without me.",
-                "Even though I'm not out with my friends, I can still have a nice night in."
+                "People think my post is dumb.",
+                "My followers may be waiting to see what I post next.",
+                "People must not be online right now.",
+                "Others may not like my new post, but I do and that's what counts.",
+                "Even if no one likes what I posted, I do, and that's what's important."
             ],
             "Duration": 15000
         }

@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "you're doing something wrong by not joining in more.",
-                "it's simply okay not to talk the whole time."
+                "it's simply okay not to talk the whole time.",
+                "you're doing something wrong by not joining in more."
             ],
             "column_Count": 1,
             "correct_value": "it's simply okay not to talk the whole time."

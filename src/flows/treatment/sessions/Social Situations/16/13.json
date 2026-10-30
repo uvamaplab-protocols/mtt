@@ -1,19 +1,19 @@
 {
-    "header_text": "Strong Opinions: Behaviors",
+    "header_text": "Loud Parent: Behaviors",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Your family members have some strong opinions and you don't always agree with them. One evening, you invite a friend over for dinner. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+            "text": "Your parent is dropping you off at your sports practice. As they drop you off, they are really loud and everyone on your team looks at you. \n\nHere are some behaviors that someone might do at that moment or in the future:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I practice my active listening skills.",
-                "I want to tell my parents not to say anything embarrassing in front of my friend, but take a deep breath instead.",
-                "I want to tell my friend that my parents might say something that I don't agree with, but remind myself that my friend will be nice to me no matter what my parents say.",
-                "I start thinking about all of the homework that I have to do so that I don't have to listen to what my parents say.",
-                "I smile as my friend and my parents talk."
+                "I start warming up for practice.",
+                "I smile at my friends as I get out of the car.",
+                "I avoid making eye contact with anyone on my team.",
+                "I feel the urge to pretend I'm sick so I don't have to face my friends, but then push myself to face my fears and go to practice.",
+                "I want to run away, but know that my teammates are counting on me to be at practice."
             ],
             "Duration": 15000
         }

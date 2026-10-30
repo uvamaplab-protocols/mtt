@@ -1,19 +1,19 @@
 {
-    "header_text": "Balencing Responsbilities: Feelings",
+    "header_text": "Important Test: Feelings",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You have a lot of chores that you have to do tonight, and you also have a big project that's due tomorrow. Both have to get done, and you think about how you'll handle it all. \n\nHere are some feelings that might happen in the moment:"
+            "text": "You have a science test next week that's going to count for a lot of your grade. You haven't understood this unit's course material that well and you wonder how the test is going to go.\n\nHere are some feelings that might happen in the moment:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "My stomach is in knots because I don't know if I'll get my work done.",
-                "I feel like I want to do nothing, but know that it will feel so great to have these tasks accomplished.",
-                "I'm excited to discover new music while I'm doing my chores.",
-                "I'm calm as I figure out how to get everything done tonight.",
-                "I feel frustrated with the time crunch, but know that once I get started it will all start to flow."
+                "I'm worried about asking for help to study, but know that it'll help me get a better grade.",
+                "I am worried about taking this test and failing.",
+                "I feel excited to prove myself wrong.",
+                "I am scared about failing, but know that trying is what matters.",
+                "I feel ready to get going with studying."
             ],
             "Duration": 15000
         }

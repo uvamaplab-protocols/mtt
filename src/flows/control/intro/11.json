@@ -1,10 +1,14 @@
 {
-    "header_text": "Lemon Exercise",
+    "header_text": "Demographics",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "Now imagine that you scratch the skin with your fingernail, then you bring the lemon up to your nose, and you can smell the fresh zesty juice from the skin."
+            "text": "What mentoring program are you participating in?"
+        },
+        {
+            "type": "Entry",
+            "variable_name": "8"
         }
     ]
 }

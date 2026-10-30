@@ -1,10 +1,25 @@
 {
-    "header_text": "Interpretation Scale Sample Question",
+    "header_text": "Demographics",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You hear a knock on the front door. When you open the door, no one is there. Why? The person who knocked forgot something in their car, and they will be right back."
+            "text": "What is your racial background? (Please select all that apply.)"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "1::White/Caucasian",
+                "2::Asian",
+                "3::Black/African-American",
+                "4::Middle Eastern",
+                "5::American Indian/Alaska Native",
+                "6::Native Hawaiian/Pacific Islander",
+                "7::!Racial background not listed (please specify)",
+                "8::^Prefer not to answer"
+            ],
+            "selectable": true,
+            "variable_name": "2A"
         }
     ]
 }

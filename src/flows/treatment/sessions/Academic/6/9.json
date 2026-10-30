@@ -1,19 +1,19 @@
 {
-    "header_text": "Parent Teacher Conference: Feelings",
+    "header_text": "Friend's Cheating: Feelings",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "During tonight's parent-teacher conference, your guardian is going to talk to your math teacher. You're not doing well in math, and you haven't told your guardian this yet. \n\nHere are some feelings that might happen in the moment:"
+            "text": "You're working on your math homework with a few friends and get stuck on a problem. Your friend suggests that you find the answer online, but that's considered cheating on the assignment. \n\nHere are some feelings that might happen in the moment:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I feel happy that my guardian gets to learn about my progress.",
-                "I am nervous that my guardian will be let down by my progress.",
-                "I feel embarrassed that my guardian will learn about my lack of progress, but decide it is best for them to know.",
-                "I feel bad that I am a bit behind, but realize these things happen.",
-                "I'm feeling calm knowing that my guardian will accept me no matter what."
+                "I'll feel so proud that I did the homework on my own if I don't cheat",
+                "I am upset at my friends wanting me to take the easy way out.",
+                "I'll be pretty confident knowing I can do hard homework problems next time.",
+                "I feel embarrassed about not wanting to cheat, but know my friends will look up to me if I don't.",
+                "I'm nervous about attempting to do this problem on my own, but give it a try anyway."
             ],
             "Duration": 15000
         }

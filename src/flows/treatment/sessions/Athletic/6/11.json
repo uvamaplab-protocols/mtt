@@ -5,9 +5,6 @@
         {
             "type": "Text",
             "text": "Your friend enjoys ice skating and convinces you to try it out. At the rink you put on the skates and step on the ice. You glide forward slowly at first, then faster. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
-        },
-        {
-            "type": "Entry"
         }
     ],
     "navigation_conditions": [

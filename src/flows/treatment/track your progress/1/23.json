@@ -1,0 +1,10 @@
+{
+    "header_text": "AIBQ_Example",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "[The 3 here means that the thought that the mentor expected better work might have popped up in your mind]."
+        }
+    ]
+}

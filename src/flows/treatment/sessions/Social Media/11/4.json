@@ -1,14 +1,14 @@
 {
-    "header_text": "Missing Out",
+    "header_text": "Fewer Likes",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You had a really long day at school and are feeling tired, so you decide to stay home from the movie night at your friend's house. When you open social media, you see everyone posting about it on Snapchat.\n\nClick Next to see some thoughts."
+            "text": "You post something different from what you normally post. After a couple of hours, you only have about half the number of likes on your post compared to what you normally have. \n\nClick Next to see some thoughts."
         },
         {
             "type": "Media",
-            "url": "./images/https://unsplash.com/photos/a-person-laying-in-bed-holding-a-cell-phone-R7aBdi5OHtA",
+            "url": "./images/36.jpg",
             "border": true
         }
     ]

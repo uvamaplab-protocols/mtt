@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "you'll never catch up to where they are.",
-                "independence happens in its own stages."
+                "independence happens in its own stages.",
+                "you'll never catch up to where they are."
             ],
             "column_Count": 1,
             "correct_value": "independence happens in its own stages."

@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "proof that everyone else is ahead of you.",
-                "just a highlight reel, not the full picture."
+                "just a highlight reel, not the full picture.",
+                "proof that everyone else is ahead of you."
             ],
             "column_Count": 1,
             "correct_value": "just a highlight reel, not the full picture."

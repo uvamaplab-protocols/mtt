@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "Aware that skills can be applied flexibily",
-                "Anxious about limited options"
+                "Anxious about limited options",
+                "Aware that skills can be applied flexibily"
             ],
             "column_Count": 1,
             "correct_value": "Aware that skills can be applied flexibily"

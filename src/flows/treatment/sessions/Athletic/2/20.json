@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "They were definitley talking about you",
-                "It is impossible to know what they were saying"
+                "It is impossible to know what they were saying",
+                "They were definitley talking about you"
             ],
             "column_Count": 1,
             "correct_value": "It is impossible to know what they were saying"

@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "You tried hard on a difficult assignment",
-                "You are terrible at writing essays"
+                "You are terrible at writing essays",
+                "You tried hard on a difficult assignment"
             ],
             "column_Count": 1,
             "correct_value": "You tried hard on a difficult assignment"

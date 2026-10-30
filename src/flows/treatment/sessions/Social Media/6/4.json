@@ -1,14 +1,14 @@
 {
-    "header_text": "Close Friends Hanging Out",
+    "header_text": "Messaging Crush",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You are looking through your social media app and see a number of your friends have posted to their stories. As you look through their photos, you realize that a few of your close friends were all hanging out without you. \n\nClick Next to see some thoughts."
+            "text": "You've been talking to your crush on Snapchat and they're usually quick to respond. You see that they opened your message a couple of hours ago and did not respond. \n\nClick Next to see some thoughts."
         },
         {
             "type": "Media",
-            "url": "./images/https://drive.google.com/file/d/1rFXMZ12J_eYPeLi3No9ImQ_rA8chZ0rD/view?usp=sharing",
+            "url": "./images/14.jpg",
             "border": true
         }
     ]

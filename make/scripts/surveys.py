@@ -7,7 +7,7 @@ from itertools import islice, chain
 from pathlib import Path
 
 from helpers_pages import create_survey_page
-from helpers_utilities import clean_up_unicode, write_output, media_url
+from helpers_utilities import clean_up_unicode, write_output, media_url, lower
 
 dir_root = "./make"
 dir_csv  = f"{dir_root}/CSV"
@@ -19,20 +19,26 @@ def flat(dictionary):
     return list(chain.from_iterable(dictionary.values()))
 
 def _create_survey_page(row):
-    text = clean_up_unicode(row[4])
+    text = clean_up_unicode(row[6])
 
-    title = row[1].strip()
-    input_1 = row[6]
+    title = row[0].strip()
+    input_1 = lower(row[3])
     input_2 = None
-    minimum = row[7]
-    maximum = row[8]
-    media = media_url(row[9])
-    items = row[10]
-    image_framed = row[11]
-    timeout = row[12]
-    show_buttons = row[13]
-    variable_name = row[16]
-    conditions = row[17]
+    minimum = None
+    maximum = None
+    media = None
+    
+    if input_1 == "dropdown":
+        items = row[19]
+    else: 
+        items=""
+        for i, item in enumerate(filter(lambda x: x!='', row[8:19])):
+            items += f"{i+1}::{item};"
+    image_framed = None
+    timeout = None
+    show_buttons = None
+    variable_name = row[4]
+    conditions = row[5]
     input_name = None
 
     return create_survey_page(conditions=conditions, text=text,
@@ -43,7 +49,7 @@ def _create_survey_page(row):
 
 # Read the questions
 survey_pages = defaultdict(lambda: defaultdict(list))
-with open(f"{dir_csv}/MT Teen Content_ Long Scenarios & Other - Intro.csv", "r", encoding="utf-8") as read_obj:
+with open(f"{dir_csv}/MT Teen Content_ Long Scenarios & Other - Surveys.csv", "r", encoding="utf-8") as read_obj:
 
     for row in islice(csv.reader(read_obj),1,None):
 
@@ -59,8 +65,8 @@ with open(f"{dir_csv}/MT Teen Content_ Long Scenarios & Other - Intro.csv", "r",
         # Each flow can be uniquely identified by the flow it
         # belongs to and which run of that flow it appears on
 
-        dose        = row[2].lower()
-        subject     = row[3].lower()
+        dose        = row[1].lower()
+        subject     = row[2].lower()
         group_id    = (dose,subject)
         subgroup_id = row[0]
 
@@ -71,17 +77,17 @@ folders = {
     "treatment/end of day": flat(survey_pages[("all","eod")]),
     "treatment/reasons for ending": flat(survey_pages[("all","reasonsforending")]),
     "treatment/track your progress/__flow__.json": {"mode":"sequential","take":1},
-    "treatment/track your progress/1": flat(survey_pages[("all","biweekly")]) + flat(survey_pages[("2","biweekly")]),
-    "treatment/track your progress/2": flat(survey_pages[("all","biweekly")]) + flat(survey_pages[("4","biweekly")]),
-    "treatment/track your progress/3": flat(survey_pages[("all","biweekly")]) + flat(survey_pages[("6","biweekly")]),
-    "treatment/track your progress/4": flat(survey_pages[("all","biweekly")]) + flat(survey_pages[("8","biweekly")]),
+    "treatment/track your progress/1": flat(survey_pages[("all","biweekly")]),
+    "treatment/track your progress/2": flat(survey_pages[("all","biweekly")]),
+    "treatment/track your progress/3": flat(survey_pages[("all","biweekly")]),
+    "treatment/track your progress/4": flat(survey_pages[("all","biweekly")]),
     "control/end of day": flat(survey_pages[("all","eod")]),
     "control/reasons for ending": flat(survey_pages[("all","reasonsforending")]),
     "control/track your progress/__flow__.json": {"mode":"sequential","take":1},
-    "control/track your progress/1": flat(survey_pages[("all","biweekly")]) + flat(survey_pages[("2","biweekly_control")]),
-    "control/track your progress/2": flat(survey_pages[("all","biweekly")]) + flat(survey_pages[("4","biweekly_control")]),
-    "control/track your progress/3": flat(survey_pages[("all","biweekly")]) + flat(survey_pages[("6","biweekly_control")]),
-    "control/track your progress/4": flat(survey_pages[("all","biweekly")]) + flat(survey_pages[("8","biweekly_control")]),
+    "control/track your progress/1": flat(survey_pages[("all","biweekly")]),
+    "control/track your progress/2": flat(survey_pages[("all","biweekly")]),
+    "control/track your progress/3": flat(survey_pages[("all","biweekly")]),
+    "control/track your progress/4": flat(survey_pages[("all","biweekly")]),
 }
 
 # Delete old JSON

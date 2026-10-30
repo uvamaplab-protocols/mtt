@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "Dismissive of your cultural traditions",
-                "Understanding of your cultural traditions"
+                "Understanding of your cultural traditions",
+                "Dismissive of your cultural traditions"
             ],
             "column_Count": 1,
             "correct_value": "Understanding of your cultural traditions"

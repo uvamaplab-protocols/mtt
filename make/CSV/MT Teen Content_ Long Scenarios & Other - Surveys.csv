@@ -1,157 +1,173 @@
-Name of Survey,Interval ,Type,Number,Conditional? ,Text,Scale Labels,1,2,3,4,5,6,7,8,9,10,11,Dropdown Options
-Demographics,Dose,Radio Button,1A,,What is your gender identity?,,Female,Male,Transgender Female,Transgender Male,Another Identity (please specify),Prefer not to answer,,,,,,
-Demographics,Dose,Free Text,1B,1A=5,,,,,,,,,,,,,,
-Demographics,Dose,Radio Button,2A,,What is your racial background? (Please select all that apply.),,White/Caucasian,Asian,Black/African-American,Middle Eastern,American Indian/Alaska Native,Native Hawaiian/Pacific Islander,Racial background not listed (please specify),Prefer not to answer,,,,
-Demographics,Dose,Free Text,2B,2A=7,,,,,,,,,,,,,,
-Demographics,Dose,Radio Button,3,,What is your ethnic background?,,Hispanic/Latino,Not Hispanic/Latino,Prefer not to answer,,,,,,,,,
-Demographics,Dose,Checkboxes,4A,,What is your sexual orientation? (Please select all that apply.),,Aromantic,Asexual,Bisexual,Gay,Lesbian,Pansexual,Queer,Questioning or Unsure,Straight (heterosexual),Identity/orientation not listed (please specify),Prefer not to answer,
-Demographics,Dose,Free Text,4B,4A=10,,,,,,,,,,,,,,
-Demographics,Dose,Dropdown,5,,What state do you live in? ,,,,,,,,,,,,,"Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico
+Name of Survey,Dose,Interval ,Type,Number,Conditional? ,Text,Scale Labels,1,2,3,4,5,6,7,8,9,10,11,Dropdown Options
+Demographics,1,Dose,Radio Button,1A,,What is your gender identity?,,Female,Male,Transgender Female,Transgender Male,!Another Identity (please specify),^Prefer not to answer,,,,,,
+Demographics,1,Dose,Free Text,1B,1A = 5,Please specify your gender identity,,,,,,,,,,,,,
+Demographics,1,Dose,Radio Button,2A,,What is your racial background? (Please select all that apply.),,White/Caucasian,Asian,Black/African-American,Middle Eastern,American Indian/Alaska Native,Native Hawaiian/Pacific Islander,!Racial background not listed (please specify),^Prefer not to answer,,,,
+Demographics,1,Dose,Free Text,2B,2A = 7,Please specify your racial background,,,,,,,,,,,,,
+Demographics,1,Dose,Radio Button,3,,What is your ethnic background?,,Hispanic/Latino,Not Hispanic/Latino,Prefer not to answer,,,,,,,,,
+Demographics,1,Dose,Checkboxes,4A,,What is your sexual orientation? (Please select all that apply.),,Aromantic,Asexual,Bisexual,Gay,Lesbian,Pansexual,Queer,Questioning or Unsure,Straight (heterosexual),!Identity/orientation not listed (please specify),^Prefer not to answer,
+Demographics,1,Dose,Free Text,4B,4A = 10,Please specify your sexual orientation,,,,,,,,,,,,,
+Demographics,1,Dose,Dropdown,5,,What state do you live in? ,,,,,,,,,,,,,"Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico
 New York, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming"
-Demographics,Dose,Year,6,,What year were you born? ,,,,,,,,,,,,,
-Demographics,Dose,Dropdown,7,,What grade are you in? ,,,,,,,,,,,,,"6th grade, 7th grade, 8th grade, 9th grade, 10th grade, 11th grade, 12th grade"
-Demographics,Dose,Free Text,8,,What mentoring program are you participating in?,,,,,,,,,,,,,
-Demographics,Dose,Radio Button,9,,How long have you been working with your current mentor? ,,Less than 6 months,6 months to a year,1-2 years,More than 2 years,Prefer not to answer,,,,,,,
-Mental Health and Treatment Questionnaire,Dose,Checkboxes,1,,"Are you currently receiving any help for issues related to mental health? Please select all that apply, or “I am not receiving help.",,Therapy (talking with a trained professional),Prescription medications ,"Seeking social support (e.g. from friends, teachers, parents, etc)","Self-guided help (e.g. from books, social media, apps)",Other,I am not receiving help,Prefer not to answer,,,,,
-Mental Health and Treatment Questionnaire,Dose,Checkboxes,2,,"In the past, have you ever received any help for issues related to mental health? Please select all that apply. ",,Therapy (talking with a trained professional),Prescription medications ,"Seeking social support (e.g. from friends, teachers, parents, etc)","Self-guided help (e.g. from books, social media, apps)",Other,I have not recevied help,Prefer not to answer,,,,,
-Mental Health and Treatment Questionnaire,Dose,Radio Button,3,,"I have been diagnosed with anxiety by a doctor or other healthcare professional. This could also include diagnoses of panic disorder, specific phobia, generalized anxiety disorder, separation anxiety disorder, social anxiety disorder, or agorophobia ",,Yes,No,I don't know,Prefer not to answer,,,,,,,,
-AIBQ_Example,Biweekly,Instructions,,,"In this questionnaire, different situations are described which you might have experienced. Written below each situation are three different things a person might think in these sorts of situations. A person will usually have a number of different thoughts as an explanation for a situation.  
- 
-Imagine yourself in the following situations. Using the scale provided, indicate whether each of the three thoughts would pop up in your mind. ",,,,,,,,,,,,,
-AIBQ_Example,Biweekly,Radio Button,1,,"A few weeks after the beginning of the new academic year, your mentor asks to speak to you. Why do they want to speak to you? 
+Demographics,1,Dose,Dropdown,6,,What year were you born? ,,,,,,,,,,,,,"2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007"
+Demographics,1,Dose,Dropdown,7,,What grade are you in? ,,,,,,,,,,,,,"6th grade, 7th grade, 8th grade, 9th grade, 10th grade, 11th grade, 12th grade"
+Demographics,1,Dose,Free Text,8,,What mentoring program are you participating in?,,,,,,,,,,,,,
+Demographics,1,Dose,Radio Button,9,,How long have you been working with your current mentor? ,,Less than 6 months,6 months to a year,1-2 years,More than 2 years,Prefer not to answer,,,,,,,
+Mental Health and Treatment Questionnaire,1,Dose,Checkboxes,1,,"Are you currently receiving any help for issues related to mental health? Please select all that apply, or “I am not receiving help.",,Therapy (talking with a trained professional),Prescription medications ,"Seeking social support (e.g. from friends, teachers, parents, etc)","Self-guided help (e.g. from books, social media, apps)",!Other,^I am not receiving help,^Prefer not to answer,,,,,
+Mental Health and Treatment Questionnaire,1,Dose,Checkboxes,2,,"In the past, have you ever received any help for issues related to mental health? Please select all that apply. ",,Therapy (talking with a trained professional),Prescription medications ,"Seeking social support (e.g. from friends, teachers, parents, etc)","Self-guided help (e.g. from books, social media, apps)",!Other,^I have not recevied help,^Prefer not to answer,,,,,
+Mental Health and Treatment Questionnaire,1,Dose,Radio Button,3,,"I have been diagnosed with anxiety by a doctor or other healthcare professional. This could also include diagnoses of panic disorder, specific phobia, generalized anxiety disorder, separation anxiety disorder, social anxiety disorder, or agorophobia ",,Yes,No,I don't know,Prefer not to answer,,,,,,,,
+GAD-7,all,Biweekly,Instructions,,,"Over the last two weeks, how often have you been bothered by the following problems?",,0,1,2,3,4,,,,,,,
+GAD-7,all,Biweekly,Radio Button,1,,"Feeling nervous, anxious, or on edge",,0,1,2,3,4,,,,,,,
+GAD-7,all,Biweekly,Radio Button,2,,Not being able to stop or control worrying ,,0,1,2,3,4,,,,,,,
+GAD-7,all,Biweekly,Radio Button,3,,Worrying too much about different things,,0,1,2,3,4,,,,,,,
+GAD-7,all,Biweekly,Radio Button,4,,Trouble relaxing ,,0,1,2,3,4,,,,,,,
+GAD-7,all,Biweekly,Radio Button,5,,Being so restless that it is hard to sit still,,0,1,2,3,4,,,,,,,
+GAD-7,all,Biweekly,Radio Button,6,,Becoming easily annoyed or irritable,,0,1,2,3,4,,,,,,,
+GAD-7,all,Biweekly,Radio Button,7,,"Feeling afraid, as if something awful might happen ",,0,1,2,3,4,,,,,,,
+Strength of Relationship Scale (Mentee),all,Biweekly,Instructions,,,"For each of the sentences below, decide how true each statement is for you.  Then, choose one number that fits best.  If you think the statement is NEVER TRUE, choose “1”; if you think it is HARDLY EVER TRUE, choose “2”; if the statement is SOMETIMES TRUE, choose “3”; if you think it is MOST OF THE TIME TRUE, choose “4”; and if the statement is ALWAYS TRUE, choose “5.”",,,,,,,,,,,,,
+Strength of Relationship Scale (Mentee),all,Biweekly,Radio Button,1,,My mentor has lots of good ideas about how to solve a problem.,,1,2,3,4,5,,,,,,,
+Strength of Relationship Scale (Mentee),all,Biweekly,Radio Button,2,,My mentor helps me take my mind off things by doing something with me. ,,1,2,3,4,5,,,,,,,
+Strength of Relationship Scale (Mentee),all,Biweekly,Radio Button,3,,"When I’m with my mentor, I feel ignored. ",,1,2,3,4,5,,,,,,,
+Strength of Relationship Scale (Mentee),all,Biweekly,Radio Button,4,,"When I’m with my mentor, I feel angry",,1,2,3,4,5,,,,,,,
+Strength of Relationship Scale (Mentee),all,Biweekly,Radio Button,5,,"When I’m with my mentor, I feel safe. ",,1,2,3,4,5,,,,,,,
+Strength of Relationship Scale (Mentee),all,Biweekly,Radio Button,6,,"When I’m with my mentor, I feel disappointed",,1,2,3,4,5,,,,,,,
+Strength of Relationship Scale (Mentee),all,Biweekly,Radio Button,7,,My relationship with my mentor is very important to me. ,,1,2,3,4,5,,,,,,,
+Strength of Relationship Scale (Mentee),all,Biweekly,Radio Button,8,,"When I’m with my mentor, I feel bored. ",,1,2,3,4,5,,,,,,,
+Strength of Relationship Scale (Mentee),all,Biweekly,Radio Button,9,,"When something is bugging me, my mentor listens while I talk about it. ",,1,2,3,4,5,,,,,,,
+Strength of Relationship Scale (Mentee),all,Biweekly,Radio Button,10,,I feel close to my mentor. ,,1,2,3,4,5,,,,,,,
+AIBQ_Example,all,Biweekly,Radio Button,1,,"A few weeks after the beginning of the new academic year, your mentor asks to speak to you. Why do they want to speak to you? 
  
 They want to tell me that they are very satisfied with my work. 
 
 On a scale of 1-5, how likely is this thought to pop into your mind? 
 ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",1,2,3,4 (Circled/Bolded),5,,,,,,,
-AIBQ_Example,Biweekly,Instructions,,,"[If you circle a 4 here, it means that the thought that your mentor was satisfied with you popped up in your mind].  ",,,,,,,,,,,,,
-AIBQ_Example,Biweekly,Radio Button,2,,"A few weeks after the beginning of the new academic year, your mentor asks to speak to you. Why do they want to speak to you? 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,(4) (Circled/Bolded),5: Definitely pops up in my mind,,,,,,,
+AIBQ_Example,all,Biweekly,Instructions,,,"[If you circle a 4 here, it means that the thought that your mentor was satisfied with you popped up in your mind].  ",,,,,,,,,,,,,
+AIBQ_Example,all,Biweekly,Radio Button,2,,"A few weeks after the beginning of the new academic year, your mentor asks to speak to you. Why do they want to speak to you? 
  
 They expected much better work from me and think that I need to work harder. 
 
 On a scale of 1-5, how likely is this thought to pop into your mind? 
 ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",1,2,3 (Circled/Bolded),4,5,,,,,,,
-AIBQ_Example,Biweekly,Instructions,,,[The 3 here means that the thought that the mentor expected better work might have popped up in your mind].,,,,,,,,,,,,,
-AIBQ_Example,Biweekly,Radio Button,3,,"A few weeks after the beginning of the new academic year, your mentor asks to speak to you. Why do they want to speak to you? 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,(3) (Circled/Bolded),4,5: Definitely pops up in my mind,,,,,,,
+AIBQ_Example,all,Biweekly,Instructions,,,[The 3 here means that the thought that the mentor expected better work might have popped up in your mind].,,,,,,,,,,,,,
+AIBQ_Example,all,Biweekly,Radio Button,3,,"A few weeks after the beginning of the new academic year, your mentor asks to speak to you. Why do they want to speak to you? 
  
 They might want to ask me something. 
 
 On a scale of 1-5, how likely is this thought to pop into your mind? 
 ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",1 (Circled/Bolded),2,3,4,5,,,,,,,
-AIBQ_Example,Biweekly,Instructions,,,[The 1 here means that the thought that your mentor might want to ask you something did not pop up in your mind].  ,,,,,,,,,,,,,
-AIBQ_Example,Biweekly,Instructions,,,That was the example. We will now continue with the questionnaire.,,,,,,,,,,,,,
-AIBQ,Biweekly,Radio Button,1A,,"You’ve invited a group of classmates to your birthday, but a few have not yet said if they’re coming. Why haven’t they said something yet? 
+5: Definitely pops up in my mind",1 (Circled/Bolded),2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ_Example,all,Biweekly,Instructions,,,[The 1 here means that the thought that your mentor might want to ask you something did not pop up in your mind].  ,,,,,,,,,,,,,
+AIBQ_Example,all,Biweekly,Instructions,,,That was the example. We will now continue with the questionnaire.,,,,,,,,,,,,,
+AIBQ,all,Biweekly,Radio Button,1A,,"You’ve invited a group of classmates to your birthday, but a few have not yet said if they’re coming. Why haven’t they said something yet? 
  
 They don’t know yet if they can come or not.  
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",1,2,3,4,5,,,,,,,
-AIBQ,Biweekly,Radio Button,1B,,"You’ve invited a group of classmates to your birthday, but a few have not yet said if they’re coming. Why haven’t they said something yet? 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,1B,,"You’ve invited a group of classmates to your birthday, but a few have not yet said if they’re coming. Why haven’t they said something yet? 
  
 They don’t know yet if they can come or not.  
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",1,2,3,4,5,,,,,,,
-AIBQ,Biweekly,Radio Button,1C,,"You’ve invited a group of classmates to your birthday, but a few have not yet said if they’re coming. Why haven’t they said something yet? 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,1C,,"You’ve invited a group of classmates to your birthday, but a few have not yet said if they’re coming. Why haven’t they said something yet? 
  
 They’re definitely coming; they don’t need to tell me that.  
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",1,2,3,4,5,,,,,,,
-AIBQ,Biweekly,Radio Button,2A,,"Two classmates, who are standing talking to each other, look at you. Why are they looking at you?  
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,2A,,"Two classmates, who are standing talking to each other, look at you. Why are they looking at you?  
  
 They’re gossiping about me. .  
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",1,2,3,4,5,,,,,,,
-AIBQ,Biweekly,Radio Button,2B,,"Two classmates, who are standing talking to each other, look at you. Why are they looking at you?  
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,2B,,"Two classmates, who are standing talking to each other, look at you. Why are they looking at you?  
  
 They like me and want me to go over and join them.  
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",1,2,3,4,5,,,,,,,
-AIBQ,Biweekly,Radio Button,2C,,"Two classmates, who are standing talking to each other, look at you. Why are they looking at you?  
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,2C,,"Two classmates, who are standing talking to each other, look at you. Why are they looking at you?  
  
 They just happen to be looking in my direction.  
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",1,2,3,4,5,,,,,,,
-AIBQ,Biweekly,Radio Button,3A,,"You’re standing with a group of classmates. When you begin to talk, no one looks at you. Why isn’t anyone looking at you?  
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,3A,,"You’re standing with a group of classmates. When you begin to talk, no one looks at you. Why isn’t anyone looking at you?  
  
 They don’t want me hanging around because they don’t like me. 
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",1,2,3,4,5,,,,,,,
-AIBQ,Biweekly,Radio Button,3B,,"You’re standing with a group of classmates. When you begin to talk, no one looks at you. Why isn’t anyone looking at you?  
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,3B,,"You’re standing with a group of classmates. When you begin to talk, no one looks at you. Why isn’t anyone looking at you?  
  
 They just happen to be looking at something else, but they are interested in what I have to say. . 
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",1,2,3,4,5,,,,,,,
-AIBQ,Biweekly,Radio Button,3C,,"You’re standing with a group of classmates. When you begin to talk, no one looks at you. Why isn’t anyone looking at you?  
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,3C,,"You’re standing with a group of classmates. When you begin to talk, no one looks at you. Why isn’t anyone looking at you?  
  
 I should’ve waited until my classmate had finished before I began talking. 
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",1,2,3,4,5,,,,,,,
-AIBQ,Biweekly,Radio Button,4A,,"You’re standing on your own at a party and somebody you don’t know looks at you. Why are they looking at you? 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,4A,,"You’re standing on your own at a party and somebody you don’t know looks at you. Why are they looking at you? 
  
 I stand out like a sore thumb. They probably think I’m pathetic. 
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",1,2,3,4,5,,,,,,,
-AIBQ,Biweekly,Radio Button,4B,,"You’re standing on your own at a party and somebody you don’t know looks at you. Why are they looking at you? 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,4B,,"You’re standing on your own at a party and somebody you don’t know looks at you. Why are they looking at you? 
  
 They just happen to be looking in my direction. . 
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",1,2,3,4,5,,,,,,,
-AIBQ,Biweekly,Radio Button,4C,,"You’re standing on your own at a party and somebody you don’t know looks at you. Why are they looking at you? 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,4C,,"You’re standing on your own at a party and somebody you don’t know looks at you. Why are they looking at you? 
  
 They like me and want to get my attention. 
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",1,2,3,4,5,,,,,,,
-AIBQ,Biweekly,Radio Button,5A ,,"You’ve agreed with your friends to play a game online together. When you log in you can see that no one is online.  Why isn’t anyone online yet? 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,5A ,,"You’ve agreed with your friends to play a game online together. When you log in you can see that no one is online.  Why isn’t anyone online yet? 
  
 They really want to play the game online with me; they will come online within a few minutes.  
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",,,,,,,,,,,,
-AIBQ,Biweekly,Radio Button,5B,,"You’ve agreed with your friends to play a game online together. When you log in you can see that no one is online.  Why isn’t anyone online yet? 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,5B,,"You’ve agreed with your friends to play a game online together. When you log in you can see that no one is online.  Why isn’t anyone online yet? 
  
 I’m a little early and just need to be patient.    
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",,,,,,,,,,,,
-AIBQ,Biweekly,Radio Button,5C,,"You’ve agreed with your friends to play a game online together. When you log in you can see that no one is online.  Why isn’t anyone online yet? 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,5C,,"You’ve agreed with your friends to play a game online together. When you log in you can see that no one is online.  Why isn’t anyone online yet? 
  
 They’ve most probably secretly agreed to play a different online game because they don’t want to game with me.   
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",,,,,,,,,,,,
-AIBQ,Biweekly,Radio Button,6A,,"You post a photo of a tasty dish that you’ve made on Instagram. 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,6A,,"You post a photo of a tasty dish that you’ve made on Instagram. 
 After an hour one of your followers responds ‘What dish is that? What is meant by this response? 
 
  
@@ -159,8 +175,8 @@ This person really likes the look of the dish and would like to cook it themself
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",,,,,,,,,,,,
-AIBQ,Biweekly,Radio Button,6B,,"You post a photo of a tasty dish that you’ve made on Instagram. 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,6B,,"You post a photo of a tasty dish that you’ve made on Instagram. 
 After an hour one of your followers responds ‘What dish is that? What is meant by this response? 
 
  
@@ -168,73 +184,54 @@ I’ve clearly made a mess of the dish because it isn’t recognizable.
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",,,,,,,,,,,,
-AIBQ,Biweekly,Radio Button,6C,,"You post a photo of a tasty dish that you’ve made on Instagram. 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,6C,,"You post a photo of a tasty dish that you’ve made on Instagram. 
 After an hour one of your followers responds ‘What dish is that? What is meant by this response? 
 
 This person would like to taste the dish.  
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",,,,,,,,,,,,
-AIBQ,Biweekly,Radio Button,7A,,"On Instagram, you see that it’s the birthday of someone you are acquainted with. You comment on their post congratulating them. Later on, you see that this person has liked a lot of the congratulatory messages but not yours. Why is this? 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,7A,,"On Instagram, you see that it’s the birthday of someone you are acquainted with. You comment on their post congratulating them. Later on, you see that this person has liked a lot of the congratulatory messages but not yours. Why is this? 
 
 This person will definitely ‘like’  my message sometime today  
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",,,,,,,,,,,,
-AIBQ,Biweekly,Radio Button,7B,,"On Instagram, you see that it’s the birthday of someone you are acquainted with. You comment on their post congratulating them. Later on, you see that this person has liked a lot of the congratulatory messages but not yours. Why is this? 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,7B,,"On Instagram, you see that it’s the birthday of someone you are acquainted with. You comment on their post congratulating them. Later on, you see that this person has liked a lot of the congratulatory messages but not yours. Why is this? 
 
 This person doesn’t like me and therefore didn’t ‘like’ my message. 
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",,,,,,,,,,,,
-AIBQ,Biweekly,Radio Button,7C,,"On Instagram, you see that it’s the birthday of someone you are acquainted with. You comment on their post congratulating them. Later on, you see that this person has liked a lot of the congratulatory messages but not yours. Why is this? 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,7C,,"On Instagram, you see that it’s the birthday of someone you are acquainted with. You comment on their post congratulating them. Later on, you see that this person has liked a lot of the congratulatory messages but not yours. Why is this? 
 
 This person has received so many congratulatory messages and has just missed mine.  
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",,,,,,,,,,,,
-AIBQ,Biweekly,Radio Button,8A,,"Lots of your classmates have a Tiktok account. You set up your own Tiktok account and post a funny opening tweet. After a few days you only have one follower. Why do you have only one follower? 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,8A,,"Lots of your classmates have a Tiktok account. You set up your own Tiktok account and post a funny opening tweet. After a few days you only have one follower. Why do you have only one follower? 
 
 I just need to wait a few more days; then, I will have more followers 
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",,,,,,,,,,,,
-AIBQ,Biweekly,Radio Button,8B,,"Lots of your classmates have a Tiktok account. You set up your own Tiktok account and post a funny opening tweet. After a few days you only have one follower. Why do you have only one follower? 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,8B,,"Lots of your classmates have a Tiktok account. You set up your own Tiktok account and post a funny opening tweet. After a few days you only have one follower. Why do you have only one follower? 
 
 There are so many Tiktok accounts to follow that mine just hasn’t been noticed. 
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",,,,,,,,,,,,
-AIBQ,Biweekly,Radio Button,8C,,"On Instagram, you see that it’s the birthday of someone you are acquainted with. You comment on their post congratulating them. Later on, you see that this person has liked a lot of the congratulatory messages but not yours. Why is this? 
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,
+AIBQ,all,Biweekly,Radio Button,8C,,"On Instagram, you see that it’s the birthday of someone you are acquainted with. You comment on their post congratulating them. Later on, you see that this person has liked a lot of the congratulatory messages but not yours. Why is this? 
 
 Nobody thinks my opening post is funny, and that’s why I only have one follower
 
 On a scale of 1-5, how likely is this thought to pop into your mind? ","1: Doesn't pop up in my mind
 3: Might pop up in my mind
-5: Definitely pops up in my mind",,,,,,,,,,,,
-Strength of Relationship Scale (Mentee),Biweekly,Instructions,,,"For each of the sentences below, decide how true each statement is for you.  Then, choose one number that fits best.  If you think the statement is NEVER TRUE, choose “1”; if you think it is HARDLY EVER TRUE, choose “2”; if the statement is SOMETIMES TRUE, choose “3”; if you think it is MOST OF THE TIME TRUE, choose “4”; and if the statement is ALWAYS TRUE, choose “5.”",,,,,,,,,,,,,
-Strength of Relationship Scale (Mentee),Biweekly,Radio Button,1,,My mentor has lots of good ideas about how to solve a problem.,,1,2,3,4,5,,,,,,,
-Strength of Relationship Scale (Mentee),Biweekly,Radio Button,2,,My mentor helps me take my mind off things by doing something with me. ,,1,2,3,4,5,,,,,,,
-Strength of Relationship Scale (Mentee),Biweekly,Radio Button,3,,"When I’m with my mentor, I feel ignored. ",,1,2,3,4,5,,,,,,,
-Strength of Relationship Scale (Mentee),Biweekly,Radio Button,4,,"When I’m with my mentor, I feel angry",,1,2,3,4,5,,,,,,,
-Strength of Relationship Scale (Mentee),Biweekly,Radio Button,5,,"When I’m with my mentor, I feel safe. ",,1,2,3,4,5,,,,,,,
-Strength of Relationship Scale (Mentee),Biweekly,Radio Button,6,,"When I’m with my mentor, I feel disappointed",,1,2,3,4,5,,,,,,,
-Strength of Relationship Scale (Mentee),Biweekly,Radio Button,7,,My relationship with my mentor is very important to me. ,,1,2,3,4,5,,,,,,,
-Strength of Relationship Scale (Mentee),Biweekly,Radio Button,8,,"When I’m with my mentor, I feel bored. ",,1,2,3,4,5,,,,,,,
-Strength of Relationship Scale (Mentee),Biweekly,Radio Button,9,,"When something is bugging me, my mentor listens while I talk about it. ",,1,2,3,4,5,,,,,,,
-Strength of Relationship Scale (Mentee),Biweekly,Radio Button,10,,I feel close to my mentor. ,,1,2,3,4,5,,,,,,,
-GAD-7,Biweekly,Instructions,,,"Over the last two weeks, how often have you been bothered by the following problems?",,0,1,2,3,4,,,,,,,
-GAD-7,Biweekly,Radio Button,1,,"Feeling nervous, anxious, or on edge",,0,1,2,3,4,,,,,,,
-GAD-7,Biweekly,Radio Button,2,,Not being able to stop or control worrying ,,0,1,2,3,4,,,,,,,
-GAD-7,Biweekly,Radio Button,3,,Worrying too much about different things,,0,1,2,3,4,,,,,,,
-GAD-7,Biweekly,Radio Button,4,,Trouble relaxing ,,0,1,2,3,4,,,,,,,
-GAD-7,Biweekly,Radio Button,5,,Being so restless that it is hard to sit still,,0,1,2,3,4,,,,,,,
-GAD-7,Biweekly,Radio Button,6,,Becoming easily annoyed or irritable,,0,1,2,3,4,,,,,,,
-GAD-7,Biweekly,Radio Button,7,,"Feeling afraid, as if something awful might happen ",,0,1,2,3,4,,,,,,,
+5: Definitely pops up in my mind",1: Doesn't pop up in my mind,2,3: Might pop up in my mind,4,5: Definitely pops up in my mind,,,,,,,

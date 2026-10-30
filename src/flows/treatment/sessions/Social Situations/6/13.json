@@ -1,19 +1,19 @@
 {
-    "header_text": "Tagged in a Post: Behaviors",
+    "header_text": "First Kiss: Behaviors",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You and your friends took some pictures together. You look through your feed and see that they tagged you in a post. You don't like how you look in the picture.\n\nHere are some behaviors that someone might do at that moment or in the future:"
+            "text": "You're the only one in your friend group who hasn't had your first kiss. When your friends talk about their experiecnes, you feel embarassed and left out\n\nHere are some behaviors that someone might do at that moment or in the future:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I post a photo from a few weeks ago where I really like how I look.",
-                "I leave a comment about how embarrassed I am.",
-                "I want to pretend the picture doesn't exist, but decide it is fine.",
-                "I tell my friend it was a good idea to post a picture of everyone.",
-                "I want to ask my friends if they think I look okay, but decide I look fine on my own."
+                "I want to change the subject abruptly in a way that signals my discomfort, but let the conversation run its natural course instead.",
+                "I stay engaged in the conversation and ask questions.",
+                "I tell my friends that I'm excited to have my first kiss in the future.",
+                "I feel the urge to go home and fixate on what's wrong with me, but push myeslf to stay and be present.",
+                "I make up a story about a first kiss to avoid feeling left out."
             ],
             "Duration": 15000
         }

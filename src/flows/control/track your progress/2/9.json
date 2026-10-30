@@ -1,0 +1,10 @@
+{
+    "header_text": "Strength of Relationship Scale (Mentee)",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "For each of the sentences below, decide how true each statement is for you. Then, choose one number that fits best. If you think the statement is NEVER TRUE, choose \"1\"; if you think it is HARDLY EVER TRUE, choose \"2\"; if the statement is SOMETIMES TRUE, choose \"3\"; if you think it is MOST OF THE TIME TRUE, choose \"4\"; and if the statement is ALWAYS TRUE, choose \"5.\""
+        }
+    ]
+}

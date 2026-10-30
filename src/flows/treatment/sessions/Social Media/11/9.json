@@ -1,19 +1,19 @@
 {
-    "header_text": "Missing Out: Feelings",
+    "header_text": "Fewer Likes: Feelings",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "You had a really long day at school and are feeling tired, so you decide to stay home from the movie night at your friend's house. When you open social media, you see everyone posting about it on Snapchat.\n\nHere are some feelings that might happen in the moment:"
+            "text": "You post something different from what you normally post. After a couple of hours, you only have about half the number of likes on your post compared to what you normally have. \n\nHere are some feelings that might happen in the moment:"
         },
         {
             "type": "TimedText",
             "texts": [
-                "I'm proud of myself for listening to my body's needs.",
-                "I feel a little sad not to be with my friends, but acknowledge that everyone needs rest sometimes.",
-                "I'm really regretting not pushing myself to go out.",
-                "I feel anxious that my friends are going to get closer without me, but remind myself that one night won't change things too much.",
-                "I'm excited to spend some time on self-care."
+                "I'm confident that others will eventually like the new post.",
+                "I feel uncomfortable not knowing why I didn't receive a lot of likes, but am okay not knowing.",
+                "I feel sad that I didn't get more likes, but am able to accept that.",
+                "I feel good about my the post.",
+                "I'll never try different styles of posts again."
             ],
             "Duration": 15000
         }

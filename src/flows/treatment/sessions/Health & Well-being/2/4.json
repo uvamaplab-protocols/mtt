@@ -13,8 +13,8 @@
             "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
             "incorrect_delay": 5000,
             "buttons": [
-                "Able to tolerate the feeling",
-                "Terrified of pain"
+                "Terrified of pain",
+                "Able to tolerate the feeling"
             ],
             "column_Count": 1,
             "correct_value": "Able to tolerate the feeling"

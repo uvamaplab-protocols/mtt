@@ -4,7 +4,7 @@
     "elements": [
         {
             "type": "Text",
-            "text": "You have a lot of homework due tomorrow. You've been procrastinating getting it done because it is going to be hard. When you think about doing your homework when you get home from school, you feel able to complete it on... \n"
+            "text": "You have a lot of homework due tomorrow. You've been procrastinating getting it done because it is going to be hard. When you think about doing your homework when you get home from school, you feel able to complete it on... \r\n"
         },
         {
             "type": "Entry",
