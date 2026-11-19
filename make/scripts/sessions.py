@@ -136,7 +136,7 @@ def create_short_sessions():
             for row in islice(csv.reader(read_obj),1,None):
 
                 label     = row[1]
-                image_url = media_url(row[10])
+                image_url = media_url(row[9])
                 tipe      = row[4].strip()
 
                 if not domain or not label: continue
@@ -155,7 +155,7 @@ def create_short_sessions():
                     if lower(answer) in ["yes","no"]: choices = ["Yes","No"]
                     shuffle(choices)
 
-                    if row[11]: letters_missing = row[11]
+                    if row[10]: letters_missing = row[10]
 
                     is_first_session = len(sessions[domain]) == 0
                     is_first_scenario = len(scenarios[domain]) == 0

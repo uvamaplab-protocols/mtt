@@ -29,6 +29,13 @@ with open(f"{dir_csv}/images.csv", "r", encoding="utf-8") as read_obj:
 
                         subprocess.run(["curl","-L", f"https://unsplash.com/photos/{id}/download"], stdout=f)
 
+            elif "box.com" in url:
+                id = url.split("/")[4]
+                app = "virginia.app.box.com" in url
+                if not Path(f"./src/images/{name}").exists():
+                    with open(f"./src/images/{name}", mode='wb+') as f:
+                        subprocess.run(["curl","-L",f"https://virginia{".app" if app else ""}.box.com/shared/static/{id}"], stdout=f)
+
             else:
                 if "/view" in url:
                     #e.g., https://drive.google.com/file/d/1agACToHkWhDmNIHThNfXgoaZQzoBzUw1/view?usp=drive_link
