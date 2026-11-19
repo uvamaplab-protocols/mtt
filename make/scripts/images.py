@@ -53,7 +53,7 @@ with open(f"{dir_csv}/images.csv", "r", encoding="utf-8") as read_obj:
                     with get_image(image_id) as r:
                         with open(f"./src/images/{name}", mode="wb+") as f:
                             shutil.copyfileobj(r,f)
-            time.sleep(0.5)
+            # time.sleep(0.5)
         
         except (KeyboardInterrupt,FileNotFoundError):
             raise
