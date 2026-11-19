@@ -4,16 +4,17 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Please specify your sexual orientation"
+            "text": "What is your sexual orientation? (Please select all that apply.)"
         },
         {
-            "type": "Entry",
-            "variable_name": "4B"
+            "type": "Buttons",
+            "buttons": [
+                "0:: Aromantic, 1:: Asexual, 2:: Bisexual, 3:: Gay, 4:: Lesbian, 5:: Pansexual, 6:: Queer, 7:: Questioning/Unsure, 8::Straight (heterosexual), 9:: Other identity not listed, 99: Prefer not to answer"
+            ],
+            "selectable": true,
+            "multiselect": true,
+            "name": "4A",
+            "variable_name": "4A"
         }
-    ],
-    "condition": [
-        "4A",
-        "=",
-        "10"
     ]
 }

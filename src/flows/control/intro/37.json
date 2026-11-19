@@ -1,0 +1,10 @@
+{
+    "header_text": "ABIQ_Example",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "In this questionnaire, different situations are described which you might have experienced. Written below each situation are three different things a person might think in these sorts of situations. A person will usually have a number of different thoughts as an explanation for a situation."
+        }
+    ]
+}

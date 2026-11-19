@@ -1,0 +1,25 @@
+{
+    "header_text": "Chore List",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A chore list is taped to the fridge with your name on it. You worry you’re being singled out for not helping enough. You remind yourself chores rotate through the family and your parents are reminding... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Chore List_General_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "you"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

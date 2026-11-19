@@ -1,0 +1,17 @@
+{
+    "header_text": "Political Debate 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A heated debate breaks out in class about global politics. You imagine arguments only getting worse. The tension leaves you feeling energized to..."
+        },
+        {
+            "type": "Entry",
+            "name": "Political Debate 3_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

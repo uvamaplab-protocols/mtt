@@ -1,0 +1,17 @@
+{
+    "header_text": "Interview Outfit",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have a job interview coming and the email says to dress in \"buisness casual\". Your family can't afford many fancy clothes, and you worry your outfit won’t be professional enough. Your interviewers will probably think you are being... "
+        },
+        {
+            "type": "Entry",
+            "name": "Interview Outfit_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

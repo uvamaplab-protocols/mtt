@@ -4,19 +4,12 @@
     "elements": [
         {
             "type": "Text",
-            "text": "How long have you been working with your current mentor?"
+            "text": "What mentoring program are you participating in?"
         },
         {
-            "type": "Buttons",
-            "buttons": [
-                "1::Less than 6 months",
-                "2::6 months to a year",
-                "3::1-2 years",
-                "4::More than 2 years",
-                "5::Prefer not to answer"
-            ],
-            "selectable": true,
-            "variable_name": "9"
+            "type": "Entry",
+            "name": "8",
+            "variable_name": "8"
         }
     ]
 }

@@ -1,0 +1,17 @@
+{
+    "header_text": "Late Parents",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are babysitting for your neighbors and you are working on homework after the kids have gone to bed. When you glance at the clock, you realize their parents are running late coming home, and you begin to wonder if something bad has happened. The more you think about it, the more you realize its more likley they are stuck in... "
+        },
+        {
+            "type": "Entry",
+            "name": "Late Parents_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

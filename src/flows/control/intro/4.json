@@ -4,16 +4,25 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Please specify your racial background"
+            "text": "What is your racial background? (Please select all that apply.)"
         },
         {
-            "type": "Entry",
-            "variable_name": "2B"
+            "type": "Buttons",
+            "buttons": [
+                "0::American Indian/Alaska Native",
+                " 1::East Asian",
+                " 2::South Asian",
+                " 3::Native Hawaiian/Pacific Islander",
+                " 4::Black or African American",
+                " 5::Middle Eastern/North African (MENA), 6::White",
+                " 7::More than one race",
+                " 8::Other or Unknown",
+                " 99::Prefer not to answer"
+            ],
+            "selectable": true,
+            "multiselect": true,
+            "name": "2A",
+            "variable_name": "2A"
         }
-    ],
-    "condition": [
-        "2A",
-        "=",
-        "7"
     ]
 }

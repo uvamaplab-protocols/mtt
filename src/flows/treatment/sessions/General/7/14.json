@@ -1,0 +1,25 @@
+{
+    "header_text": "Clothing Brand",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A classmate asks what brand your shirt is, then doesn’t say anything after you tell them. You start to worry they think it’s cheap or uncool. You remind yourself they might’ve just been making small talk, and their comment was... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Clothing Brand_General_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "innocuous"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

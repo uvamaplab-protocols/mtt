@@ -1,0 +1,17 @@
+{
+    "header_text": "Confident Misinformation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Someone confidently states a view that doesn’t sit right with you, but you aren’t sure why. You worry you need all the facts before you speak. You remind yourself confusion is part of thinking, and thinking about looking into the topic more later on your own reassures..."
+        },
+        {
+            "type": "Entry",
+            "name": "Confident Misinformation_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

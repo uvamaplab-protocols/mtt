@@ -1,0 +1,25 @@
+{
+    "header_text": "Sunset Photo",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You take a nice picture in front of a pretty sunset, but feel like something about it looks off. You crop the picture multiple times trying to make it “perfect” but still feel unsure before posting. You assume others will judge every detail so you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Sunset Photo_General_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "pressured"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 1
+}

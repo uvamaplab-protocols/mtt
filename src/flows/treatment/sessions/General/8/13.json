@@ -1,0 +1,17 @@
+{
+    "header_text": "Changing Body",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You notice your body becoming softer in places. You worry you’re getting unhealthy and feel a wave of insecurity. You remind yourself that puberty changes body composition, and you feel curious about your changing..."
+        },
+        {
+            "type": "Entry",
+            "name": "Changing Body_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

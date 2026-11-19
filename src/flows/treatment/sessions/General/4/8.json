@@ -1,0 +1,16 @@
+{
+    "header_text": "Debit Account",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Debit Account"
+        },
+        {
+            "type": "Media",
+            "url": "./images/101.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 2
+}

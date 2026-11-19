@@ -1,28 +1,204 @@
 Survey Name,Title ,Doses,Subject,Text,Image,Input type,Minimum,Maximum,Media,Items,ImageFramed,Timeout,ShowButtons,Answer,Notes or questions,Variable name,Conditions
-Welcome,Welcome!,1,Dose,"Welcome to Mindtrails Teen! This initial session will be a bit longer than future sessions. You'll first be asked to complete some surveys about your mental health and thinking patterns. Then, we'll give you some more information about the science behind this program and explain how to get the most out of the app. Ready to get started? Hit the Next button below to begin filling out questionnaires.                                                                                                ",,,,,,,,,,,,,
-MTTeen_samplequestion,Interpretation Scale Sample Question,1,Dose,"Instructions: Here are some descriptions of situations in which it is not quite clear what is happening. After each one, you will see 3 possible explanations for the situation. Please imagine yourself in each situation, then rate the extent to which you think each explanation would be likely to be true if you found yourself in that situation. Please provide a response for each of the 3 explanations under each question.",,,,,,,,,,,,,
-MTTeen_samplequestion,Interpretation Scale Sample Question,1,Dose,"You hear a knock on the front door. When you open the door, no one is there. Why? The person who knocked forgot something in their car, and they will be right back.",,Button,,,,0::Not at all likely; 1::A little likely; 2::Moderately likely; 3::Very likely; 4::Extremely likely; 99::Prefer not to answer,,,,,,,
-MTTeen_samplequestion,Interpretation Scale Sample Question,1,Dose,"You hear a knock on the front door. When you open the door, no one is there. Why? Someone is playing a joke on you and ran away after knocking.",,Button,,,,0::Not at all likely; 1::A little likely; 2::Moderately likely; 3::Very likely; 4::Extremely likely; 99::Prefer not to answer,,,,,,,
-MTTeen_samplequestion,Interpretation Scale Sample Question,1,Dose,"You hear a knock on the front door. When you open the door, no one is there. Why? The knock was from a delivery person who left after dropping off a package.",,Button,,,,0::Not at all likely; 1::A little likely; 2::Moderately likely; 3::Very likely; 4::Extremely likely; 99::Prefer not to answer,,,,,,,
-Your First Session,Your First Session,1,Dose,"MindTrails-Teen is designed to help you change the way you think about common but potentially stressful situations in order to reduce anxiety and stress. When you complete sessions in the app, you will be asked to read brief stories about situations that often produce anxiety and fill in missing letters to complete words, fill in entire words, or come up with new stories that are personally relevant to you. To help familiarize you with the program and help you get the most out of this experience, we would like you complete a few short exercises and watch some brief videos explaining how MindTrails Teen works. You will also be presented with three example stories so that you can begin to get the hang of the training. Click next to get started!",,,,,,,,,,,,,
-Lemon Exercise,Lemon Exercise,1,Dose,"The purpose of this quick exercise is to demonstrate what imagination-based thinking is. You will imagine what seeing, touching, and smelling a lemon is like. Please imagine this as if you are really experiencing it.",,,,,,,,,,,,,
-Lemon Exercise,Lemon Exercise,1,Dose,"In this exercise, and throughout the training program, please remember to imagine what is happening through your own eyes, similar to the picture on the left. This is more effective than viewing the situation as an outside observer, like the picture on the right.",lemon_pic1.jpeg,,,,,,,,,,,,
-Lemon Exercise,Lemon Exercise,1,Dose,"Okay...let's begin! Imagine you are holding the lemon in your right hand, and you can feel its shape and its weight.",lemon_pic2.jpeg,,,,,,,,,,,,
-Lemon Exercise,Lemon Exercise,1,Dose,"Now imagine you are shining a light on the lemon, and you can see the waxy and lumpy texture of the yellow skin.",lemon_pic3.jpeg,,,,,,,,,,,,
-Lemon Exercise,Lemon Exercise,1,Dose,"Now imagine that you scratch the skin with your fingernail, then you bring the lemon up to your nose, and you can smell the fresh zesty juice from the skin.",lemon_pic4.jpeg,,,,,,,,,,,,
-Lemon Exercise,Lemon Exercise,1,Dose,"Now imagine that you cut the lemon in half, and you bring one half of it up for a closer look. You can see the juicy flesh in the shape of segments that look like a wagon wheel.",lemon_pic5.jpeg,,,,,,,,,,,,
-Lemon Exercise,Lemon Exercise,1,Dose,"Now imagine that you squeeze the lemon and some of the juice squirts right into your eyes, and it is really stinging, making your eyes water.",lemon_pic6.jpeg,,,,,,,,,,,,
-Lemon Exercise,Lemon Exercise,1,Dose,That was the Lemon Exercise! Don't worry if you didn't experience all of the sensations strongly. This is completely normal.,lemon_pic7.jpeg,,,,,,,,,,,,
-Program Rationale,Pause to reflect:,1,Dose,,lemon_image.jpeg,,,,,,,,,,,,
+Welcome,Welcome!,1,Dose,"Welcome to Mindtrails Teen! This initial session will be a bit longer than future sessions. You'll first be asked to complete some surveys about your mental health and thinking patterns. Then, we'll give you some more information about the science behind this program and explain how to get the most out of the app. Ready to get started? Hit the Next button below to begin filling out questionnaires.                                                                                                ",,Instructions,,,,,,,,,,,
+Demographics,Demographics,1,Dose,What is your gender identity?,,Radio Button,,,,"0::Girl; 1::Boy; 2::Nonbinary, 3::Genderfluid/Genderqueer, 4:: Agender, 5:: Questioning/Unsure, 6:: Gender identity not listed (please specify), 99::Prefer not to answer",,,,,,1A,
+Demographics,Demographics,1,Dose,Please specify your gender identity,,Free Text,,,,,,,,,,1B,1A = 5
+Demographics,Demographics,1,Dose,What is your racial background? (Please select all that apply.),,Checkboxes,,,,"0::American Indian/Alaska Native; 1::East Asian; 2::South Asian; 3::Native Hawaiian/Pacific Islander; 4::Black or African American; 5::Middle Eastern/North African (MENA), 6::White; 7::More than one race; 8::Other or Unknown; 99::Prefer not to answer",,,,,,2A,
+Demographics,Demographics,1,Dose,Please specify your racial background,,Free Text,,,,,,,,,,2B,2A = 7
+Demographics,Demographics,1,Dose,What is your ethnic background?,,Radio Button,,,,1::Hispanic or Latino; 0::Not Hispanic or Latino; 3::Unsure or Unknown; 99::Prefer not to answer,,,,,,3,
+Demographics,Demographics,1,Dose,What is your sexual orientation? (Please select all that apply.),,Checkboxes,,,,"0:: Aromantic, 1:: Asexual, 2:: Bisexual, 3:: Gay, 4:: Lesbian, 5:: Pansexual, 6:: Queer, 7:: Questioning/Unsure, 8::Straight (heterosexual), 9:: Other identity not listed, 99: Prefer not to answer",,,,,,4A,
+Demographics,Demographics,1,Dose,Please specify your sexual orientation,,Free Text,,,,,,,,,,4B,4A = 10
+Demographics,Demographics,1,Dose,What state do you live in? ,,Dropdown,,,,Alabama; Alaska; Arizona; Arkansas; California; Colorado; Connecticut; Delaware; Florida; Georgia; Hawaii; Idaho; Illinois; Indiana; Iowa; Kansas; Kentucky; Louisiana; Maine; Maryland; Massachusetts; Michigan; Minnesota; Mississippi; Missouri; Montana; Nebraska; Nevada; New Hampshire; New Jersey; New Mexico; New York; North Carolina; North Dakota; Ohio; Oklahoma; Oregon; Pennsylvania; Rhode Island; South Carolina; South Dakota; Tennessee; Texas; Utah; Vermont; Virginia; Washington; West Virginia; Wisconsin; Wyoming,,,,,,5,
+Demographics,Demographics,1,Dose,What year were you born? ,,Dropdown,,,,2015; 2014; 2013; 2012; 2011; 2010; 2009; 2008; 2007,,,,,,6,
+Demographics,Demographics,1,Dose,What grade are you in? ,,Dropdown,,,,6th grade; 7th grade; 8th grade; 9th grade; 10th grade; 11th grade; 12th grade,,,,,,7,
+Demographics,Demographics,1,Dose,What mentoring program are you participating in?,,Free Text,,,,,,,,,,8,
+Demographics,Demographics,1,Dose,How long have you been working with your current mentor? ,,Radio Button,,,,Less than 6 months; 6 months to a year; 1-2 years; More than 2 years; Prefer not to answer,,,,,,9,
+Mental Health and Treatment Questionnaire,Mental Health and Treatment Questionnaire,1,Dose,"We want to ask a few questions about your mental health and treatment history. Your answers are kept private, but they help us improve Mind Trails Teen by figuring out what works best for who. ",,Instructions,,,,,,,,,,,
+Mental Health and Treatment Questionnaire,Mental Health and Treatment Questionnaire,1,Dose,"Are you currently receiving any help for issues related to mental health? Please select all that apply, or “I am not receiving help.",,Checkboxes,,,,Therapy (talking with a trained professional); Prescription medications; Seeking social support (e.g. from friends; teachers; parents; etc); Self-guided help (e.g. from books; social media; apps); !Other; ^I am not receiving help; ^Prefer not to answer,,,,,,1,
+Mental Health and Treatment Questionnaire,Mental Health and Treatment Questionnaire,1,Dose,"In the past, have you ever received any help for issues related to mental health? Please select all that apply. ",,Checkboxes,,,,Therapy (talking with a trained professional); Prescription medications; Seeking social support (e.g. from friends; teachers; parents; etc); Self-guided help (e.g. from books; social media; apps); !Other; ^I am not receiving help; ^Prefer not to answer,,,,,,2,
+Mental Health and Treatment Questionnaire,Mental Health and Treatment Questionnaire,1,Dose,"I have been diagnosed with anxiety by a doctor or other healthcare professional. This could also include diagnoses of panic disorder, specific phobia, generalized anxiety disorder, separation anxiety disorder, social anxiety disorder, or agorophobia ",,Radio Button,,,,1::Yes; 2::No; 3::I don't know; 4::Prefer not to answer,,,,,,3,
+GAD-7,GAD-7,1,Dose,"Over the last two weeks, how often have you been bothered by the following problems?",,Instructions,,,,,,,,,,,
+GAD-7,GAD-7,1,Dose,"Feeling nervous, anxious, or on edge",,Radio Button,,,,0:: Not at all; 1:: Several days; 2:: More than half the days; 3:: Nearly every day; 4:: Prefer not to answer,,,,,,1,
+GAD-7,GAD-7,1,Dose,Not being able to stop or control worrying ,,Radio Button,,,,0:: Not at all; 1:: Several days; 2:: More than half the days; 3:: Nearly every day; 4:: Prefer not to answer,,,,,,2,
+GAD-7,GAD-7,1,Dose,Worrying too much about different things,,Radio Button,,,,0:: Not at all; 1:: Several days; 2:: More than half the days; 3:: Nearly every day; 4:: Prefer not to answer,,,,,,3,
+GAD-7,GAD-7,1,Dose,Trouble relaxing ,,Radio Button,,,,0:: Not at all; 1:: Several days; 2:: More than half the days; 3:: Nearly every day; 4:: Prefer not to answer,,,,,,4,
+GAD-7,GAD-7,1,Dose,Being so restless that it is hard to sit still,,Radio Button,,,,0:: Not at all; 1:: Several days; 2:: More than half the days; 3:: Nearly every day; 4:: Prefer not to answer,,,,,,5,
+GAD-7,GAD-7,1,Dose,Becoming easily annoyed or irritable,,Radio Button,,,,0:: Not at all; 1:: Several days; 2:: More than half the days; 3:: Nearly every day; 4:: Prefer not to answer,,,,,,6,
+GAD-7,GAD-7,1,Dose,"Feeling afraid, as if something awful might happen ",,Radio Button,,,,0:: Not at all; 1:: Several days; 2:: More than half the days; 3:: Nearly every day; 4:: Prefer not to answer,,,,,,7,
+Strength of Relationship Scale (Mentee),Strength of Relationship Scale (Mentee),1,Dose,"These first questions ask about your relationship with your mentor. For each of these sentences, decide how true the sentence is for your feelings about your mentor. Then select one number that fits best. We will NOT share your answers with your mentor. ",,Instructions,,,,,,,,,,,
+Strength of Relationship Scale (Mentee),Strength of Relationship Scale (Mentee),1,Dose,My mentor has lots of good ideas about how to solve a problem.,,Radio Button,,,,0:: Not at all true; 1:: Mostly not true; 2:: A little true; 3:: Mostly true; 4:: Always true ,,,,,,1,
+Strength of Relationship Scale (Mentee),Strength of Relationship Scale (Mentee),1,Dose,My mentor helps me take my mind off things by doing something with me. ,,Radio Button,,,,0:: Not at all true; 1:: Mostly not true; 2:: A little true; 3:: Mostly true; 4:: Always true ,,,,,,2,
+Strength of Relationship Scale (Mentee),Strength of Relationship Scale (Mentee),1,Dose,"When I’m with my mentor, I feel ignored. ",,Radio Button,,,,0:: Not at all true; 1:: Mostly not true; 2:: A little true; 3:: Mostly true; 4:: Always true ,,,,,,3,
+Strength of Relationship Scale (Mentee),Strength of Relationship Scale (Mentee),1,Dose,"When I’m with my mentor, I feel angry",,Radio Button,,,,0:: Not at all true; 1:: Mostly not true; 2:: A little true; 3:: Mostly true; 4:: Always true ,,,,,,4,
+Strength of Relationship Scale (Mentee),Strength of Relationship Scale (Mentee),1,Dose,"When I’m with my mentor, I feel safe. ",,Radio Button,,,,0:: Not at all true; 1:: Mostly not true; 2:: A little true; 3:: Mostly true; 4:: Always true ,,,,,,5,
+Strength of Relationship Scale (Mentee),Strength of Relationship Scale (Mentee),1,Dose,"When I’m with my mentor, I feel disappointed",,Radio Button,,,,0:: Not at all true; 1:: Mostly not true; 2:: A little true; 3:: Mostly true; 4:: Always true ,,,,,,6,
+Strength of Relationship Scale (Mentee),Strength of Relationship Scale (Mentee),1,Dose,My relationship with my mentor is very important to me. ,,Radio Button,,,,0:: Not at all true; 1:: Mostly not true; 2:: A little true; 3:: Mostly true; 4:: Always true ,,,,,,7,
+Strength of Relationship Scale (Mentee),Strength of Relationship Scale (Mentee),1,Dose,"When I’m with my mentor, I feel bored. ",,Radio Button,,,,0:: Not at all true; 1:: Mostly not true; 2:: A little true; 3:: Mostly true; 4:: Always true ,,,,,,8,
+Strength of Relationship Scale (Mentee),Strength of Relationship Scale (Mentee),1,Dose,"When something is bugging me, my mentor listens while I talk about it. ",,Radio Button,,,,0:: Not at all true; 1:: Mostly not true; 2:: A little true; 3:: Mostly true; 4:: Always true ,,,,,,9,
+Strength of Relationship Scale (Mentee),Strength of Relationship Scale (Mentee),1,Dose,I feel close to my mentor. ,,Radio Button,,,,0:: Not at all true; 1:: Mostly not true; 2:: A little true; 3:: Mostly true; 4:: Always true ,,,,,,10,
+ABIQ_Example,ABIQ_Example,1,Dose,"In this questionnaire, different situations are described which you might have experienced. Written below each situation are three different things a person might think in these sorts of situations. A person will usually have a number of different thoughts as an explanation for a situation.",,Instructions,,,,,,,,,,,
+ABIQ_Example,ABIQ_Example,1,Dose,"Imagine yourself in the following situations. Using the scale provided, indicate whether each of the three thoughts would pop up in your mind.",,Instructions,,,,,,,,,,,
+ABIQ_Example,ABIQ_Example,1,Dose,"A few weeks after the beginning of the new academic year, your mentor asks to speak to you. Why do they want to speak to you? 
+ 
+They want to tell me that they are very satisfied with my work. 
+
+On a scale of 1-5, how likely is this thought to pop into your mind? 
+",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,1,
+AIBQ_Example,AIBQ_Example,1,Dose,"[If you circle a 4 here, it means that the thought that your mentor was satisfied with you popped up in your mind].  ",,Instructions,,,,,,,,,,,
+AIBQ_Example,AIBQ_Example,1,Dose,"A few weeks after the beginning of the new academic year, your mentor asks to speak to you. Why do they want to speak to you? 
+ 
+They expected much better work from me and think that I need to work harder. 
+
+On a scale of 1-5, how likely is this thought to pop into your mind? 
+",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,2,
+AIBQ_Example,AIBQ_Example,1,Dose,[The 3 here means that the thought that the mentor expected better work might have popped up in your mind].,,Instructions,,,,,,,,,,,
+AIBQ_Example,AIBQ_Example,1,Dose,"A few weeks after the beginning of the new academic year, your mentor asks to speak to you. Why do they want to speak to you? 
+ 
+They might want to ask me something. 
+
+On a scale of 1-5, how likely is this thought to pop into your mind? 
+",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,3,
+AIBQ_Example,AIBQ_Example,1,Dose,[The 1 here means that the thought that your mentor might want to ask you something did not pop up in your mind].  ,,Instructions,,,,,,,,,,,
+AIBQ_Example,AIBQ_Example,1,Dose,"Great job with these practice questions! Now, we will move on to the survey: ",,Instructions,,,,,,,,,,,
+AIBQ,AIBQ,1,Dose,"You’ve invited a group of classmates to your birthday, but a few have not yet said if they’re coming. Why haven’t they said something yet? 
+ 
+They don’t know yet if they can come or not.  
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,1A,
+AIBQ,AIBQ,1,Dose,"You’ve invited a group of classmates to your birthday, but a few have not yet said if they’re coming. Why haven’t they said something yet? 
+ 
+They don’t know yet if they can come or not.  
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,1B,
+AIBQ,AIBQ,1,Dose,"You’ve invited a group of classmates to your birthday, but a few have not yet said if they’re coming. Why haven’t they said something yet? 
+ 
+They’re definitely coming; they don’t need to tell me that.  
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,1C,
+AIBQ,AIBQ,1,Dose,"Two classmates, who are standing talking to each other, look at you. Why are they looking at you?  
+ 
+They’re gossiping about me. .  
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,2A,
+AIBQ,AIBQ,1,Dose,"Two classmates, who are standing talking to each other, look at you. Why are they looking at you?  
+ 
+They like me and want me to go over and join them.  
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,2B,
+AIBQ,AIBQ,1,Dose,"Two classmates, who are standing talking to each other, look at you. Why are they looking at you?  
+ 
+They just happen to be looking in my direction.  
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,2C,
+AIBQ,AIBQ,1,Dose,"You’re standing with a group of classmates. When you begin to talk, no one looks at you. Why isn’t anyone looking at you?  
+ 
+They don’t want me hanging around because they don’t like me. 
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,3A,
+AIBQ,AIBQ,1,Dose,"You’re standing with a group of classmates. When you begin to talk, no one looks at you. Why isn’t anyone looking at you?  
+ 
+They just happen to be looking at something else, but they are interested in what I have to say. . 
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,3B,
+AIBQ,AIBQ,1,Dose,"You’re standing with a group of classmates. When you begin to talk, no one looks at you. Why isn’t anyone looking at you?  
+ 
+I should’ve waited until my classmate had finished before I began talking. 
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,3C,
+AIBQ,AIBQ,1,Dose,"You’re standing on your own at a party and somebody you don’t know looks at you. Why are they looking at you? 
+ 
+I stand out like a sore thumb. They probably think I’m pathetic. 
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,4A,
+AIBQ,AIBQ,1,Dose,"You’re standing on your own at a party and somebody you don’t know looks at you. Why are they looking at you? 
+ 
+They just happen to be looking in my direction. . 
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,4B,
+AIBQ,AIBQ,1,Dose,"You’re standing on your own at a party and somebody you don’t know looks at you. Why are they looking at you? 
+ 
+They like me and want to get my attention. 
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,4C,
+AIBQ,AIBQ,1,Dose,"You’ve agreed with your friends to play a game online together. When you log in you can see that no one is online.  Why isn’t anyone online yet? 
+ 
+They really want to play the game online with me; they will come online within a few minutes.  
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,5A ,
+AIBQ,AIBQ,1,Dose,"You’ve agreed with your friends to play a game online together. When you log in you can see that no one is online.  Why isn’t anyone online yet? 
+ 
+I’m a little early and just need to be patient.    
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,5B,
+AIBQ,AIBQ,1,Dose,"You’ve agreed with your friends to play a game online together. When you log in you can see that no one is online.  Why isn’t anyone online yet? 
+ 
+They’ve most probably secretly agreed to play a different online game because they don’t want to game with me.   
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,5C,
+AIBQ,AIBQ,1,Dose,"You post a photo of a tasty dish that you’ve made on Instagram. 
+After an hour one of your followers responds ‘What dish is that? What is meant by this response? 
+
+ 
+This person really likes the look of the dish and would like to cook it themself. .   
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,6A,
+AIBQ,AIBQ,1,Dose,"You post a photo of a tasty dish that you’ve made on Instagram. 
+After an hour one of your followers responds ‘What dish is that? What is meant by this response? 
+
+ 
+I’ve clearly made a mess of the dish because it isn’t recognizable.   
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,6B,
+AIBQ,AIBQ,1,Dose,"You post a photo of a tasty dish that you’ve made on Instagram. 
+After an hour one of your followers responds ‘What dish is that? What is meant by this response? 
+
+This person would like to taste the dish.  
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,6C,
+AIBQ,AIBQ,1,Dose,"On Instagram, you see that it’s the birthday of someone you are acquainted with. You comment on their post congratulating them. Later on, you see that this person has liked a lot of the congratulatory messages but not yours. Why is this? 
+
+This person will definitely ‘like’  my message sometime today  
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,7A,
+AIBQ,AIBQ,1,Dose,"On Instagram, you see that it’s the birthday of someone you are acquainted with. You comment on their post congratulating them. Later on, you see that this person has liked a lot of the congratulatory messages but not yours. Why is this? 
+
+This person doesn’t like me and therefore didn’t ‘like’ my message. 
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,7B,
+AIBQ,AIBQ,1,Dose,"On Instagram, you see that it’s the birthday of someone you are acquainted with. You comment on their post congratulating them. Later on, you see that this person has liked a lot of the congratulatory messages but not yours. Why is this? 
+
+This person has received so many congratulatory messages and has just missed mine.  
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,7C,
+AIBQ,AIBQ,1,Dose,"Lots of your classmates have a Tiktok account. You set up your own Tiktok account and post a funny opening tweet. After a few days you only have one follower. Why do you have only one follower? 
+
+I just need to wait a few more days; then, I will have more followers 
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,8A,
+AIBQ,AIBQ,1,Dose,"Lots of your classmates have a Tiktok account. You set up your own Tiktok account and post a funny opening tweet. After a few days you only have one follower. Why do you have only one follower? 
+
+There are so many Tiktok accounts to follow that mine just hasn’t been noticed. 
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,8B,
+AIBQ,AIBQ,1,Dose,"On Instagram, you see that it’s the birthday of someone you are acquainted with. You comment on their post congratulating them. Later on, you see that this person has liked a lot of the congratulatory messages but not yours. Why is this? 
+
+Nobody thinks my opening post is funny, and that’s why I only have one follower
+
+On a scale of 1-5, how likely is this thought to pop into your mind? ",,Radio Button,,,,0::1 - Doesn't pop up in my mind; 1::2 - Unlikley to pop up in my mind; 2::3 - Might pop up in my mind; 3::4 - Likley to pop up in my mind; 4::5 - Definitely pops up in my mind,,,,,,8C,
+Your First Session,Your First Session,1,Dose,"Thanks so much for completing those surveys! We are almost ready to get started. First, here is some information about MindTrails Teen. MindTrails-Teen is designed to help you change the way you think about common but potentially stressful situations in order to reduce anxiety and stress. When you complete sessions in the app, you will be asked to read brief stories about situations that often produce anxiety and fill in missing letters to complete words, fill in entire words, or come up with new stories that are personally relevant to you. To help familiarize you with the program and help you get the most out of this experience, we would like you complete a few short exercises and watch some brief videos explaining how MindTrails Teen works. You will also be presented with three example stories so that you can begin to get the hang of the training. Click next to get started!",,Instructions,,,,,,,,,,,
+Video 1,What is Anxiety?,1,Dose,Please press play on the training video to learn more!,,,,,/videos/video1.mp4,,,,,,,,
+Video 2,Program Rationale,1,Dose,Please press play on the training video to learn more!,,,,,/videos/video2.mp4,,,,,,,,
 Anxious imagery prime,Anxious imagery prime,1,Dose,"In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared. Pick a situation that you worry might go badly, or that you expect will evoke symptoms related to anxiety (e.g., racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen.",,,,,,,,,,,,,
-Anxious imagery prime,Anxious imagery prime,1,Dose,Please describe the situation in a few words:,,Open Text,,,,,,,,,,,
+Anxious imagery prime,Anxious imagery prime,1,Dose,Please describe the situation in a few words:,,Entry,,,,,,,,,,,
 Anxious imagery prime,Anxious imagery prime,1,Dose,"Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there.",,,,,,,,,,,,,
 Anxious imagery prime,Anxious imagery prime,1,Dose,Play this situation in your head for the next 20 seconds. The screen will change in 20 seconds.,,,,,,,,20,AfterTimeout,,,,
 Anxious imagery prime,Anxious imagery prime,1,Dose,How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider. 0 = Absolutely no anxiety. 10 = Totally anxious.,,Slider,0,10,,,,,,,,,
 Anxious imagery prime,Anxious imagery prime,1,Dose,How vividly did you imagine the situation?,,Buttons,,,,0::Not at all vivid; 1::Somewhat vivid; 2::Moderately vivid; 3::Very vivid; 4::Totally vivid; 99::Prefer not to answer,,,,,,,
 Anxious imagery prime,Anxious imagery prime,1,Dose,How likely is it that the situation or task will turn out well versus turn out badly?,,Buttons,,,,0::Not at all likely; 1::A little likely; 2::Moderately likely; 3::Very likely; 4::Extremely likely; 99::Prefer not to answer,,,,,,,
 Anxious imagery prime,Anxious imagery prime,1,Dose,"If this situation did turn out badly, how well or badly would you be able to handle it?",,Buttons,,,,0::Very well; 1::Somewhat well; 2::Neutral; 3::Somewhat badly; 4::Very badly; 99::Prefer not to answer,,,,,,,
+Practice Session,Practice Session,1,Dose,"MindTrails is designed to help you change the way you think about common but potentially stressful situations in order to reduce anxiety and stress. When you complete sessions in the app, you will be asked to read brief stories about situations that often produce anxiety and fill in missing letters to complete words, fill in entire words, or come up with new stories that are personally relevant to you. To help familiarize you with the program and help you get the most out of this experience, we would like you complete a few short exercises and watch some brief videos explaining how MindTrails works. You will also be presented with three example stories so that you can begin to get the hang of the training. Click next to get started",,,,,,,,,,,,,
+Video 3,Getting the Most Out of MindTrails,1,Dose,Please press play on the training video to learn more!,,,,,/videos/video3.mp4,,,,,,,,
 Practice CBM-I,Practice CBM-I,1,Dose,,,,,,,,,,,,,,
+Video 4,Learning Goals,1,Dose,Please press play on the training video to learn more!,,,,,/videos/video4.mp4,,,,,,,,
 Comprehension / Engagement,Comprehension / Engagement,1,Dose,What are you hoping to get out of the MindTrails-Teen program? Select all that apply.,,Checkbox,,,,I want to think more flexibly and less negatively.; I want to be able to manage stressful situations more effectively.; I want to reduce my stress and/or anxiety.; I want to practice skills I've learned or am currently learning from a mental healthcare provider.; I want to maintain the gains I've made during mental health treatment.; I want to avoid a return of anxiety and/or stress I've experienced in the past; !Other (please describe),,,,,,,
 Great Job,Great Job,1,Dose,"Great job! We hope that this brief training helped clarify the purpose of these short stories and what you might be able to get out of MindTrails-Teen. Moving forward, you'll be able to choose areas of life that are causing the most stress so that the stories you read will be more relevant to you. During future sessions, you will also receive tips that are designed to help you manage your emotions, connect with resources, and apply what you learn from the short stories to your own life.",,,,,,,,,,,,,
 Great Job,Great Job,1,Dose,"For the next 6 weeks, you will receive notifications prompting you to open the app to complete activities and surveys. We hope that you will use the app 1-2 times daily, but we understand that life can get in the way and that you may need to skip some sessions. That's okay, but just remember that the program only lasts for 6 weeks. You will also be able to access the contents of the app (activities, resources, etc.) at any time by visiting the on-demand library from the homepage.",,,,,,,,,,,,,

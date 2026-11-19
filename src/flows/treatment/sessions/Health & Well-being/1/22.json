@@ -1,0 +1,17 @@
+{
+    "header_text": "Mom Coughing 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your mom has been coughing a lot and says she has been feeling really tired recently. Your heart starts to race, and you worry that something could be badly wrong. You can’t get the thought out of your mind, and you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Mom Coughing 1_Health & Well-being_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 7
+}

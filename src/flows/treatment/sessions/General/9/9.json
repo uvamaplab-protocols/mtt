@@ -1,0 +1,17 @@
+{
+    "header_text": "Career Choice",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A teacher asks what career you’re aiming for, and your mind goes blank. You feel small and embarrassed. You remind yourself not knowing yet is... "
+        },
+        {
+            "type": "Entry",
+            "name": "Career Choice_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

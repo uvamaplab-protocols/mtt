@@ -1,0 +1,16 @@
+{
+    "header_text": "Walking Through Park",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Walking Through Park"
+        },
+        {
+            "type": "Media",
+            "url": "./images/232.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 5
+}

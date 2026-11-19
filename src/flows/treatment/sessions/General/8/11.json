@@ -1,0 +1,17 @@
+{
+    "header_text": "Changing Weight",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You notice your weight fluctuating over a few months. You worry it means something is wrong and feel a knot form in your stomach. You remind yourself weight naturally shifts during periods of... "
+        },
+        {
+            "type": "Entry",
+            "name": "Changing Weight_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

@@ -1,0 +1,10 @@
+{
+    "header_text": "Anxious imagery prime",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "If this situation did turn out badly, how well or badly would you be able to handle it?"
+        }
+    ]
+}

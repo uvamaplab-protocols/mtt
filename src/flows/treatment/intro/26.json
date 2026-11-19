@@ -4,19 +4,7 @@
     "elements": [
         {
             "type": "Text",
-            "text": "My mentor helps me take my mind off things by doing something with me."
-        },
-        {
-            "type": "Buttons",
-            "buttons": [
-                "1::1",
-                "2::2",
-                "3::3",
-                "4::4",
-                "5::5"
-            ],
-            "selectable": true,
-            "variable_name": "2"
+            "text": "These first questions ask about your relationship with your mentor. For each of these sentences, decide how true the sentence is for your feelings about your mentor. Then select one number that fits best. We will NOT share your answers with your mentor."
         }
     ]
 }

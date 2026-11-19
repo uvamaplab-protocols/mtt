@@ -4,26 +4,19 @@
     "elements": [
         {
             "type": "Text",
-            "text": "What is your sexual orientation? (Please select all that apply.)"
+            "text": "What is your ethnic background?"
         },
         {
             "type": "Buttons",
             "buttons": [
-                "1::Aromantic",
-                "2::Asexual",
-                "3::Bisexual",
-                "4::Gay",
-                "5::Lesbian",
-                "6::Pansexual",
-                "7::Queer",
-                "8::Questioning or Unsure",
-                "9::Straight (heterosexual)",
-                "10::!Identity/orientation not listed (please specify)",
-                "11::^Prefer not to answer"
+                "1::Hispanic or Latino",
+                " 0::Not Hispanic or Latino",
+                " 3::Unsure or Unknown",
+                " 99::Prefer not to answer"
             ],
             "selectable": true,
-            "multiselect": true,
-            "variable_name": "4A"
+            "name": "3",
+            "variable_name": "3"
         }
     ]
 }

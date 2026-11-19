@@ -1,0 +1,17 @@
+{
+    "header_text": "Babysitting 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are babysitting for a new family and one of their little kids won't stop crying. You feel yourself starting to panic, and you want to call the child's parents for advice, but you worry about ruining their evening. The parents will probably be understanding that you called to... "
+        },
+        {
+            "type": "Entry",
+            "name": "Babysitting 3_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Sounds Outside",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are babysitting a younger kid in your neighborhood and they just went to sleep. It's dark out and you suddenly hear noises outside. You peek out the window and see a... "
+        },
+        {
+            "type": "Entry",
+            "name": "Sounds Outside_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

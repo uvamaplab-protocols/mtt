@@ -1,0 +1,10 @@
+{
+    "header_text": "Anxious imagery prime",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Please describe the situation in a few words:"
+        }
+    ]
+}

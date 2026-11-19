@@ -1,0 +1,17 @@
+{
+    "header_text": "Eye Doctor ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "At the eye doctor, you’re told you need glasses for the first time. You imagine people at school saying you look weird. You feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Eye Doctor _General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 3
+}

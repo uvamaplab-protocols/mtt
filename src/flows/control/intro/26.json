@@ -1,0 +1,10 @@
+{
+    "header_text": "Strength of Relationship Scale (Mentee)",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "These first questions ask about your relationship with your mentor. For each of these sentences, decide how true the sentence is for your feelings about your mentor. Then select one number that fits best. We will NOT share your answers with your mentor."
+        }
+    ]
+}

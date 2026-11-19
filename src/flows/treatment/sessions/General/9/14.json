@@ -1,0 +1,16 @@
+{
+    "header_text": "AI Anxiety 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "AI Anxiety 3"
+        },
+        {
+            "type": "Media",
+            "url": "./images/252.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 6
+}

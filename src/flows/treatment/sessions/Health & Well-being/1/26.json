@@ -1,0 +1,17 @@
+{
+    "header_text": "Butterflies in Stomach",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are in the car with a parent, and they are driving the speed limit on the highway. You feel butterflies in your stomach as you see cars passing by quickly. This makes you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Butterflies in Stomach_Health & Well-being_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 9
+}

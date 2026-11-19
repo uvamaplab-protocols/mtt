@@ -1,22 +1,23 @@
 {
-    "header_text": "Strength of Relationship Scale (Mentee)",
+    "header_text": "GAD-7",
     "header_icon": "assets/subtitle.png",
     "elements": [
         {
             "type": "Text",
-            "text": "My mentor has lots of good ideas about how to solve a problem."
+            "text": "Feeling afraid, as if something awful might happen"
         },
         {
             "type": "Buttons",
             "buttons": [
-                "1::1",
-                "2::2",
-                "3::3",
-                "4::4",
-                "5::5"
+                "0:: Not at all",
+                " 1:: Several days",
+                " 2:: More than half the days",
+                " 3:: Nearly every day",
+                " 4:: Prefer not to answer"
             ],
             "selectable": true,
-            "variable_name": "1"
+            "name": "7",
+            "variable_name": "7"
         }
     ]
 }

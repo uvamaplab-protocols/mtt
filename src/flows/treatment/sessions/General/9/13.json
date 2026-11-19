@@ -1,0 +1,17 @@
+{
+    "header_text": "Incident Rumor 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You hear a rumor about a dangerous incident nearby the school, and your pulse jumps. Your fingers itch to look up information on your phone. You remember the importance of waiting for facts from a trusted source, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Incident Rumor 3_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Hiking with Friends",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "While hiking uphill with your group, gravel shifts under your shoes and your pace slows. You notice others pulling ahead and start comparing your breathing to theirs. You remind yourself everyone handles climbs differently, and your effort... "
+        },
+        {
+            "type": "Entry",
+            "name": "Hiking with Friends_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

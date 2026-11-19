@@ -1,0 +1,25 @@
+{
+    "header_text": "Checking the Locks 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are bringing in the mail for your neighbors while they are away. On your way out of their house each day, you lock the front door and check the lock. Today you were rushing and think you forgot to check the lock, and you think the house will probably be... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Checking the Locks 3_General_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "fine"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

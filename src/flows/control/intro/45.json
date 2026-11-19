@@ -1,0 +1,10 @@
+{
+    "header_text": "AIBQ_Example",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Great job with these practice questions! Now, we will move on to the survey:"
+        }
+    ]
+}

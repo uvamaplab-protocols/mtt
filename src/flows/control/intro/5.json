@@ -4,17 +4,17 @@
     "elements": [
         {
             "type": "Text",
-            "text": "What is your ethnic background?"
+            "text": "Please specify your racial background"
         },
         {
-            "type": "Buttons",
-            "buttons": [
-                "1::Hispanic/Latino",
-                "2::Not Hispanic/Latino",
-                "3::Prefer not to answer"
-            ],
-            "selectable": true,
-            "variable_name": "3"
+            "type": "Entry",
+            "name": "2B",
+            "variable_name": "2B"
         }
+    ],
+    "condition": [
+        "2A",
+        "=",
+        "7"
     ]
 }

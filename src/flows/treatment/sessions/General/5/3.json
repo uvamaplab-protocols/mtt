@@ -1,0 +1,17 @@
+{
+    "header_text": "Parents Arguing",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You come home from school to find your parents having a huge argument. After they're done, your dad leaves the house to take a walk. You worry he’s leaving for good, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Parents Arguing_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 0
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Police Cars",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Police Cars"
+        },
+        {
+            "type": "Media",
+            "url": "./images/239.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 1
+}

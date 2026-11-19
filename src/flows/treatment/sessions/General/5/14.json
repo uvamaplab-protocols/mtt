@@ -1,0 +1,16 @@
+{
+    "header_text": "Chore List",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Chore List"
+        },
+        {
+            "type": "Media",
+            "url": "./images/213.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 4
+}

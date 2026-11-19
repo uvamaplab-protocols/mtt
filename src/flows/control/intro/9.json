@@ -4,14 +4,64 @@
     "elements": [
         {
             "type": "Text",
-            "text": "What year were you born?"
+            "text": "What state do you live in?"
         },
         {
             "type": "Picker",
             "items": [
-                "2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008, 2007"
+                "Alabama",
+                " Alaska",
+                " Arizona",
+                " Arkansas",
+                " California",
+                " Colorado",
+                " Connecticut",
+                " Delaware",
+                " Florida",
+                " Georgia",
+                " Hawaii",
+                " Idaho",
+                " Illinois",
+                " Indiana",
+                " Iowa",
+                " Kansas",
+                " Kentucky",
+                " Louisiana",
+                " Maine",
+                " Maryland",
+                " Massachusetts",
+                " Michigan",
+                " Minnesota",
+                " Mississippi",
+                " Missouri",
+                " Montana",
+                " Nebraska",
+                " Nevada",
+                " New Hampshire",
+                " New Jersey",
+                " New Mexico",
+                " New York",
+                " North Carolina",
+                " North Dakota",
+                " Ohio",
+                " Oklahoma",
+                " Oregon",
+                " Pennsylvania",
+                " Rhode Island",
+                " South Carolina",
+                " South Dakota",
+                " Tennessee",
+                " Texas",
+                " Utah",
+                " Vermont",
+                " Virginia",
+                " Washington",
+                " West Virginia",
+                " Wisconsin",
+                " Wyoming"
             ],
-            "variable_name": "6"
+            "name": "5",
+            "variable_name": "5"
         }
     ]
 }

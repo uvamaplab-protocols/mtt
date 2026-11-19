@@ -1,0 +1,17 @@
+{
+    "header_text": "Metro Stop",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are at a metro stop waiting for a train. Standing by the edge, you realize you've never thought about how far a drop it is to the rails below. You are fascinated by how the metro station is... "
+        },
+        {
+            "type": "Entry",
+            "name": "Metro Stop_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Incident Rumor 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Incident Rumor 3"
+        },
+        {
+            "type": "Media",
+            "url": "./images/239.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 5
+}

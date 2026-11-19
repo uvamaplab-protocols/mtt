@@ -26,44 +26,33 @@ def _create_practice_pages():
         scenario_num = 0
         for row in islice(csv.reader(dose1_read_obj),1,None):
 
-            # First, add the video that goes before each scenario
-            yield create_video_page(scenario_num+1)
-
-            domain, label = row[0].strip(), row[3]
-            puzzle1,puzzle2 = map(create_puzzle,row[4:6])
-            question, choices, answer = row[6], row[7:9], row[7]
-            image_url = media_url(row[10])
-            shuffle(choices)
+            domain, label = row[0].strip(), row[1]
+            puzzle1 = create_puzzle(row[2])
+            image_url = media_url(row[4])
 
             yield from create_scenario_pages(domain=domain, label=label, scenario_num=scenario_num,
                                                     puzzle_text_1=puzzle1[0], word_1=puzzle1[1],
-                                                    comp_question=question, answers=choices,
-                                                    correct_answer=answer, image_url=image_url,
+                                                    comp_question=None, answers=None,
+                                                    correct_answer=None, image_url=image_url,
                                                     is_first=scenario_num==0)
             scenario_num += 1
 
 def _create_survey_page(row):
-    text = clean_up_unicode(row[6])
+    text = clean_up_unicode(row[4])
 
-    title = row[0].strip()
-    input_1 = lower(row[3])
-    input_2 = None
-    minimum = None
-    maximum = None
-    media = None
-    
-    if input_1 == "dropdown":
-        items = row[19]
-    else: 
-        items=""
-        for i, item in enumerate(filter(lambda x: x!='', row[8:19])):
-            items += f"{i+1}::{item};"
-    image_framed = None
-    timeout = None
-    show_buttons = None
-    variable_name = row[4]
-    conditions = row[5]
-    input_name = None
+    title = row[1].strip()
+    input_1 = row[4]
+    input_2 = lower(row[6])
+    minimum = row[7]
+    maximum = row[8]
+    media = row[9]
+    items = row[10]
+    image_framed = row[11]
+    timeout = row[12]
+    show_buttons = row[13]
+    variable_name = row[16]
+    conditions = row[17]
+    input_name = row[16]
 
     return create_survey_page(conditions=conditions, text=text,
                                 show_buttons=show_buttons, media=media, image_framed=image_framed,
@@ -181,19 +170,31 @@ def create_surveys():
     # The keys in this dictionary correspond to the HTC_survey_questions.csv lookup codes ([Subject]_[Doses])
     # You can see all the lookup codes and their meanings below:
     # https://docs.google.com/spreadsheets/d/1Z_syG-HbyFT2oqMsHnAbidRtlH97IVxnBqbNKZWbwLY/edit#gid=0
-    surveys = { "BeforeDomain_All": defaultdict(list), "AfterDomain_All": defaultdict(list), "Dose_1": defaultdict(list), "Control_Dose_1": defaultdict(list), "Biweekly_all": defaultdict(list)}
+    surveys = { "BeforeDomain_All": defaultdict(list), "AfterDomain_All": defaultdict(list), "Dose_1": defaultdict(list), "Control_Dose_1": defaultdict(list)}
 
     # Open the file with all the content
-    with open(f"{dir_csv}/MT Teen Content_ Long Scenarios & Other - Surveys.csv", "r", encoding="utf-8") as read_obj:
+    with open(f"{dir_csv}/MT Teen Content_ Long Scenarios & Other - Intro.csv", "r", encoding="utf-8") as read_obj:
 
+        for row in islice(csv.reader(read_obj),1,None):
+            lookup_id = f"{row[3]}_{row[2]}"
+            subgroup_id = row[0]
+
+            if lookup_id not in surveys: continue
+
+            elif row[0].strip() == "Practice CBM-I":
+                print('here!')
+                # This needs to be fixed, but making release without practice pages first
+                # surveys[lookup_id][subgroup_id].extend(_create_practice_pages())
+            elif row[2]:
+                surveys[lookup_id][subgroup_id].append(_create_survey_page(row))
+
+    with open(f"{dir_csv}/MT Teen Content_ Long Scenarios & Other - Surveys.csv", "r", encoding="utf-8") as read_obj:
         for row in islice(csv.reader(read_obj),1,None):
             lookup_id = f"{row[2]}_{row[1]}"
             subgroup_id = row[0]
 
             if lookup_id not in surveys: continue
-
-            elif row[0] == "Practice CBM-I":
-                surveys[lookup_id][subgroup_id].extend(_create_practice_pages())
+            elif lookup_id == "Dose_1": continue
             elif row[2]:
                 surveys[lookup_id][subgroup_id].append(_create_survey_page(row))
 
@@ -259,9 +260,8 @@ for pop,s,l in populations:
 
     # Define folders
     folders = {}
-    print(surveys.keys())
     folders['control/intro'] = flat(surveys["Dose_1"]) # change back to "Control_Dose_1" when it's ready
-    folders['treatment/intro'] = flat(surveys["Dose_1"]) + flat(surveys["Biweekly_all"])
+    folders['treatment/intro'] = flat(surveys["Dose_1"])
     folders['treatment/sessions/__flow__.json'] = {"mode":"select", "title_case": True, "column_count":2, "text": domain_selection_text(), "title":"MindTrails Teen"}
     folders['treatment/sessions/__before__'] = flat(surveys["BeforeDomain_All"])
     folders['treatment/sessions/__after__'] = flat(surveys["AfterDomain_All"])

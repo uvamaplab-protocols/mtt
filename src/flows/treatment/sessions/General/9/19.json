@@ -1,0 +1,17 @@
+{
+    "header_text": "Free Evening ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You take a rare free evening to watch a movie. Halfway through, you start thinking you should be doing something productive. You remind yourself that downtime is essential for... "
+        },
+        {
+            "type": "Entry",
+            "name": "Free Evening _General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

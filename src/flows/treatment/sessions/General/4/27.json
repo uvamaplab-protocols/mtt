@@ -1,0 +1,17 @@
+{
+    "header_text": "Job Offers 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It is your senior year and your friends are eating lunch outside. Everyone’s comparing job offers after graduation, but you feel a pit in your stomatch when you think about the future because you don't have a job yet. You think that it is uncommon not to have a job after..."
+        },
+        {
+            "type": "Entry",
+            "name": "Job Offers 2_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 8
+}

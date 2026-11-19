@@ -1,0 +1,16 @@
+{
+    "header_text": "Metro Stop",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Metro Stop"
+        },
+        {
+            "type": "Media",
+            "url": "./images/238.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 0
+}

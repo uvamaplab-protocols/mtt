@@ -4,22 +4,17 @@
     "elements": [
         {
             "type": "Text",
-            "text": "What is your racial background? (Please select all that apply.)"
+            "text": "Please specify your gender identity"
         },
         {
-            "type": "Buttons",
-            "buttons": [
-                "1::White/Caucasian",
-                "2::Asian",
-                "3::Black/African-American",
-                "4::Middle Eastern",
-                "5::American Indian/Alaska Native",
-                "6::Native Hawaiian/Pacific Islander",
-                "7::!Racial background not listed (please specify)",
-                "8::^Prefer not to answer"
-            ],
-            "selectable": true,
-            "variable_name": "2A"
+            "type": "Entry",
+            "name": "1B",
+            "variable_name": "1B"
         }
+    ],
+    "condition": [
+        "1A",
+        "=",
+        "5"
     ]
 }

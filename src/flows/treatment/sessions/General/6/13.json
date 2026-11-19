@@ -1,0 +1,25 @@
+{
+    "header_text": "Babysitting: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are babysitting a younger kid in your neighborhood and you're watching TV while they sleep. It's dark outside and you suddenly hear noises against the window. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I want to call the parents to have them come home soon, but tell myself that I can face my fear and that the anxiety will go away.",
+                "I decide to play some of my favorite music.",
+                "I put on a funny movie.",
+                "I feel the urge to cover myself with a blanket, but tell myself that it was probably nothing outside.",
+                "I call my parents and start crying."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Job Offers 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You think about job searching after graduating, and feel accepting of the... "
+        },
+        {
+            "type": "Entry",
+            "name": "Job Offers 2_General_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 8
+}

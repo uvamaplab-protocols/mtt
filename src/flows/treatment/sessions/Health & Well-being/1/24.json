@@ -1,0 +1,17 @@
+{
+    "header_text": "Visit with Grandmother 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You go to your grandparents' home for the holidays and notice that your grandfather looks frail. You find yourself wondering about her health and whether he's sick. The worry stays with you, and you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Visit with Grandmother 1_Health & Well-being_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 8
+}

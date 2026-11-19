@@ -1,0 +1,17 @@
+{
+    "header_text": "Police Cars",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "While walking into school, you notice police cars nearby and your stomach sinks. Your mind instantly imagines something dangerous happening. You remind yourself you don’t have all the information and can only respond to what’s real right now, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Police Cars_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

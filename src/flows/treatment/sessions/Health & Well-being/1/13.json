@@ -1,0 +1,16 @@
+{
+    "header_text": "Broken Elevator 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Broken Elevator 1"
+        },
+        {
+            "type": "Media",
+            "url": "./images/517.jpg"
+        }
+    ],
+    "type": "Negative",
+    "scenario_num": 4
+}

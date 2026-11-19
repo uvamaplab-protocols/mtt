@@ -1,0 +1,17 @@
+{
+    "header_text": "Interview Outfit",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": " After a while, you decide to wear what makes you feel comfortable, and feel confident about the... "
+        },
+        {
+            "type": "Entry",
+            "name": "Interview Outfit_General_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

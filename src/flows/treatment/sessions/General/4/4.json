@@ -1,0 +1,17 @@
+{
+    "header_text": "Cave Tour",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You look around and see lots of similing faces. You decide that you are probably... "
+        },
+        {
+            "type": "Entry",
+            "name": "Cave Tour_General_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 0
+}

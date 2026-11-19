@@ -1,0 +1,17 @@
+{
+    "header_text": "Cave Tour",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your friends have decided to go on a tour of a cave, even though you feel nervous about being in such an enclosed space. You walk deeper and deeper into the cool cave. You think the chances you will get trapped are... "
+        },
+        {
+            "type": "Entry",
+            "name": "Cave Tour_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 0
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Water Park",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are at a water park with a group of friends and everyone you're with wants to go on the tallest slide. As you climb the stairs, you look over the side and feel your stomach drop. You think that this ride will be... "
+        },
+        {
+            "type": "Entry",
+            "name": "Water Park_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 9
+}

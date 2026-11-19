@@ -1,0 +1,17 @@
+{
+    "header_text": "Extra Tired",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You feel tired even after resting. You worry your body is failing you and feel fear settle in your chest. You remind yourself sleep patterns change during growth and you are probably... "
+        },
+        {
+            "type": "Entry",
+            "name": "Extra Tired_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

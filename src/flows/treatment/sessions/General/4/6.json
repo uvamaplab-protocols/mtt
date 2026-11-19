@@ -1,0 +1,17 @@
+{
+    "header_text": "Learner's Permit",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You've been waiting to take your driving test for weeks, and you feel a thrill of excitment when you pass. You send a photo, but no one responds. You think your friends must find the photo... "
+        },
+        {
+            "type": "Entry",
+            "name": "Learner's Permit_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 1
+}

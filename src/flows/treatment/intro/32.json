@@ -4,19 +4,20 @@
     "elements": [
         {
             "type": "Text",
-            "text": "When I'm with my mentor, I feel bored."
+            "text": "When I'm with my mentor, I feel disappointed"
         },
         {
             "type": "Buttons",
             "buttons": [
-                "1::1",
-                "2::2",
-                "3::3",
-                "4::4",
-                "5::5"
+                "0:: Not at all true",
+                " 1:: Mostly not true",
+                " 2:: A little true",
+                " 3:: Mostly true",
+                " 4:: Always true"
             ],
             "selectable": true,
-            "variable_name": "8"
+            "name": "6",
+            "variable_name": "6"
         }
     ]
 }

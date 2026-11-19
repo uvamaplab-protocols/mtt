@@ -1,0 +1,23 @@
+{
+    "header_text": "GAD-7",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Trouble relaxing"
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "0:: Not at all",
+                " 1:: Several days",
+                " 2:: More than half the days",
+                " 3:: Nearly every day",
+                " 4:: Prefer not to answer"
+            ],
+            "selectable": true,
+            "name": "4",
+            "variable_name": "4"
+        }
+    ]
+}

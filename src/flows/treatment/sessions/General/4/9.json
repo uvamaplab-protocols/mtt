@@ -1,0 +1,17 @@
+{
+    "header_text": "Debit Account",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You’re opening a debit account at the bank. As you chat with the bank teller, they use terms you barely understand. You wonder if the bank teller thinks you are... "
+        },
+        {
+            "type": "Entry",
+            "name": "Debit Account_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 2
+}

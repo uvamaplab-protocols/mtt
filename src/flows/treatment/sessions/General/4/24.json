@@ -1,0 +1,17 @@
+{
+    "header_text": "Blanking in Interview 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You blank out during a job interview question. The interviewer stares at you as the seconds stretch out, and you feel your stomach drop. You manage to answer the question, but assume you ruined your chance for the... "
+        },
+        {
+            "type": "Entry",
+            "name": "Blanking in Interview 2_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 7
+}

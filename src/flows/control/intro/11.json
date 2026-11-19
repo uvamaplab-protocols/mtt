@@ -4,11 +4,21 @@
     "elements": [
         {
             "type": "Text",
-            "text": "What mentoring program are you participating in?"
+            "text": "What grade are you in?"
         },
         {
-            "type": "Entry",
-            "variable_name": "8"
+            "type": "Picker",
+            "items": [
+                "6th grade",
+                " 7th grade",
+                " 8th grade",
+                " 9th grade",
+                " 10th grade",
+                " 11th grade",
+                " 12th grade"
+            ],
+            "name": "7",
+            "variable_name": "7"
         }
     ]
 }

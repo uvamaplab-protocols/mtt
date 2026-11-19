@@ -1,0 +1,17 @@
+{
+    "header_text": "Customer Critique",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A customer criticizes your service during a busy shift, and you worry they think you’re bad at your job. You feel embarrassed. Then you remind yourself they’re probably just frustrated, and you start to feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Customer Critique_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

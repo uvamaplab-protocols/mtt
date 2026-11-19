@@ -1,0 +1,25 @@
+{
+    "header_text": "Routine Check Up",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You go to the doctor's office for a routine check-up. Someone behind you coughs a few times while you are in the waiting room, and you worry that they will get you sick. The thought keeps circling, and you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Routine Check Up_Health & Well-being_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "tense"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 3
+}

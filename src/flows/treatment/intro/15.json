@@ -4,18 +4,28 @@
     "elements": [
         {
             "type": "Text",
-            "text": "I have been diagnosed with anxiety by a doctor or other healthcare professional. This could also include diagnoses of panic disorder, specific phobia, generalized anxiety disorder, separation anxiety disorder, social anxiety disorder, or agorophobia"
+            "text": "Are you currently receiving any help for issues related to mental health? Please select all that apply, or \"I am not receiving help."
         },
         {
             "type": "Buttons",
             "buttons": [
-                "1::Yes",
-                "2::No",
-                "3::I don't know",
-                "4::Prefer not to answer"
+                "Therapy (talking with a trained professional)",
+                " Prescription medications",
+                " Seeking social support (e.g. from friends",
+                " teachers",
+                " parents",
+                " etc)",
+                " Self-guided help (e.g. from books",
+                " social media",
+                " apps)",
+                " !Other",
+                " ^I am not receiving help",
+                " ^Prefer not to answer"
             ],
             "selectable": true,
-            "variable_name": "3"
+            "multiselect": true,
+            "name": "1",
+            "variable_name": "1"
         }
     ]
 }

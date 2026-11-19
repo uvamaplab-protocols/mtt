@@ -1,0 +1,16 @@
+{
+    "header_text": "Doctor's Orders 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Doctor's Orders 1"
+        },
+        {
+            "type": "Media",
+            "url": "./images/518.jpg"
+        }
+    ],
+    "type": "Negative",
+    "scenario_num": 5
+}

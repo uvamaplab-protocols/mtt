@@ -1,0 +1,17 @@
+{
+    "header_text": "Water Park",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You reach the top of the stairs and your friends go down the slide. Even though you're anxious, you go down the slide and... "
+        },
+        {
+            "type": "Entry",
+            "name": "Water Park_General_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 9
+}

@@ -1,0 +1,29 @@
+{
+    "header_text": "Waiting for Results",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You think the doctor is taking a long time because..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Waiting for Results_General_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "they're probably just running a little behind schedule.",
+                "something is seriously wrong with your results."
+            ],
+            "column_Count": 1,
+            "correct_value": "they're probably just running a little behind schedule."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 8
+}

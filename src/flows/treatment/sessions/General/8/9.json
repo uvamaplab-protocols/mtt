@@ -1,0 +1,17 @@
+{
+    "header_text": "Class Picture Concerns",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Before class photos, you realize your bangs didn’t fall the way you meant them to. You worry the picture will turn out awkward. You remind yourself that one photo won’t define you, and the worry... "
+        },
+        {
+            "type": "Entry",
+            "name": "Class Picture Concerns_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

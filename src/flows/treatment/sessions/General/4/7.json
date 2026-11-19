@@ -1,0 +1,17 @@
+{
+    "header_text": "Learner's Permit",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After a few moments, you consider that they might not have seen the text yet, and your excitement... "
+        },
+        {
+            "type": "Entry",
+            "name": "Learner's Permit_General_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 1
+}

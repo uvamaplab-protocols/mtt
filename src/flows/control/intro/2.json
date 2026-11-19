@@ -4,16 +4,18 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Please specify your gender identity"
+            "text": "What is your gender identity?"
         },
         {
-            "type": "Entry",
-            "variable_name": "1B"
+            "type": "Buttons",
+            "buttons": [
+                "0::Girl",
+                " 1::Boy",
+                " 2::Nonbinary, 3::Genderfluid/Genderqueer, 4:: Agender, 5:: Questioning/Unsure, 6:: Gender identity not listed (please specify), 99::Prefer not to answer"
+            ],
+            "selectable": true,
+            "name": "1A",
+            "variable_name": "1A"
         }
-    ],
-    "condition": [
-        "1A",
-        "=",
-        "5"
     ]
 }

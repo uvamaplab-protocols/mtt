@@ -1,0 +1,29 @@
+{
+    "header_text": "Polticial Impacts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When you think about the changes your parents are discussing, you feel..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Polticial Impacts_General_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "secure that your family can handle new situations together.",
+                "certain that everything is about to fall apart."
+            ],
+            "column_Count": 1,
+            "correct_value": "secure that your family can handle new situations together."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 6
+}

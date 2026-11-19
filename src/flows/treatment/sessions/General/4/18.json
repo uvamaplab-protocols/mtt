@@ -1,0 +1,17 @@
+{
+    "header_text": "Gift Comparison 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see a friend’s post showing off all the gifts they got during the holiday season, while you didn't receive anything that big. You start comparing your holiday to theirs and wonder if people didn’t think you were worthy of gifts. You feel a bit... "
+        },
+        {
+            "type": "Entry",
+            "name": "Gift Comparison 2_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 5
+}

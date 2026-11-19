@@ -1,0 +1,31 @@
+{
+    "header_text": "Mental Health and Treatment Questionnaire",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "In the past, have you ever received any help for issues related to mental health? Please select all that apply."
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "Therapy (talking with a trained professional)",
+                " Prescription medications",
+                " Seeking social support (e.g. from friends",
+                " teachers",
+                " parents",
+                " etc)",
+                " Self-guided help (e.g. from books",
+                " social media",
+                " apps)",
+                " !Other",
+                " ^I am not receiving help",
+                " ^Prefer not to answer"
+            ],
+            "selectable": true,
+            "multiselect": true,
+            "name": "2",
+            "variable_name": "2"
+        }
+    ]
+}

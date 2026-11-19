@@ -1,0 +1,16 @@
+{
+    "header_text": "Athletic Rumination",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Athletic Rumination"
+        },
+        {
+            "type": "Media",
+            "url": "./images/214.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 5
+}

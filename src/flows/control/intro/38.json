@@ -1,0 +1,10 @@
+{
+    "header_text": "ABIQ_Example",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Imagine yourself in the following situations. Using the scale provided, indicate whether each of the three thoughts would pop up in your mind."
+        }
+    ]
+}

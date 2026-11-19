@@ -1,0 +1,25 @@
+{
+    "header_text": "Waiting for Results",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You’re sitting in the doctor’s office waiting for the results of a blood test, and the doctor is taking a long time to come back. You begin to wonder if they're taking a long time because something is wrong, and you feel you heart start to race. You think the doctor is likley...  "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Waiting for Results_General_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "late"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

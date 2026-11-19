@@ -1,0 +1,25 @@
+{
+    "header_text": "Sudden Breakout 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your face breaks out suddenly. You worry everyone will stare and feel heat rush through your cheeks. You can't stop imagining people looking at you, and you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Sudden Breakout 1_Health & Well-being_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "embarrassed"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 1
+}

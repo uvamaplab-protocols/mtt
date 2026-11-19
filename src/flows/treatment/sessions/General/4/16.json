@@ -1,0 +1,17 @@
+{
+    "header_text": "Friend's Sibling",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": " You consider that many people don’t show their family struggles online, and feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Friend's Sibling_General_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

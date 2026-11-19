@@ -1,0 +1,17 @@
+{
+    "header_text": "Friend Driving Test",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friends sends a photo that says \"new driver!!!\" and you realize they passed their driving test. You have failed it twice. You remind yourself that you will pass eventually, and this makes you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Friend Driving Test_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

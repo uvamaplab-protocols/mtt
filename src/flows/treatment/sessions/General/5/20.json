@@ -1,0 +1,16 @@
+{
+    "header_text": "Polticial Impacts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Polticial Impacts"
+        },
+        {
+            "type": "Media",
+            "url": "./images/183.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 6
+}

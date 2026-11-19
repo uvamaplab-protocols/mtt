@@ -1,0 +1,17 @@
+{
+    "header_text": "Friend's Sibling",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend posts a picture with their sibling at an amusement park. They look really happy, and their smiles remind you of losing someone close. You assume everyone else has stable families except you, which leaves you feeling..."
+        },
+        {
+            "type": "Entry",
+            "name": "Friend's Sibling_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

@@ -1,0 +1,15 @@
+{
+    "header_text": "Getting the Most Out of MindTrails",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Please press play on the training video to learn more!"
+        },
+        {
+            "type": "Media",
+            "url": "/videos/video3.mp4",
+            "border": false
+        }
+    ]
+}

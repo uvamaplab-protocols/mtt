@@ -1,0 +1,25 @@
+{
+    "header_text": "Babysitting: Thoughts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are babysitting a younger kid in your neighborhood and you're watching TV while they sleep. It's dark outside and you suddenly hear noises against the window. \n\nHere are some thoughts that might pop into mind:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I wonder if I'm in danger.",
+                "There are lots of noises at night.",
+                "It is quieter at night so it's easier to hear lots of things.",
+                "My brain immediately thinks that there's a monster outside, but I remind myself that I'm probably safe.",
+                "I picture something trying to get me, but then tell myself that it was most likely the wind on the window."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

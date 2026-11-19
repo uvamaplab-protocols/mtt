@@ -1,0 +1,17 @@
+{
+    "header_text": "Eye Doctor ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remember that lots of classmates wear glasses without anyone caring much, and you feel excited to have a new... "
+        },
+        {
+            "type": "Entry",
+            "name": "Eye Doctor _General_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 3
+}

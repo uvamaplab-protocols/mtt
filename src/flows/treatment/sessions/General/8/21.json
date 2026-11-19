@@ -1,0 +1,17 @@
+{
+    "header_text": "Graduation Post 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post about your graduation online and get fewer likes than your friends. You start to feel invisible. You realize people might just be busy, and they still care about..."
+        },
+        {
+            "type": "Entry",
+            "name": "Graduation Post 3_General_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}
