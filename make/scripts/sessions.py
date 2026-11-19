@@ -181,7 +181,7 @@ def create_surveys():
     # The keys in this dictionary correspond to the HTC_survey_questions.csv lookup codes ([Subject]_[Doses])
     # You can see all the lookup codes and their meanings below:
     # https://docs.google.com/spreadsheets/d/1Z_syG-HbyFT2oqMsHnAbidRtlH97IVxnBqbNKZWbwLY/edit#gid=0
-    surveys = { "BeforeDomain_All": defaultdict(list), "AfterDomain_All": defaultdict(list), "Dose_1": defaultdict(list), "Control_Dose_1": defaultdict(list) }
+    surveys = { "BeforeDomain_All": defaultdict(list), "AfterDomain_All": defaultdict(list), "Dose_1": defaultdict(list), "Control_Dose_1": defaultdict(list), "Biweekly_all": defaultdict(list)}
 
     # Open the file with all the content
     with open(f"{dir_csv}/MT Teen Content_ Long Scenarios & Other - Surveys.csv", "r", encoding="utf-8") as read_obj:
@@ -259,8 +259,9 @@ for pop,s,l in populations:
 
     # Define folders
     folders = {}
+    print(surveys.keys())
     folders['control/intro'] = flat(surveys["Dose_1"]) # change back to "Control_Dose_1" when it's ready
-    folders['treatment/intro'] = flat(surveys["Dose_1"])
+    folders['treatment/intro'] = flat(surveys["Dose_1"]) + flat(surveys["Biweekly_all"])
     folders['treatment/sessions/__flow__.json'] = {"mode":"select", "title_case": True, "column_count":2, "text": domain_selection_text(), "title":"MindTrails Teen"}
     folders['treatment/sessions/__before__'] = flat(surveys["BeforeDomain_All"])
     folders['treatment/sessions/__after__'] = flat(surveys["AfterDomain_All"])
