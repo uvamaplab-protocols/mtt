@@ -1,0 +1,17 @@
+{
+    "header_text": "Friend Anniversary 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You imagine yourself celebrating an anniversary with your own significant other one day, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Friend Anniversary 2_Social Media_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Mistaken Wave 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remind yourself that awkward moments happen to everyone, and you can handle the brief... "
+        },
+        {
+            "type": "Entry",
+            "name": "Mistaken Wave 2_Romantic Relationships_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 5
+}

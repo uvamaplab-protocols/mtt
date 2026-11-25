@@ -1,0 +1,16 @@
+{
+    "header_text": "Timed Run",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Timed Run"
+        },
+        {
+            "type": "Media",
+            "url": "./images/480.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 3
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Short Reply",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You send a long text to your friend, and your friend responds with just “ok.” You wonder if they are being short because they are annoyed or upset with you. You think about how they have a lot of work this week and are probably just distracted and will text you... "
+        },
+        {
+            "type": "Entry",
+            "name": "Short Reply_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

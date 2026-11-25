@@ -1,0 +1,17 @@
+{
+    "header_text": "Sibling Dinner 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You allow yourself to consider your unique strengths, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Sibling Dinner 1_Milestone_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

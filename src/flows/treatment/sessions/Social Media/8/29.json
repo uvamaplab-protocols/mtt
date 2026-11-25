@@ -1,0 +1,25 @@
+{
+    "header_text": "Online Disagreement",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After seeing a climate disagreement online, you feel a rush of anger at adults who seem to ignore the problem. You imagine them ruining the world you’ll inherit. You remind yourself that many people are trying, even if progress feels slow, and you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Online Disagreement_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "hopeful"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Forgetting Instructions",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Forgetting Instructions"
+        },
+        {
+            "type": "Media",
+            "url": "./images/408.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 9
+}

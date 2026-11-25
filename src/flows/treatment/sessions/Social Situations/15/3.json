@@ -1,0 +1,17 @@
+{
+    "header_text": "Telling a Personal Story",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "While hanging out with your friend, you share a personal story you haven't told them before. Your friend just nods, and there is a silence. You consider that silence can signal... "
+        },
+        {
+            "type": "Entry",
+            "name": "Telling a Personal Story_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

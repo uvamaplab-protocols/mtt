@@ -1,0 +1,17 @@
+{
+    "header_text": "New School",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You walk into your first day at a new school, and no one talks to you right away. You start to think you won’t make friends. You remind yourself that meaningful connections take time, and you feel confident finding your..."
+        },
+        {
+            "type": "Entry",
+            "name": "New School_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

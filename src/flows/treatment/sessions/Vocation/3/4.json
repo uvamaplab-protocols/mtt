@@ -1,0 +1,17 @@
+{
+    "header_text": "New Job Jitters 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remember that everyone is new at some point. You let that sink in and you begin to feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "New Job Jitters 2_Vocation_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 0
+}

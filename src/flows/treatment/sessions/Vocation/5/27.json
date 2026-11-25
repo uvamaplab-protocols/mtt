@@ -1,0 +1,25 @@
+{
+    "header_text": "Lack of Experience",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You shadow someone in a field you might want to pursue. You're nervous you’ll seem inexperienced. Then you remember you’re there to learn, and you start to feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Lack of Experience_Vocation_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "curious"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Observed by Manager",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are stocking shelves during your first shift at your new job. The manager stops by and lingers behind you for longer than expected. You think this means the manager finds you... "
+        },
+        {
+            "type": "Entry",
+            "name": "Observed by Manager_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

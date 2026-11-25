@@ -1,0 +1,16 @@
+{
+    "header_text": "Romantic Text",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Romantic Text"
+        },
+        {
+            "type": "Media",
+            "url": "./images/82.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 8
+}

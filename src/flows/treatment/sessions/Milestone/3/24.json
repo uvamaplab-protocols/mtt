@@ -1,0 +1,17 @@
+{
+    "header_text": "Parental College Pressure 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your parents want you to go to a specific college. You would rather go to a different college, but your parents have made it clear they are not on board with the school choice. When you think about talking with your parents about your choice, you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Parental College Pressure 1_Milestone_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 7
+}

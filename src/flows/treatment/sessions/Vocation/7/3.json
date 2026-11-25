@@ -1,0 +1,17 @@
+{
+    "header_text": "Supervisor Moving Fast",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During training, your supervisor moves on before you’re sure you understood everything. You wonder if you were expected to ask or just figure it out. You know learning isn’t always linear, and your supervisor will be unbothered by... "
+        },
+        {
+            "type": "Entry",
+            "name": "Supervisor Moving Fast_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

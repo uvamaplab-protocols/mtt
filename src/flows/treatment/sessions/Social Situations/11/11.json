@@ -1,0 +1,16 @@
+{
+    "header_text": "Messaging Crush: Write Some Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You've been talking to your crush on Snapchat and they're usually quick to respond. You see that they opened your message a couple of hours ago and did not respond. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+        }
+    ],
+    "navigation_conditions": [
+        {
+            "wait_for_time": 30000
+        },
+        "wait_for_click"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Sitting with a New Group",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Sitting with a New Group"
+        },
+        {
+            "type": "Media",
+            "url": "./images/893.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 5
+}

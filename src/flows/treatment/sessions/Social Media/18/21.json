@@ -1,0 +1,17 @@
+{
+    "header_text": "Message to New Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You message someone new, and it takes them a while to reply. You wonder if you were too forward. You remind yourself that people respond on their own timeline, and it is normal for some people to communicate... "
+        },
+        {
+            "type": "Entry",
+            "name": "Message to New Friend_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Different Lunch",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You get your schedule for the new school year and are excited to see who is in each of your classes. Although you have friends in your classes, you realize almost all of your friends have a different lunch block than you, and you are worried they will spend a lot of time without you. You think about how close your friend group is, and go to lunch feeling confident that you will all still be good friends this... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Different Lunch_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "year"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

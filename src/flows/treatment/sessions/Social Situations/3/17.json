@@ -1,0 +1,16 @@
+{
+    "header_text": "Amusement Park 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Amusement Park 3"
+        },
+        {
+            "type": "Media",
+            "url": "./images/936.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 6
+}

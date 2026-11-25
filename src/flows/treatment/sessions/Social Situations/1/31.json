@@ -1,0 +1,14 @@
+{
+    "header_text": "Aplicar a la vida diaria: ¡Haz que funcione para ti!",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Response option"
+        },
+        {
+            "type": "Entry",
+            "name": "Consejo #0_entry"
+        }
+    ]
+}

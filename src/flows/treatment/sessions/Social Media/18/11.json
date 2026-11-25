@@ -1,0 +1,17 @@
+{
+    "header_text": "Joking Response",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post something serious, and people only reply with jokes or GIFs. You wonder if they’re not taking you seriously. Then you remember that some people use humor to connect, and you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Joking Response_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

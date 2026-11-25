@@ -1,0 +1,16 @@
+{
+    "header_text": "Coughing in Class 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Coughing in Class 1"
+        },
+        {
+            "type": "Media",
+            "url": "./images/529.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 5
+}

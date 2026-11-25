@@ -1,0 +1,16 @@
+{
+    "header_text": "Tired During Workout",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Tired During Workout"
+        },
+        {
+            "type": "Media",
+            "url": "./images/479.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 0
+}

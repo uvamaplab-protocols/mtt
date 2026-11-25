@@ -1,0 +1,14 @@
+{
+    "header_text": "Aplicar a la vida diaria: ¡Haz que funcione para ti!",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Open ended response that they have option to \"favorite\" and save to their library as a resource "
+        },
+        {
+            "type": "Entry",
+            "name": "Consejo #11_entry"
+        }
+    ]
+}

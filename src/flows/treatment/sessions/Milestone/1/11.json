@@ -1,0 +1,25 @@
+{
+    "header_text": "No First Kiss 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You’re the only one in your friend group who hasn’t had your first kiss. When your friends talk about their experiecnes, you feel embarassed and left out. You remind yourself that real connection matters more than timing, and you feel sorry for..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "No First Kiss 1_Milestone_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "yourself"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 3
+}

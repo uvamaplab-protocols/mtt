@@ -1,0 +1,17 @@
+{
+    "header_text": "Valentine's Day",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Later, you consider that most people meet their significant other after high school, and you come away feeling..."
+        },
+        {
+            "type": "Entry",
+            "name": "Valentine's Day_Romantic Relationships_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

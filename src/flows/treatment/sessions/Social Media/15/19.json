@@ -1,0 +1,17 @@
+{
+    "header_text": "Snapchat Add",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You open Snapchat and you see an acquaintance that you do not have added is mentioned in a post with one of your friends. You decide to add them but after a couple days they do not add you back. You think they're probably... "
+        },
+        {
+            "type": "Entry",
+            "name": "Snapchat Add_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

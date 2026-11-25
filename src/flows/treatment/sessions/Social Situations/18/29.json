@@ -1,0 +1,16 @@
+{
+    "header_text": "Laughing at Lunch ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Laughing at Lunch "
+        },
+        {
+            "type": "Media",
+            "url": "./images/888.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 7
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Uncertain Relationship",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Uncertain Relationship"
+        },
+        {
+            "type": "Media",
+            "url": "./images/9.jpg"
+        }
+    ],
+    "type": "Negative",
+    "scenario_num": 8
+}

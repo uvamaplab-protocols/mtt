@@ -1,0 +1,17 @@
+{
+    "header_text": "Lifeguarding 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are working your summer job as a lifeguard. Your manager tells you have to wear a new type of bathing suit that makes you feel uncomfortable. If you tell your managaer you don't want to switch suits, she will probably be very... "
+        },
+        {
+            "type": "Entry",
+            "name": "Lifeguarding 1_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 6
+}

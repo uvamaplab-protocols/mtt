@@ -1,0 +1,17 @@
+{
+    "header_text": "Tripping at Warmups",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You trip during warm-ups in front of your whole basketball team. Your stomach drops, and you immediately think everyone saw and is laughing at you. No one says anything, and practice keeps going, so you start to feel like maybe it wasn’t a huge..."
+        },
+        {
+            "type": "Entry",
+            "name": "Tripping at Warmups_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

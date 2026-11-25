@@ -1,0 +1,16 @@
+{
+    "header_text": "New Driver 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "New Driver 2"
+        },
+        {
+            "type": "Media",
+            "url": "./images/89.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 0
+}

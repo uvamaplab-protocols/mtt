@@ -1,0 +1,17 @@
+{
+    "header_text": "Accidental Like 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are scrolling on your crush's Instagram and accidentally like an old photo. You immediately feel embarrassed and unlike the photo, but know your crush will still get the notification. You feel anxious for a bit before remembering that your crush gets a lot of notifications and probably won't even... "
+        },
+        {
+            "type": "Entry",
+            "name": "Accidental Like 3_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

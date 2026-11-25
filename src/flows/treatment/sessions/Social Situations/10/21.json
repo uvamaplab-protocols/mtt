@@ -1,0 +1,17 @@
+{
+    "header_text": "New Student",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It's your first day at a new school and you walk into a full classroom. Everyone turns their head to look at you. You think they are looking because they are... "
+        },
+        {
+            "type": "Entry",
+            "name": "New Student_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

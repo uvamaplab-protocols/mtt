@@ -1,0 +1,25 @@
+{
+    "header_text": "Running the Mile 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Looking around, you begin to notice a lot of pollen floating in the air, and recall that you have seasonal allergies. You decide to take your allergey medicine when you get home, and feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Running the Mile 2_Health & Well-being_puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "relieved"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

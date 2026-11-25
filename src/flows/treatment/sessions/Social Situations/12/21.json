@@ -1,0 +1,17 @@
+{
+    "header_text": "Running on a Treadmill",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You step onto a treadmill and the belt hums beneath your feet as numbers light up on the screen. You glance at the pace of the runner next to you and wonder if you should match it. You remind yourself the screen is just information, and comparison is... "
+        },
+        {
+            "type": "Entry",
+            "name": "Running on a Treadmill_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

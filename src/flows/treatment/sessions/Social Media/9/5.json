@@ -1,0 +1,16 @@
+{
+    "header_text": "Father's Day Post",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Father's Day Post"
+        },
+        {
+            "type": "Media",
+            "url": "./images/625.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 1
+}

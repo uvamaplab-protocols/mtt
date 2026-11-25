@@ -1,0 +1,16 @@
+{
+    "header_text": "Work Question 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Work Question 3"
+        },
+        {
+            "type": "Media",
+            "url": "./images/398.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 4
+}

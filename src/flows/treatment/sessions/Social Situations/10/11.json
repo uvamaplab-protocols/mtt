@@ -1,0 +1,17 @@
+{
+    "header_text": "New JV Team",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After a difficult try-out, you make the school's JV soccer team. You feel very proud of yourself, but also anxious that you won't fit in with the other people on the team, who are very popular. You think that they will probably think you belong on the... "
+        },
+        {
+            "type": "Entry",
+            "name": "New JV Team_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

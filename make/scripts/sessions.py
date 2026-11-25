@@ -22,16 +22,16 @@ def flat(dictionary):
 
 def _create_practice_pages():
     with open(f"{dir_csv}/dose1_scenarios.csv", "r", encoding="utf-8") as dose1_read_obj:  # scenarios for first dose in file
-
+        pages = []
         scenario_num = 0
         for row in islice(csv.reader(dose1_read_obj),1,None):
 
             domain, label = row[0].strip(), row[1]
-            puzzle1 = create_puzzle(row[2])
+            puzzle = create_puzzle(row[2])
             image_url = media_url(row[4])
 
             yield from create_scenario_pages(domain=domain, label=label, scenario_num=scenario_num,
-                                                    puzzle_text_1=puzzle1[0], word_1=puzzle1[1],
+                                                    puzzle_text_1=puzzle[0], word_1=puzzle[1],
                                                     comp_question=None, answers=None,
                                                     correct_answer=None, image_url=image_url,
                                                     is_first=scenario_num==0)
@@ -182,9 +182,8 @@ def create_surveys():
             if lookup_id not in surveys: continue
 
             elif row[0].strip() == "Practice CBM-I":
-                print('here!')
                 # This needs to be fixed, but making release without practice pages first
-                # surveys[lookup_id][subgroup_id].extend(_create_practice_pages())
+                surveys[lookup_id][subgroup_id].extend(_create_practice_pages())
             elif row[2]:
                 surveys[lookup_id][subgroup_id].append(_create_survey_page(row))
 

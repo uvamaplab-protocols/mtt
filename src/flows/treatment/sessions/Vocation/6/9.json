@@ -1,0 +1,25 @@
+{
+    "header_text": "Friend's Allowance: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A group of your friends are talking about getting allowance from their parents. Your parents can't afford to give you an allowence, and you have to work a job after school to make money. \n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I feel more independent than I probably would if I just received an allowance.",
+                "I feel ashamed of my family's financial situation and want to hide it.",
+                "I feel a genuine sense of pride in the money I earn myself.",
+                "I feel a sting of envy listening to my friends talk about their allowances, and let myself acknowledge that without acting on it.",
+                "I feel left out of the conversation, but remind myself that this moment doesn't reflect my overall place in the friend group."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

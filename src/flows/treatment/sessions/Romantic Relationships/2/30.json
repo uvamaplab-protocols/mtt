@@ -1,0 +1,25 @@
+{
+    "header_text": "New Outfit",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You wear a new outfit to school that you spent a while planning. When you get to school, the person you’re dating doesn’t say anything. Their lack of attention makes you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "New Outfit_Romantic Relationships_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "rejected"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 7
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Fast Learner",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Fast Learner"
+        },
+        {
+            "type": "Media",
+            "url": "./images/128.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 9
+}

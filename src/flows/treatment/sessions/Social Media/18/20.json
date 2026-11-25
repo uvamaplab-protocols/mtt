@@ -1,0 +1,16 @@
+{
+    "header_text": "Message to New Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Message to New Friend"
+        },
+        {
+            "type": "Media",
+            "url": "./images/735.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 9
+}

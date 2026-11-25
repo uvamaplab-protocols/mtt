@@ -1,0 +1,17 @@
+{
+    "header_text": "No First Kiss 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your friends are chatting about dating and relationships. You realize you had your first kiss before a lot of your friends, and you start to worry that people think you're too promiscuous. The thought makes you... "
+        },
+        {
+            "type": "Entry",
+            "name": "No First Kiss 2_Romantic Relationships_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 0
+}

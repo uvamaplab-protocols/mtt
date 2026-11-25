@@ -1,0 +1,29 @@
+{
+    "header_text": "Sending Videos",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When you view your crush's story, you consider..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Sending Videos_Social Media_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "That they actually don't like you",
+                "That they're busy doing other things"
+            ],
+            "column_Count": 1,
+            "correct_value": "That they're busy doing other things"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Resilience",
+    "scenario_num": 9
+}

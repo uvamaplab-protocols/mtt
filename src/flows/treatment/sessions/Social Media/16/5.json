@@ -1,0 +1,25 @@
+{
+    "header_text": "Double Texting: Thoughts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your crush hasn't responded in a few days. After long deliberation, you send a double text. \n\nHere are some thoughts that might pop into mind:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I feel like I broke an unspoken rule, but these rules are made up anyway.",
+                "This will show my crush I'm interested.",
+                "I'm making myself look desperate.",
+                "People double text all the time.",
+                "I'm worried my crush will find my annoying, but remind myself that if they like me one extra text won't bother them."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

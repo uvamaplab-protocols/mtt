@@ -1,0 +1,17 @@
+{
+    "header_text": "No Reply",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your group chat lights up, but no one replies to the message you sent. You worry your story wasn’t interesting or that everyone is annoyed. You realize people respond when they can, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "No Reply_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

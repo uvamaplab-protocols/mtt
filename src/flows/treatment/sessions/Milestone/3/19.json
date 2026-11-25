@@ -1,0 +1,17 @@
+{
+    "header_text": "Sibling Award",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "But then you remind yourself that you have your own strengths, and you’re satisfied with the progress you’re..."
+        },
+        {
+            "type": "Entry",
+            "name": "Sibling Award_Milestone_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 5
+}

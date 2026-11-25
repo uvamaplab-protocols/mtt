@@ -1,0 +1,17 @@
+{
+    "header_text": "Left On Read",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You text someone, and they leave you on read. You worry they’re annoyed at you, and your thoughts start spiraling into unlikely possibilities. You remind yourself that sometimes you are too busy to respond right away when someone texts you, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Left On Read_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

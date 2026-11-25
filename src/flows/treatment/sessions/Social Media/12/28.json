@@ -1,0 +1,16 @@
+{
+    "header_text": "Early Decision Post",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Early Decision Post"
+        },
+        {
+            "type": "Media",
+            "url": "./images/172.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 9
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Sleepy Audience Member",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Sleepy Audience Member"
+        },
+        {
+            "type": "Media",
+            "url": "./images/886.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 6
+}

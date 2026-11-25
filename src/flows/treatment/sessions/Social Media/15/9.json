@@ -1,0 +1,17 @@
+{
+    "header_text": "Empty Twitch Stream",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You’re streaming a video game on Twitch and no one joins. You start thinking maybe no one wants to see you play and you feel really embarassed. Before you can turn off the stream, a few people join and begin to message in the chat, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Empty Twitch Stream_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

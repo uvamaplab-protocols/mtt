@@ -1,0 +1,17 @@
+{
+    "header_text": "Trendy Leggings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A lot of people at your school have started wearing a pair of trendy leggings. You think the leggings are super fashionable and you want to fit in with everyone, but when you look online, you notice the leggings are way too expensive for you to afford. Although you feel briefly sad, you know your friends will be...  "
+        },
+        {
+            "type": "Entry",
+            "name": "Trendy Leggings_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

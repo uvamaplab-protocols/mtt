@@ -1,0 +1,17 @@
+{
+    "header_text": "Post-Grad Plans 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your friends are seniors and getting ready to graduate next year. During lunch, someone asks what you’re doing after graduation, and you stumble over your answer. Your worry that your friends think its weird that you are still... "
+        },
+        {
+            "type": "Entry",
+            "name": "Post-Grad Plans 2_Milestone_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

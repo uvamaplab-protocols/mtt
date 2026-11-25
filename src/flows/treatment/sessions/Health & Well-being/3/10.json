@@ -1,0 +1,25 @@
+{
+    "header_text": "Stomach Twist 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your stomach twists into knots right before a family dinner with relatives you don’t see often. As you sit down to dinner, you scan your body. You think maybe you’re getting sick or something’s wrong with your... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Stomach Twist 1_Health & Well-being_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "body"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 2
+}

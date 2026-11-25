@@ -1,0 +1,17 @@
+{
+    "header_text": "Slow Mile Run",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your whole class has to run the mile during gym class. As you are running outside in the crisp Fall air, you can't help but notice how much slower you are than the other people in your class. You think that the other people in the class are probably focused on their own performance and don't... "
+        },
+        {
+            "type": "Entry",
+            "name": "Slow Mile Run_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

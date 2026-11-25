@@ -1,0 +1,25 @@
+{
+    "header_text": "Leading a Meeting 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You take a breath and remember how much work you put in, gradually feeling... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Leading a Meeting 2_Vocation_puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "prepared"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 7
+}

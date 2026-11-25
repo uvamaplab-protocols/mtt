@@ -1,0 +1,25 @@
+{
+    "header_text": "Group Chat Argument",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your friends have a group chat where you mostly talk about TV shows and fun inside jokes. One day, an argument breaks out between two of your closest friends. You feel tense and anxious, imagining friendships breaking apart, and feel the urge to try to fix... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Group Chat Argument_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "everything"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 1
+}

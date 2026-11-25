@@ -1,0 +1,17 @@
+{
+    "header_text": "Parental College Pressure 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You carefully think through your talking points, and you feel confident in your... "
+        },
+        {
+            "type": "Entry",
+            "name": "Parental College Pressure 1_Milestone_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 7
+}

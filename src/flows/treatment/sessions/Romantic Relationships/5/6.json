@@ -1,0 +1,25 @@
+{
+    "header_text": "Disagreement with Crush",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your crush have a small disagreement. A few hours later, you see your crush repost a video about “protecting your peace”. You think the post is probably... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Disagreement with Crush_Romantic Relationships_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "unrelated"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

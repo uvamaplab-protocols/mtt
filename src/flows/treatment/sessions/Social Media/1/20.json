@@ -1,0 +1,25 @@
+{
+    "header_text": "Friend's New Partner",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You notice a friend posting a ton of pictures with their significant other, and you wonder if you’ll ever have that kind of relationship. You start to feel like there’s something wrong with you. It leaves you feeling a bit..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Friend's New Partner_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "unloved"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 6
+}

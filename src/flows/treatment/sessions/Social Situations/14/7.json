@@ -1,0 +1,17 @@
+{
+    "header_text": "Stomach Rumble",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During a test, your stomach growls loud for the people around you to hear it. You freeze, feeling embarrased that everyone in the room heard you. No one reacts, and you realize they are all focusing on the... "
+        },
+        {
+            "type": "Entry",
+            "name": "Stomach Rumble_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

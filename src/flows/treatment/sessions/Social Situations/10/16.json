@@ -1,0 +1,16 @@
+{
+    "header_text": "New School",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "New School"
+        },
+        {
+            "type": "Media",
+            "url": "./images/788.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 7
+}

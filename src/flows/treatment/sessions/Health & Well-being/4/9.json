@@ -1,0 +1,17 @@
+{
+    "header_text": "Trembling Audition 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are about to audition for a play, and you feel your body tremble. You don't usually feel this way when you perform in front of people, and you worry that something is... "
+        },
+        {
+            "type": "Entry",
+            "name": "Trembling Audition 1_Health & Well-being_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 2
+}

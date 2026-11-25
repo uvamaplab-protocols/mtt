@@ -1,0 +1,25 @@
+{
+    "header_text": "Debit Account",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You consider that everyone has to start somewhere financially, and you feel confident in your ability to... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Debit Account_Milestone_puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "learn"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 3
+}

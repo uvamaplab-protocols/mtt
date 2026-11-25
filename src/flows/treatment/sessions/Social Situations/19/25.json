@@ -1,0 +1,16 @@
+{
+    "header_text": "Parking Practice",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Parking Practice"
+        },
+        {
+            "type": "Media",
+            "url": "./images/935.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 6
+}

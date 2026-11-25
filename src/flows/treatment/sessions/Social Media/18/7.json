@@ -1,0 +1,17 @@
+{
+    "header_text": "Heart-React 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You reply to a friend’s story, and they heart-react but don’t respond. You worry they’re brushing you off. Then you remind yourself that people show appreciation in different ways, and you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Heart-React 3_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

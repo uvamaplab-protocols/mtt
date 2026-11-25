@@ -1,0 +1,25 @@
+{
+    "header_text": "Solo Prom 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your classmates are planning for prom dates and talking about outfits. You don’t have a date yet. The thought of going alone makes you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Solo Prom 2_Romantic Relationships_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "awkward"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

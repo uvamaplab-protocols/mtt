@@ -1,0 +1,16 @@
+{
+    "header_text": "Senior Year Goodbyes",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Senior Year Goodbyes"
+        },
+        {
+            "type": "Media",
+            "url": "./images/951.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 1
+}

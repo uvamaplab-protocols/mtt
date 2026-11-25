@@ -1,0 +1,17 @@
+{
+    "header_text": "Homework vs. Work",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have a huge assignment due tomorrow and a long work shift scheduled tonight. You think about asking to change your shift because you feel overwhelmed, but the thought triggers a wave of guilt. Your manager will probably be understanding if you move your shift to finish your... "
+        },
+        {
+            "type": "Entry",
+            "name": "Homework vs. Work_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

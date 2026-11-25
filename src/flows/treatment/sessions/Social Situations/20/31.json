@@ -1,0 +1,17 @@
+{
+    "header_text": "Test Talk at Lunch",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As the conversation moves on, you remind yourself that people learn at different paces, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Test Talk at Lunch_Social Situations_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 9
+}

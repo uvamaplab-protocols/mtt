@@ -1,0 +1,16 @@
+{
+    "header_text": "Parental College Pressure 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Parental College Pressure 1"
+        },
+        {
+            "type": "Media",
+            "url": "./images/115.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 7
+}

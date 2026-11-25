@@ -1,0 +1,29 @@
+{
+    "header_text": "Tagged with a Heart",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You assume the heart emoji in the tag means..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Tagged with a Heart_Romantic Relationships_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "it's just a friendly way of showing appreciation.",
+                "there's something romantic going on between them."
+            ],
+            "column_Count": 1,
+            "correct_value": "it's just a friendly way of showing appreciation."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 5
+}

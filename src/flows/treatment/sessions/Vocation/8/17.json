@@ -1,0 +1,17 @@
+{
+    "header_text": "Mentor Doubts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You volunteer to mentor younger students at your school. When you show up to the first meeting and hear other mentors introduce themselves, you feel unsure if you have enough to offer. You remind yourself that being present is... "
+        },
+        {
+            "type": "Entry",
+            "name": "Mentor Doubts_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

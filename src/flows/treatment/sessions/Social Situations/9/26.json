@@ -1,0 +1,17 @@
+{
+    "header_text": "Missing a Shot",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "On your street’s cracked basketball court, a few neighbors are already playing when you show up with your ball. You miss your first shot and suddenly feel aware of who’s watching. You remind yourself pickup games are meant to be fun, and feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Missing a Shot_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

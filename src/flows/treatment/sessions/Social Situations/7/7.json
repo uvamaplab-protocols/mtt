@@ -1,0 +1,16 @@
+{
+    "header_text": "Friend's Correction",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Friend's Correction"
+        },
+        {
+            "type": "Media",
+            "url": "./images/411.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 2
+}

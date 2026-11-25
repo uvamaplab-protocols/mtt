@@ -1,0 +1,25 @@
+{
+    "header_text": "New Work Equiptment 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You learn how to use a new piece of equipment at your job. It feels complicated at first, and your coworker has to spend a long time teaching you how it works. Once you finally get it right on your own, you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "New Work Equiptment 1_Vocation_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "embarrased"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 4
+}

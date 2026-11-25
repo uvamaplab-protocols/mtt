@@ -1,0 +1,17 @@
+{
+    "header_text": "Family Trip 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When you look at the post, you think about how happy the photos make... "
+        },
+        {
+            "type": "Entry",
+            "name": "Family Trip 2_Social Media_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 7
+}

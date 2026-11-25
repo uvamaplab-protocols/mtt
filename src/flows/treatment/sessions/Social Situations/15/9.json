@@ -1,0 +1,17 @@
+{
+    "header_text": "Timed Run",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "In gym class, everyone lines up for a timed run. When the whistle blows, you feel stiff and awkward starting out, and you wonder if others notice how uncomfortable you look. You decide that most people are focused on... "
+        },
+        {
+            "type": "Entry",
+            "name": "Timed Run_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

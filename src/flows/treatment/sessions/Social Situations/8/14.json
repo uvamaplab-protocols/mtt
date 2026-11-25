@@ -1,0 +1,25 @@
+{
+    "header_text": "Having Friends Over",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "While setting up snacks before friends come over, your parent quietly rearranges the living room cushions you already fixed. You wonder if they think you didn’t do it right or don’t trust you to host. You remind yourself they often fuss before guests, and you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Having Friends Over_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "forgiving"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

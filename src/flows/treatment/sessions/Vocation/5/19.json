@@ -1,0 +1,29 @@
+{
+    "header_text": "Work Life Balence 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You think taking time to rest is..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Work Life Balence 3_Vocation_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "A sign of laziness",
+                "Something that will help you in the long run"
+            ],
+            "column_Count": 1,
+            "correct_value": "Something that will help you in the long run"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 5
+}

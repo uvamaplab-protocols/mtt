@@ -1,0 +1,17 @@
+{
+    "header_text": "Learning New Skills 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A coworker picks up a new skill faster than you. You suddenly wonder if you’re not as naturally talented. Regardless, you think that your progress will probably grow over... "
+        },
+        {
+            "type": "Entry",
+            "name": "Learning New Skills 3_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

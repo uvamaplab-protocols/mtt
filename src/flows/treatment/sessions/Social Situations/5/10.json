@@ -1,0 +1,29 @@
+{
+    "header_text": "Comparing Pace",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your running pace makes you feel...."
+        },
+        {
+            "type": "Buttons",
+            "name": "Comparing Pace_Social Situations_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Good about yourself",
+                "Out of shape"
+            ],
+            "column_Count": 1,
+            "correct_value": "Good about yourself"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 2
+}

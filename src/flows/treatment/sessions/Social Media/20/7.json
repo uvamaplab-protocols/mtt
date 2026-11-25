@@ -1,0 +1,17 @@
+{
+    "header_text": "Slow Likes 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post a selfie you really like to your Snapchat story. After a few hours, only one person has swiped up to respond. You look over the picture again, and feel confident in how your... "
+        },
+        {
+            "type": "Entry",
+            "name": "Slow Likes 3_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

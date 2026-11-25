@@ -1,0 +1,17 @@
+{
+    "header_text": "Snapchat Comparison",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You consider that energy levels and comfort zones vary, and everyone's social circles look... "
+        },
+        {
+            "type": "Entry",
+            "name": "Snapchat Comparison_Milestone_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 1
+}

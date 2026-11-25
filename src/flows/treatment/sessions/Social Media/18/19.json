@@ -1,0 +1,17 @@
+{
+    "header_text": "Selfie Comparison 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post a selfie you felt reallt good about. One of your friend's makes a post right after—and their post gets way more likes. You feel understading of how post visibility can... "
+        },
+        {
+            "type": "Entry",
+            "name": "Selfie Comparison 3_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

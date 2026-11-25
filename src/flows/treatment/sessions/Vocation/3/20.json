@@ -1,0 +1,16 @@
+{
+    "header_text": "Observed by Manager",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Observed by Manager"
+        },
+        {
+            "type": "Media",
+            "url": "./images/401.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 6
+}

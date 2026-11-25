@@ -1,0 +1,25 @@
+{
+    "header_text": "Friend's Party",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see a friend post a video at a party, laughing and surrounded by people. You feel disconnected, thinking about how hard it is for you just to leave the house. Then you remind yourself that confidence takes time and everyone has their own battles, and you feel patient with..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Friend's Party_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "yourself"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

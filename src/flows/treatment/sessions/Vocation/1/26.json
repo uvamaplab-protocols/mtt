@@ -1,0 +1,17 @@
+{
+    "header_text": "Typo in Email 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are emailing your boss about a sensitive topic at work. Only after hitting \"send\" do you realize you made a major typo, and your stomach plummets. You worry that when your boss reads the email, he will think you are... "
+        },
+        {
+            "type": "Entry",
+            "name": "Typo in Email 1_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 9
+}

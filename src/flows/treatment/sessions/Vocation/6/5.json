@@ -1,0 +1,25 @@
+{
+    "header_text": "Friend's Allowance: Thoughts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A group of your friends are talking about getting allowance from their parents. Your parents can't afford to give you an allowence, and you have to work a job after school to make money. \n\nHere are some thoughts that might pop into mind:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "My situation is different from my friends', but different doesn't mean worse.",
+                "I worry that my friends would judge me if they knew the truth, but I don't actually have evidence they would.",
+                "My family is an embarrassment compared to everyone else's.",
+                "I'm building real work experience and responsibility that most people my age don't have yet.",
+                "Part of me wants to resent my parents for putting me in this position, but I know they're doing their best."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

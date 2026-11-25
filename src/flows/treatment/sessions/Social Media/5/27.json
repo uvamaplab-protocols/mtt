@@ -1,0 +1,17 @@
+{
+    "header_text": "Friend Anniversary 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend is celebrating their anniversary with their significant other and texts you a cute picture. Seeing the picture makes you think about how you've never been in a real relationship before. You are embarassed about being... "
+        },
+        {
+            "type": "Entry",
+            "name": "Friend Anniversary 2_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

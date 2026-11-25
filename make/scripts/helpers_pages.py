@@ -124,7 +124,7 @@ def create_scenario_pages(domain, label, scenario_num, puzzle_text_1, word_1, co
                           puzzle_text_2=None, n_missing=1, include_lessons_learned=False,
                           lessons_learned_dict=None, tipe=None):
 
-    assert correct_answer.lower() in [a.lower() for a in answers]
+    if answers: assert correct_answer.lower() in [a.lower() for a in answers]
 
     n_missing = lower(str(n_missing))
     pages = []
@@ -215,7 +215,7 @@ def create_scenario_pages(domain, label, scenario_num, puzzle_text_1, word_1, co
         elif n_missing == "all":
             pages[-1]["elements"][-1] = {"type": "Entry", "name": f"{label}_{domain}_entry2" }
 
-    if n_missing != "all":
+    if n_missing != "all" and answers:
         pages.append({
             "header_text": label,
             "header_icon": "assets/subtitle.png",

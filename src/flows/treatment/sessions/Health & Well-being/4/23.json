@@ -1,0 +1,16 @@
+{
+    "header_text": "Science Presentation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Science Presentation"
+        },
+        {
+            "type": "Media",
+            "url": "./images/539.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 7
+}

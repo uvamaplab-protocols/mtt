@@ -1,0 +1,25 @@
+{
+    "header_text": "Messaging Crush: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You've been talking to your crush on Snapchat and they're usually quick to respond. You see that they opened your message a couple of hours ago and did not respond. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I message other friends.",
+                "I want to remove them from my phone, but realize that would be dramatic.",
+                "I block my crush on the app and will never talk to them again.",
+                "I focus on other important things to do today.",
+                "I want to send a bunch of messages to this person, but instead call my friends to hang out."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

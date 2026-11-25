@@ -1,0 +1,16 @@
+{
+    "header_text": "New JV Team",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "New JV Team"
+        },
+        {
+            "type": "Media",
+            "url": "./images/503.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 4
+}

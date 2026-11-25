@@ -1,0 +1,16 @@
+{
+    "header_text": "Posture Adjustment",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Posture Adjustment"
+        },
+        {
+            "type": "Media",
+            "url": "./images/867.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 5
+}

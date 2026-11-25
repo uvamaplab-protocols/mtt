@@ -1,0 +1,25 @@
+{
+    "header_text": "Instagram Comments 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "One of your friends always comments on your Instagram posts, and you feel obligated to comment on hers. You realize she made a post a few days ago, and you didn't post a comment. You wonder if she's offended, and feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Instagram Comments 2_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "anxious"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 3
+}

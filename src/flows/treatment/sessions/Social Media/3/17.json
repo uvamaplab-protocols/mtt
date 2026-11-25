@@ -1,0 +1,25 @@
+{
+    "header_text": "Global Conflict 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You scroll past videos about global tensions, and your stomach knots. You imagine things never calming down. The heaviness leaves you feeling..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Global Conflict 2_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "worried"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 5
+}

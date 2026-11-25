@@ -1,0 +1,17 @@
+{
+    "header_text": "Instagram Comments",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "One of your friends always comments on your Instagram posts, and you feel obligated to comment on hers. You realize she made a post a few days ago, and you didn't post a comment. You feel anxious for a few moments before realizing that she probably didn't... "
+        },
+        {
+            "type": "Entry",
+            "name": "Instagram Comments_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

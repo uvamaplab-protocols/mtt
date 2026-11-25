@@ -1,0 +1,25 @@
+{
+    "header_text": "No Repsonse from Crush",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your crush hasn't responded in a few days. After long deliberation, you send a double text. You think your crush will view your action as showing... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "No Repsonse from Crush_Romantic Relationships_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "excitment"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

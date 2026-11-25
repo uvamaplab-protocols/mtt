@@ -1,0 +1,15 @@
+{
+    "header_text": "First Kiss",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're the only one in your friend group who hasn't had your first kiss. When your friends talk about their experiecnes, you feel embarassed and left out\n\nClick Next to see some thoughts."
+        },
+        {
+            "type": "Media",
+            "url": "./images/983.jpg",
+            "border": true
+        }
+    ]
+}

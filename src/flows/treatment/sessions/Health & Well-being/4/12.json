@@ -1,0 +1,17 @@
+{
+    "header_text": "Catching the Bus",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It's Monday morning and you just finished running down the street to catch your bus. You feel your heart racing as you step onto the bus and sit down. Starting to sweat and breathe quickly, you fear that you might have a panic... "
+        },
+        {
+            "type": "Entry",
+            "name": "Catching the Bus_Health & Well-being_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 3
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Grandparent Photo",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Grandparent Photo"
+        },
+        {
+            "type": "Media",
+            "url": "./images/707.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 0
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Sharing a Joke 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You show your friend a funny meme on your phone at lunch time, expecting them to laugh. They smile briefly, but don't seem that entertained, and you feel an instant surge of embarrassment and worry that the meme was cringe. Your friend probably didn't laugh because they were... "
+        },
+        {
+            "type": "Entry",
+            "name": "Sharing a Joke 3_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

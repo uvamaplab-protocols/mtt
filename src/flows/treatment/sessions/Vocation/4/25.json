@@ -1,0 +1,16 @@
+{
+    "header_text": "Missing Hangouts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Missing Hangouts"
+        },
+        {
+            "type": "Media",
+            "url": "./images/407.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 8
+}

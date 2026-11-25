@@ -1,0 +1,16 @@
+{
+    "header_text": "Award Ceremony",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Award Ceremony"
+        },
+        {
+            "type": "Media",
+            "url": "./images/120.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 1
+}

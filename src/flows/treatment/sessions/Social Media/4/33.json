@@ -1,0 +1,16 @@
+{
+    "header_text": "Unusual Repsonse 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Unusual Repsonse 2"
+        },
+        {
+            "type": "Media",
+            "url": "./images/678.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 8
+}

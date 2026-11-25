@@ -1,0 +1,17 @@
+{
+    "header_text": "Earning Tips 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You consider how earning money takes time, and you feel proud of your... "
+        },
+        {
+            "type": "Entry",
+            "name": "Earning Tips 2_Vocation_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

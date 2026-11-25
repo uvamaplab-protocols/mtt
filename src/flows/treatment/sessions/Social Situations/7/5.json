@@ -1,0 +1,25 @@
+{
+    "header_text": "Forgotten Essay ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You really enjoy your English class, and you feel like you finally have a teacher who gets you. As you walk into class one morning, you feel a horrible shock, realizing you totally forgot to complete the essay due today. This memory lapse will probably not impact your teacher's impression of... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Forgotten Essay _Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "you"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

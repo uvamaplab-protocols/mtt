@@ -1,0 +1,17 @@
+{
+    "header_text": "Important DM",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You send a long DM to someone about something important to you. They reply with just a few words. You think they are probably... "
+        },
+        {
+            "type": "Entry",
+            "name": "Important DM_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

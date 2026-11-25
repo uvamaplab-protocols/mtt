@@ -1,0 +1,25 @@
+{
+    "header_text": "Supportive Mom Tikok",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see a TikTok where a teen talks about how supportive their mom is. You think about how hard it’s been with your mom lately and feel a lump in your throat. Then you remind yourself that not everyone shares the hard stuff online, and you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Supportive Mom Tikok_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "validated"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

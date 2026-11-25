@@ -1,0 +1,17 @@
+{
+    "header_text": "Not Resting 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You wake up frequently during the night. You worry your brain isn’t resting, and you feel tension spread across your shoulders. The worry lingers as you lie awake, feeling... "
+        },
+        {
+            "type": "Entry",
+            "name": "Not Resting 2_Health & Well-being_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

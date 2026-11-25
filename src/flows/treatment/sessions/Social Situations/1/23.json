@@ -1,0 +1,25 @@
+{
+    "header_text": "Dance Without Date",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The school dance is only a week away, and you still haven’t asked anyone to go with you. You don't mind going with your friends, but you worry people will judge you for going solo. You think about people at the dance seeing you without a date and feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Dance Without Date_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "embarrassed"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 7
+}

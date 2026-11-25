@@ -1,0 +1,17 @@
+{
+    "header_text": "Work Question 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "At school one morning, someone asks how work has been going. You hesitate before answering, feeling awkward about having a job so young. You think your classmate will be bored hearing about your... "
+        },
+        {
+            "type": "Entry",
+            "name": "Work Question 2_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 2
+}

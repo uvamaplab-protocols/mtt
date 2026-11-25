@@ -1,0 +1,17 @@
+{
+    "header_text": "Sustainability Projects",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Friends share sustainability projects they’re proud of, their voices animated. You wonder if they think you’re doing enough or noticing what you haven’t done. You remind yourself people are usually focusing on... "
+        },
+        {
+            "type": "Entry",
+            "name": "Sustainability Projects_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

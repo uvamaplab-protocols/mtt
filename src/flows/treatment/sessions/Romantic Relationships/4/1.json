@@ -1,0 +1,16 @@
+{
+    "header_text": "No Social Media",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "No Social Media"
+        },
+        {
+            "type": "Media",
+            "url": "./images/31.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 0
+}

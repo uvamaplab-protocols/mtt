@@ -1,0 +1,16 @@
+{
+    "header_text": "Feeling Nauseous",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Feeling Nauseous"
+        },
+        {
+            "type": "Media",
+            "url": "./images/525.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 7
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Family Comparison",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Someone posts about how “grateful” they are for their strong, close-knit family. You think about your family, who aren't particularly close. You feel greatful for the connections that you do... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Family Comparison_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "have"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

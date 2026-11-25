@@ -1,0 +1,29 @@
+{
+    "header_text": "Commenting on Ex's Post",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You assume the comment on their ex's post means..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Commenting on Ex's Post_Romantic Relationships_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "they still have feelings for their ex.",
+                "they can still care about someone without wanting them back."
+            ],
+            "column_Count": 1,
+            "correct_value": "they can still care about someone without wanting them back."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 4
+}

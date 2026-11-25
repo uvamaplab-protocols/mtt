@@ -1,0 +1,10 @@
+{
+    "header_text": "AIBQ_Example",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "[If you circle a 4 here, it means that the thought that your mentor was satisfied with you popped up in your mind]."
+        }
+    ]
+}

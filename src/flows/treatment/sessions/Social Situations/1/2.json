@@ -1,0 +1,25 @@
+{
+    "header_text": "ACT Scores 1 ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friends talk about their high ACT scores. You worry that your lower score means you're not smart and feel your confidence fall sharply. You tell yourself a single test will make or break your entire... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "ACT Scores 1 _Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "application"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 0
+}

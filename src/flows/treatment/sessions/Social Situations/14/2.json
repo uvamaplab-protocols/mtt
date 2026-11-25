@@ -1,0 +1,16 @@
+{
+    "header_text": "Stage Fright",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Stage Fright"
+        },
+        {
+            "type": "Media",
+            "url": "./images/852.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 0
+}

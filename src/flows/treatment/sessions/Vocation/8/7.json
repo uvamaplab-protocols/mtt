@@ -1,0 +1,17 @@
+{
+    "header_text": "Summer Job 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Most of your friends already have a job lined up for summer vacation. It's almost the end of the school year and you haven't even started applying. You think about the different types of jobs you could apply for, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Summer Job 3_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

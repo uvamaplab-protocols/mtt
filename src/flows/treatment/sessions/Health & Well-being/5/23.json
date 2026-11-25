@@ -1,0 +1,16 @@
+{
+    "header_text": "Mom Not Replying",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Mom Not Replying"
+        },
+        {
+            "type": "Media",
+            "url": "./images/542.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 7
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "First Therapy Session",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "First Therapy Session"
+        },
+        {
+            "type": "Media",
+            "url": "./images/887.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 0
+}

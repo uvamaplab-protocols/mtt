@@ -1,0 +1,17 @@
+{
+    "header_text": "Busy Shift",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During a busy shift, your manager walks past and glances at your station without saying anything. You replay your last few tasks, unsure what they noticed. You remind yourself silence can mean many things, and you can't assume...  "
+        },
+        {
+            "type": "Entry",
+            "name": "Busy Shift_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

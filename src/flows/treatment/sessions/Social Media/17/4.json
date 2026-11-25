@@ -1,0 +1,17 @@
+{
+    "header_text": "DMing Crush",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You DM your crush about a show you both like. Their response to you seems short. You consider that they might be... "
+        },
+        {
+            "type": "Entry",
+            "name": "DMing Crush_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

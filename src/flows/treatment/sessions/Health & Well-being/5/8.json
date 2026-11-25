@@ -1,0 +1,16 @@
+{
+    "header_text": "Tired Finish",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Tired Finish"
+        },
+        {
+            "type": "Media",
+            "url": "./images/477.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 2
+}

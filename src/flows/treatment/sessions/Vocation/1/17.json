@@ -1,0 +1,25 @@
+{
+    "header_text": "Manager Feedback 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You had a really long day at school and you are feeling tired during your part-time job. Afrer your shift, your manager gives quick feedback that this shift “wasn’t your best.” You manager probably thinks you should be... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Manager Feedback 1_Vocation_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "fired"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 5
+}

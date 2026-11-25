@@ -1,0 +1,17 @@
+{
+    "header_text": "Early Decision Post 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You think about hearing back from the college in the spring, and know that no matter what happens, you will be... "
+        },
+        {
+            "type": "Entry",
+            "name": "Early Decision Post 2_Social Media_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 9
+}

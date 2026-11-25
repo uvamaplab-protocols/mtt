@@ -1,0 +1,17 @@
+{
+    "header_text": "Upcoming Dance ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "At lunch, your friends are talking about their dates for the school dance and what they are planning to wear. You feel sad that you don't have a date to the dance yet. If you go to the dance without a date, you will have a bad time no matter... "
+        },
+        {
+            "type": "Entry",
+            "name": "Upcoming Dance _Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 0
+}

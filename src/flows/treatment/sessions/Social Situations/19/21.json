@@ -1,0 +1,16 @@
+{
+    "header_text": "Online Hangout",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Online Hangout"
+        },
+        {
+            "type": "Media",
+            "url": "./images/959.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 5
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Climate Issue Post",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You draft a post about climate issues but hover over the “share” button. You imagine people criticizing or misunderstanding your words. You consider that thoughtful intentions matter, and you create the post with a sense of confidence in your... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Climate Issue Post_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "ideas"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

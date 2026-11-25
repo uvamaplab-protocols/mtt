@@ -1,0 +1,17 @@
+{
+    "header_text": "Small Role 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are assigned to act out a scene in your English class, and your group assigns you a very small roll. You feel a flush of embarassment, wondering if your group thinks you're incapable. As you prepare for the scene, you focus on your... "
+        },
+        {
+            "type": "Entry",
+            "name": "Small Role 1_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 9
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Cleanup Event",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Cleanup Event"
+        },
+        {
+            "type": "Media",
+            "url": "./images/377.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 9
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Fewer Likes: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post something different from what you normally post. After a couple of hours, you only have about half the number of likes on your post compared to what you normally have. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I decide to stay in a good mood about my post.",
+                "I feel like taking down my account for a while, but keep it up instead.",
+                "I get frustrated and take down my post.",
+                "I want to ask my friends why they think I didn't get more likes, but decide to move on.",
+                "I keep posting things I want to post."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

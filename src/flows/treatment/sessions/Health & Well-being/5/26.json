@@ -1,0 +1,16 @@
+{
+    "header_text": "Toothache 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Toothache 2"
+        },
+        {
+            "type": "Media",
+            "url": "./images/543.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 8
+}

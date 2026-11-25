@@ -1,0 +1,29 @@
+{
+    "header_text": "Late Growth Spurt",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Are you feeling confident in yourself despite not having your growth spurt yet?"
+        },
+        {
+            "type": "Buttons",
+            "name": "Late Growth Spurt_Social Situations_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Yes",
+                "No"
+            ],
+            "column_Count": 1,
+            "correct_value": "Yes"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 0
+}

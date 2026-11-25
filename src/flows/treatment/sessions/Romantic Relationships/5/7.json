@@ -1,0 +1,29 @@
+{
+    "header_text": "Disagreement with Crush",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You assume the repost about protecting your peace is..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Disagreement with Crush_Romantic Relationships_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "a message aimed directly at you.",
+                "unrelated and just something that caught their eye."
+            ],
+            "column_Count": 1,
+            "correct_value": "unrelated and just something that caught their eye."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 1
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Amusement Park 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Amusement Park 2"
+        },
+        {
+            "type": "Media",
+            "url": "./images/863.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 0
+}

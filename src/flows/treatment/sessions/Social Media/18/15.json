@@ -1,0 +1,17 @@
+{
+    "header_text": "Unexpected Social Media Reaction",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post a video of yourself dancing, and a few people view it without reacting. You start to think they’re judging you behind your back. Then you realize most people just scroll without reacting, so you feel relaxed about..."
+        },
+        {
+            "type": "Entry",
+            "name": "Unexpected Social Media Reaction_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

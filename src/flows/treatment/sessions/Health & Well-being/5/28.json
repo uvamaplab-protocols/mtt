@@ -1,0 +1,29 @@
+{
+    "header_text": "Toothache 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The next time you visit the dentist, you will..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Toothache 2_Health & Well-being_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Feel major stress and anxiety",
+                "Tolerate the feeling of nervousness"
+            ],
+            "column_Count": 1,
+            "correct_value": "Tolerate the feeling of nervousness"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 8
+}

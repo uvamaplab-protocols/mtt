@@ -1,0 +1,25 @@
+{
+    "header_text": "SAT Ready 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are taking your SATs tomorrow. You know that the score you need to get into the college of your dreams is high. As you think about the test, you know that you are...\n"
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "SAT Ready 2_Milestone_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "ready"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

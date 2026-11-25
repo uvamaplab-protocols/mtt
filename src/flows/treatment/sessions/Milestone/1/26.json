@@ -1,0 +1,17 @@
+{
+    "header_text": "College Decision 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Today your top college is emailing you about whether or not you were accepted. You have a few hours to wait until you'll get the email. When you think about waiting that long, you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "College Decision 1_Milestone_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 9
+}

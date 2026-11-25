@@ -1,0 +1,17 @@
+{
+    "header_text": "Senior Year Goodbyes",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You say goodbye to your classmates after senior year. You feel anxious about losing touch. You remind yourself that endings can also start new chapters, and you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Senior Year Goodbyes_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

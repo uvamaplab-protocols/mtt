@@ -1,0 +1,17 @@
+{
+    "header_text": "Friend of Friend 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you scroll through your social media, you see that your friends hung out without you yesterday. You didn't get an invite to hang out with them. You realize that sometimes your friends hang out without you, and that next time you can initiate the... "
+        },
+        {
+            "type": "Entry",
+            "name": "Friend of Friend 3_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

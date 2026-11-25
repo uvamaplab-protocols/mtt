@@ -1,0 +1,16 @@
+{
+    "header_text": "Sharing a Joke 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Sharing a Joke 2"
+        },
+        {
+            "type": "Media",
+            "url": "./images/703.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 8
+}

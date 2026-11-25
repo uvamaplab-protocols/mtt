@@ -1,0 +1,17 @@
+{
+    "header_text": "Unusual Friend Response",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend’s tone sounds short when you ask a question during class. You freeze, assuming from their tone that they’re mad at you. You take a deep breath, and remind yourself that they've a rough week, and probably aren't upset with... "
+        },
+        {
+            "type": "Entry",
+            "name": "Unusual Friend Response_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

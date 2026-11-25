@@ -1,0 +1,16 @@
+{
+    "header_text": "Friend of Friend ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Friend of Friend "
+        },
+        {
+            "type": "Media",
+            "url": "./images/957.jpg"
+        }
+    ],
+    "type": "Negative",
+    "scenario_num": 0
+}

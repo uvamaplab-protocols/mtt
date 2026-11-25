@@ -1,0 +1,17 @@
+{
+    "header_text": "Teammates Whispering 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are playing a tough sports game and take a second to breathe near the sidelines. As you catch your breath, you notice two teammates whispering on the bench. You immediatly assume they are talking about you, and feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Teammates Whispering 2_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 8
+}

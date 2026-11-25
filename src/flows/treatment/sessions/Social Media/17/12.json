@@ -1,0 +1,17 @@
+{
+    "header_text": "Homecoming Photo",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend posts a group photo from Homecoming on Instagram. You are scanning the photo and realize that she posted a photo where you are making a really weird face. You think about how much fun you had at Homecoming, and how no one else is really going to be paying attention to other people's faces, and you... "
+        },
+        {
+            "type": "Entry",
+            "name": "Homecoming Photo_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

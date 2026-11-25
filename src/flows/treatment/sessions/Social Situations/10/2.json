@@ -1,0 +1,16 @@
+{
+    "header_text": "Mulitlingual Household",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Mulitlingual Household"
+        },
+        {
+            "type": "Media",
+            "url": "./images/634.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 0
+}

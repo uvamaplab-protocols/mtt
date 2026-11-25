@@ -1,0 +1,17 @@
+{
+    "header_text": "AI Anxiety 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "But you remember that new skills can be learned over time, and you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "AI Anxiety 2_Vocation_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 7
+}

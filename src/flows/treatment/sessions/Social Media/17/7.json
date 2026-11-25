@@ -1,0 +1,16 @@
+{
+    "header_text": "Relationship Questions",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Relationship Questions"
+        },
+        {
+            "type": "Media",
+            "url": "./images/4.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 2
+}

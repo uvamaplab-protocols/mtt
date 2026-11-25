@@ -1,0 +1,17 @@
+{
+    "header_text": "Vulnerable Message",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You send a long message opening up to a new friend and don’t get a reply right away. You feel exposed and begin to regret sharing so much. You remind yourself that emotional texts sometimes take time to respond to, and you just need to be... "
+        },
+        {
+            "type": "Entry",
+            "name": "Vulnerable Message_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

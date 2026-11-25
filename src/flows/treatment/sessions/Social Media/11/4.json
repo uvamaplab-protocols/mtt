@@ -1,0 +1,15 @@
+{
+    "header_text": "Fewer Likes",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post something different from what you normally post. After a couple of hours, you only have about half the number of likes on your post compared to what you normally have. \n\nClick Next to see some thoughts."
+        },
+        {
+            "type": "Media",
+            "url": "./images/997.jpg",
+            "border": true
+        }
+    ]
+}

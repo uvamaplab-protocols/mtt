@@ -1,0 +1,25 @@
+{
+    "header_text": "Climate Spiral ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Late at night, you scroll through social media and see a headline about another climate “tipping point.” Your stomach tightens as you wonder if this means things are about to spiral fast. You remind yourself headlines are designed to grab attention, and you feel your anxiety... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Climate Spiral _Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "settle"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

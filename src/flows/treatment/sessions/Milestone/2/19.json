@@ -1,0 +1,25 @@
+{
+    "header_text": "Eye Doctor ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remember that lots of classmates wear glasses without anyone caring much, and you feel excited to have a new... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Eye Doctor _Milestone_puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "accessory"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

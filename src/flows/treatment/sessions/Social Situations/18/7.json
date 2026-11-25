@@ -1,0 +1,25 @@
+{
+    "header_text": "Group Chat Argument",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You recall that people can argue with one another and still remain friends, and you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Group Chat Argument_Social Situations_puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "calmer"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 1
+}

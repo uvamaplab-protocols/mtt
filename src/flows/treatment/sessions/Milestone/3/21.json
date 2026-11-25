@@ -1,0 +1,17 @@
+{
+    "header_text": "Sibling Dinner 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During dinner with your family, you get compared to your sibling who always gets straight A’s. You feel a twinge of resentment, wondering if you’ll ever measure up. When you mentally compare yourself to your sibling, you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Sibling Dinner 1_Milestone_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

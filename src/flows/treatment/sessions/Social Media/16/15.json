@@ -1,0 +1,16 @@
+{
+    "header_text": "Double Texting: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your crush hasn't responded in a few days. After long deliberation, you send a double text. \n\nPlease take 30 seconds to write different behaviors. The next button will appear automatically.\n\nBehaviors you might do in the moment:"
+        }
+    ],
+    "navigation_conditions": [
+        {
+            "wait_for_time": 30000
+        },
+        "wait_for_click"
+    ]
+}

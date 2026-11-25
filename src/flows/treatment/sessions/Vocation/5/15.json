@@ -1,0 +1,25 @@
+{
+    "header_text": "Adapting at Work",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You’re bagging items at the register while the receipt keeps printing longer than expected. The customer watches quietly, and you start wondering if something went wrong without you noticing. You think about addressing a possible concern, and feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Adapting at Work_Vocation_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "prepared"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

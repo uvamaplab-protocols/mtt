@@ -1,0 +1,25 @@
+{
+    "header_text": "Grandparent Photo",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend posts a sweet photo with their grandparent and writes a heartfelt caption. You feel sad and a bit jealous, thinking about how much you miss yours. Then you remind yourself it's okay to grieve and feel joy for others at the same time, and you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Grandparent Photo_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "peaceful"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

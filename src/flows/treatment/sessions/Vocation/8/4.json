@@ -1,0 +1,16 @@
+{
+    "header_text": "FOMO From Work 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "FOMO From Work 3"
+        },
+        {
+            "type": "Media",
+            "url": "./images/109.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 1
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Stomach Ache at Party",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You consider that fear and excitement can feel similar in your body, and you feel your anticipation... "
+        },
+        {
+            "type": "Entry",
+            "name": "Stomach Ache at Party_Health & Well-being_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Friend Anniversary 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Friend Anniversary 2"
+        },
+        {
+            "type": "Media",
+            "url": "./images/11.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 5
+}

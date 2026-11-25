@@ -1,0 +1,16 @@
+{
+    "header_text": "First Kiss: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're the only one in your friend group who hasn't had your first kiss. When your friends talk about their experiecnes, you feel embarassed and left out\n\nPlease take 30 seconds to write different behaviors. The next button will appear automatically.\n\nBehaviors you might do in the moment:"
+        }
+    ],
+    "navigation_conditions": [
+        {
+            "wait_for_time": 30000
+        },
+        "wait_for_click"
+    ]
+}

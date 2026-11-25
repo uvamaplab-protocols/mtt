@@ -1,0 +1,17 @@
+{
+    "header_text": "Manager Compliment",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A coworker gets complimented by your manager and you don’t. You feel a small sting and wonder if you’re being overlooked. You remind yourself that it's your managers job to attend to everyone on the team, and you feel steadier continuing..."
+        },
+        {
+            "type": "Entry",
+            "name": "Manager Compliment_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

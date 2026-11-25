@@ -1,0 +1,17 @@
+{
+    "header_text": "Casual Outfit",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": " After a few minutes, you consider that your outfit makes you feel comfortable and happy, and you come away feeling satisfied with your... "
+        },
+        {
+            "type": "Entry",
+            "name": "Casual Outfit_Social Media_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Parking Practice",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You’re practicing parallel parking for your driver’s test. As you drive around the parking lot with your parent, two kids from school walk by and glance over. You assume they’re judging your terrible parking and you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Parking Practice_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "embarrassed"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

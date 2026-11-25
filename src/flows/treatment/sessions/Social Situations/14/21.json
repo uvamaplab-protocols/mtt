@@ -1,0 +1,17 @@
+{
+    "header_text": "Talked Over",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During group work, everyone seems to speak over you. You feel frustrated, thinking your ideas are not valued. Then you remind yourself that people sometimes dominate conversations unintentionally, so you start to feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Talked Over_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

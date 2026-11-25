@@ -1,0 +1,25 @@
+{
+    "header_text": "First Kiss: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're the only one in your friend group who hasn't had your first kiss. When your friends talk about their experiecnes, you feel embarassed and left out\n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I feel glad to have friends who are open enough to share personal experiences with me.",
+                "I feel secure enough in myself to know this is just one small part of a much bigger picture.",
+                "I feel a genuine sting of embarrassment during the conversation, but let it pass without letting it define how I see myself.",
+                "I feel envious of my friends' experiences, and acknowledge that feeling without acting out of it.",
+                "I feel like an outsider in my own friend group, as though I'm watching everyone else grow up without me."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

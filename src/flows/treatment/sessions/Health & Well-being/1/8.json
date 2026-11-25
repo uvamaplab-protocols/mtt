@@ -1,0 +1,25 @@
+{
+    "header_text": "Not Resting 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You wake up frequently during the night. You worry your brain isn’t resting, and you feel tension spread across your shoulders. The worry lingers as you lie awake, feeling..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Not Resting 1_Health & Well-being_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "unsettled"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 2
+}

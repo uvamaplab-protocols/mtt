@@ -1,0 +1,16 @@
+{
+    "header_text": "Summer Job 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Summer Job 3"
+        },
+        {
+            "type": "Media",
+            "url": "./images/426.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 2
+}

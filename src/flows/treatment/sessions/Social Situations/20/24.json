@@ -1,0 +1,17 @@
+{
+    "header_text": "Tall Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You’re taller than almost everyone at the school dance, and your shoulders feel huge in the photos you've seen on social media. You assume people think you look awkward, so you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Tall Friend_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 7
+}

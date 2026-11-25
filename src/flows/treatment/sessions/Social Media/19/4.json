@@ -1,0 +1,16 @@
+{
+    "header_text": "Haircut DM",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Haircut DM"
+        },
+        {
+            "type": "Media",
+            "url": "./images/343.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 1
+}

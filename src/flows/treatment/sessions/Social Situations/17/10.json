@@ -1,0 +1,16 @@
+{
+    "header_text": "Being Ignored 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Being Ignored 2"
+        },
+        {
+            "type": "Media",
+            "url": "./images/370.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 2
+}

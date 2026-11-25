@@ -1,0 +1,25 @@
+{
+    "header_text": "Busy Traffic",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're driving on your own for the first time, idling at a stoplight and waiting for it to turn green. Suddnely, you hear loud honks from several cars behind you. After making sure you aren't doing anything wrong, you feel unbothered by the... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Busy Traffic_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "honking"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

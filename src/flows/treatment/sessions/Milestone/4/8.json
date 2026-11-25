@@ -1,0 +1,25 @@
+{
+    "header_text": "Award Scrolling",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are lying on the couch scrolling through social media. You see lots of posts about people achieving awards or internships. You feel a pinch of inadequacy, but remind yourself that your path doesn’t need to look like theirs, and you feel the pressure... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Award Scrolling_Milestone_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "ease"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

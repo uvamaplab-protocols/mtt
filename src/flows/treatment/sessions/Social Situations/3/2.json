@@ -1,0 +1,16 @@
+{
+    "header_text": "Upcoming Dance ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Upcoming Dance "
+        },
+        {
+            "type": "Media",
+            "url": "./images/147.jpg"
+        }
+    ],
+    "type": "Negative",
+    "scenario_num": 0
+}

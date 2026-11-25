@@ -1,0 +1,17 @@
+{
+    "header_text": "Follower Loss 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post something important to you and lose a few followers after. You feel like you made a mistake sharing it. Then you remind yourself that staying true to yourself matters more than numbers, so you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Follower Loss 3_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

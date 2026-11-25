@@ -1,0 +1,17 @@
+{
+    "header_text": "Making New Plans",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You ask the person you're seeing if they want to make plans next weekend, and they say they’ll “let you know.” You start to worry you’re not that important to them. It leaves you feeling..."
+        },
+        {
+            "type": "Entry",
+            "name": "Making New Plans_Romantic Relationships_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 9
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Vacation 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You scroll through your feed and see a friend’s vacation photos, and wonder why you can’t ever go on trips like that. You start to feel like your life isn’t as exciting. It leaves you feeling..."
+        },
+        {
+            "type": "Entry",
+            "name": "Vacation 1_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 9
+}

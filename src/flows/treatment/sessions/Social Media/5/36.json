@@ -1,0 +1,17 @@
+{
+    "header_text": "Early Decision Post 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Someone in your class posts about getting into your top college early decision. You are applying for financial aid and weren't able to apply early decision. You think about the school having one less spot available, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Early Decision Post 2_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 9
+}

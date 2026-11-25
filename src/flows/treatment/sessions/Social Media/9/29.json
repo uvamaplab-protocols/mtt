@@ -1,0 +1,16 @@
+{
+    "header_text": "Awkward Photo",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Awkward Photo"
+        },
+        {
+            "type": "Media",
+            "url": "./images/55.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 9
+}

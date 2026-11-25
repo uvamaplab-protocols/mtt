@@ -1,0 +1,17 @@
+{
+    "header_text": "New Job Jitters 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "On the first day at your new job, everyone seems to know where they’re going except you. You think you’ll stand out as the confused new employee so you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "New Job Jitters 2_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 0
+}

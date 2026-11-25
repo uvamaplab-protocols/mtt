@@ -1,0 +1,17 @@
+{
+    "header_text": "More Followers 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You notice your friend has more followers than you, and wonder what you’re doing wrong. You start comparing your social media life to theirs. You feel unhappy with how your posts..."
+        },
+        {
+            "type": "Entry",
+            "name": "More Followers 1_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 1
+}

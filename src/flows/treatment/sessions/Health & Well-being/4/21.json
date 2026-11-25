@@ -1,0 +1,17 @@
+{
+    "header_text": "Stomach Ache at Party",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are at a birthday party for a friend of a friend. You start to feel a knot in your stomach while talking to someone you've never met before. This probably means that you are dreading the... "
+        },
+        {
+            "type": "Entry",
+            "name": "Stomach Ache at Party_Health & Well-being_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

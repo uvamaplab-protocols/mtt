@@ -1,0 +1,25 @@
+{
+    "header_text": "Awkward Joke",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You make a joke in class, and nobody laughs. You feel your face heat up, convinced you embarrassed yourself. As you listen to the noisy classroom, you figure your joke was... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Awkward Joke_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "lost"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

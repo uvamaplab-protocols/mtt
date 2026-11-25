@@ -1,0 +1,17 @@
+{
+    "header_text": "Story Views ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post something on your story, but your best friend doesn’t view it even though they are online. You start to think maybe they’re not interested in you. You remind yourself that not everyone checks stories right away, and your anxiety... "
+        },
+        {
+            "type": "Entry",
+            "name": "Story Views _Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

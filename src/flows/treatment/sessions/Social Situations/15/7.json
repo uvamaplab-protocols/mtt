@@ -1,0 +1,17 @@
+{
+    "header_text": "Texting in Class ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your teacher catches you texting during class and takes your phone away. When class ends, your teacher gives your phone back and reminds you not have it out during class. You think your teacher is being..."
+        },
+        {
+            "type": "Entry",
+            "name": "Texting in Class _Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

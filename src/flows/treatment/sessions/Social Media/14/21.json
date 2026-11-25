@@ -1,0 +1,17 @@
+{
+    "header_text": "Deleted Post",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post something you find funny, but delete it after 10 minutes. You panic that people didn’t get the joke. Then you remind yourself that your humor doesn’t need to land with everyone, and you feel okay with..."
+        },
+        {
+            "type": "Entry",
+            "name": "Deleted Post_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

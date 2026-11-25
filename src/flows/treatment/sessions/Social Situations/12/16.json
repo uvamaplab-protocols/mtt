@@ -1,0 +1,16 @@
+{
+    "header_text": "President Debate",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "President Debate"
+        },
+        {
+            "type": "Media",
+            "url": "./images/879.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 7
+}

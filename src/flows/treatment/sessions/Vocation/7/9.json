@@ -1,0 +1,17 @@
+{
+    "header_text": "Drive-Thru Mishap 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "At the drive-thru window, you realize you handed out the wrong drink a minute ago. You picture the customer being annoyed or telling your manager. You remind yourself small errors happen during rushes, and the customer will be... "
+        },
+        {
+            "type": "Entry",
+            "name": "Drive-Thru Mishap 3_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "New Group 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see your best friend’s new Snapchat story about going out with a different group. You start to feel left out, wondering why you weren’t invited. It leaves you feeling..."
+        },
+        {
+            "type": "Entry",
+            "name": "New Group 1_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 8
+}

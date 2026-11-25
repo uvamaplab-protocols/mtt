@@ -1,0 +1,25 @@
+{
+    "header_text": "Gift Comparison 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see a friend’s post showing off all the gifts they got during the holiday season, while you didn't receive anything that big. You start comparing your holiday to theirs and wonder if people didn’t think you were worthy of gifts. You feel a bit... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Gift Comparison 2_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "overlooked"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 5
+}

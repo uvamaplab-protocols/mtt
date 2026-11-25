@@ -1,0 +1,25 @@
+{
+    "header_text": "Awkward Photo",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You spot a photo of yourself someone posted from the school event. You notice that your shirt is falling awkwardly on your body, and feel uncomfortable. You think about your friends seeing this photo, and consider that they will be focused on... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Awkward Photo_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "themselves"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

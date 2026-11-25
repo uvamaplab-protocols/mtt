@@ -1,0 +1,29 @@
+{
+    "header_text": "Increased Appetite",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remind yourself that your bigger appetite means..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Increased Appetite_Milestone_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "people will think you eat too much.",
+                "your body needs more fuel to grow right now."
+            ],
+            "column_Count": 1,
+            "correct_value": "your body needs more fuel to grow right now."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 6
+}

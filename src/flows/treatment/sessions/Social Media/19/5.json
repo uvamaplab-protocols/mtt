@@ -1,0 +1,17 @@
+{
+    "header_text": "Haircut DM",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You DM someone a compliment about their new haircut and they just like the message without replying. You feel brushed off and kind of embarrassed. Then you remind yourself they might not know what to say, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Haircut DM_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

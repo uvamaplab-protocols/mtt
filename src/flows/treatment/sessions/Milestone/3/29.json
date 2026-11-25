@@ -1,0 +1,16 @@
+{
+    "header_text": "Community College",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Community College"
+        },
+        {
+            "type": "Media",
+            "url": "./images/117.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 9
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Leg Pain",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It is the night before a big test, and you went to bed early to try to get some sleep. All of a sudden, you feel a shooting pain in your legs, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Leg Pain_Health & Well-being_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Weekend Photo",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post a photo from a fun event you attended over the weekend. It only gets a few likes, and you worry people think you look awkward. You remind yourself that the algorithm is unpredictable, and people may be missing your... "
+        },
+        {
+            "type": "Entry",
+            "name": "Weekend Photo_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Viral Clip",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see a viral clip that looks real but feels suspicious, and your anxiety jumps. You imagine people around you believing it instantly. The possibility leaves you feeling..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Viral Clip_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "unsettled"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

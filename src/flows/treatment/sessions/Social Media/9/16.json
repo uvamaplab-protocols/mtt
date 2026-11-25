@@ -1,0 +1,29 @@
+{
+    "header_text": "Friend's Dog",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Thinking about your dog makes you feel..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Friend's Dog_Social Media_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Sad, but happy for the time you had togerher",
+                "Like you will never be happy again"
+            ],
+            "column_Count": 1,
+            "correct_value": "Sad, but happy for the time you had togerher"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 4
+}

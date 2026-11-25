@@ -1,0 +1,16 @@
+{
+    "header_text": "Friend's Party",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Friend's Party"
+        },
+        {
+            "type": "Media",
+            "url": "./images/109.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 5
+}

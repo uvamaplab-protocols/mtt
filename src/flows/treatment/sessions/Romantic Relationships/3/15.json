@@ -1,0 +1,17 @@
+{
+    "header_text": "Upcoming Prom 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "All of your friends are getting excited about the upcoming prom. You feel uncomfortable, as you still haven’t asked anyone because you kept hesitating. You assume people will think you weren’t wanted as a date so you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Upcoming Prom 2_Romantic Relationships_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

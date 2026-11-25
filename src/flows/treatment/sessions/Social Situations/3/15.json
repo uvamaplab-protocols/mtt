@@ -1,0 +1,25 @@
+{
+    "header_text": "Alone at the Party",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You’re standing alone at a party while everyone else is chatting. You start to feel awkward and wonder what you’re even doing there. Then you think that if you start a conversation, other people would probably be happy to talk with..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Alone at the Party_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "you"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

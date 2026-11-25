@@ -1,0 +1,16 @@
+{
+    "header_text": "Hair Glance",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Hair Glance"
+        },
+        {
+            "type": "Media",
+            "url": "./images/813.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 3
+}

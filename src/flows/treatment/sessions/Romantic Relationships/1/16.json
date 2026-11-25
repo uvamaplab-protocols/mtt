@@ -1,0 +1,16 @@
+{
+    "header_text": "Missed Call from Crush 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Missed Call from Crush 1"
+        },
+        {
+            "type": "Media",
+            "url": "./images/6.jpg"
+        }
+    ],
+    "type": "Negative",
+    "scenario_num": 5
+}

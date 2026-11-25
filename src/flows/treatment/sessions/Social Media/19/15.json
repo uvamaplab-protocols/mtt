@@ -1,0 +1,17 @@
+{
+    "header_text": "Sarcastic Reply",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After reading through a friend's post, you decide to leave a nice comment. The friend replies a bit rudely, and you feel hurt. You remember that your friend is sometimes sarcastic, and probably didn't mean you... "
+        },
+        {
+            "type": "Entry",
+            "name": "Sarcastic Reply_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Mulitlingual Household",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You invite your friend over for dinner, and while you're eating, your family switches back and forth between English and another language. You never told your friend that your family members are bilingual. You think about your friend's reaction and think she'll find it..."
+        },
+        {
+            "type": "Entry",
+            "name": "Mulitlingual Household_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

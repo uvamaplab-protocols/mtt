@@ -1,0 +1,17 @@
+{
+    "header_text": "Posture Adjustment",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "While lining up for photos, someone quietly adjusts their posture after looking at you. You worry they’re copying you because you look awkward. You remind yourself that lots of people correct their posture, and your shoulders relax a..."
+        },
+        {
+            "type": "Entry",
+            "name": "Posture Adjustment_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

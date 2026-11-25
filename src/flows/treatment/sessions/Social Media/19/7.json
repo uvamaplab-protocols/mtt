@@ -1,0 +1,17 @@
+{
+    "header_text": "Unopened Message",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You can see that a friend opened the photo you sent, but didn't respond to you. You know that they're posting other things, so they're definitely on their phone. Your friend probably didn't respond because they... "
+        },
+        {
+            "type": "Entry",
+            "name": "Unopened Message_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

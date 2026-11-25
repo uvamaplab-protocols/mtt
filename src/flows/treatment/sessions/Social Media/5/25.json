@@ -1,0 +1,29 @@
+{
+    "header_text": "New Car 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Are you feeling grateful for your family's thoughtful gifts?"
+        },
+        {
+            "type": "Buttons",
+            "name": "New Car 2_Social Media_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Yes",
+                "No"
+            ],
+            "column_Count": 1,
+            "correct_value": "Yes"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Resilience",
+    "scenario_num": 5
+}

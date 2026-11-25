@@ -1,0 +1,16 @@
+{
+    "header_text": "Misinterpreted Comment ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Misinterpreted Comment "
+        },
+        {
+            "type": "Media",
+            "url": "./images/855.jpg"
+        }
+    ],
+    "type": "Negative",
+    "scenario_num": 5
+}

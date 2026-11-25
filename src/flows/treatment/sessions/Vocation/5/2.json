@@ -1,0 +1,16 @@
+{
+    "header_text": "Allowance 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Allowance 3"
+        },
+        {
+            "type": "Media",
+            "url": "./images/164.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 0
+}

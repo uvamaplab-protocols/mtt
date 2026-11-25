@@ -1,0 +1,25 @@
+{
+    "header_text": "Hallway Chat 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You walk into a busy hallway after math class. Right away, you spot your crush talking closely with someone at their locker. You immediately wonder if they’re flirting, and you feel a spike of... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Hallway Chat 2_Romantic Relationships_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "jealousy"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 8
+}

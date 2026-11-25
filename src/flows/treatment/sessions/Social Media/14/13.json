@@ -1,0 +1,17 @@
+{
+    "header_text": "No Smartphone",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Everyone else at your high school has a smartphone, but your parents haven't allowed you to get one yet. You get anxious thinking about the conversations and experiences you might be missing out on, and worry that your friends will leave you behind. Even though you don't have a smartphone, your friends will probably still make an effort to include... \n"
+        },
+        {
+            "type": "Entry",
+            "name": "No Smartphone_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

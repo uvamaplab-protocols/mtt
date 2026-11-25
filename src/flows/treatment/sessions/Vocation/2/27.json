@@ -1,0 +1,25 @@
+{
+    "header_text": "Online Application 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You consider that most beginners start with very little experience. You hold that idea lightly, and you end up feeling..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Online Application 2_Vocation_puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "steady"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

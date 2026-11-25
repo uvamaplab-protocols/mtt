@@ -1,0 +1,17 @@
+{
+    "header_text": "Post-Graduation Thoughts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your classmates all seem to know what kind of people they want to be after high school. You still feel unsure of who you are. You remind yourself that figuring yourself out takes time, and you know things will turn out as they..."
+        },
+        {
+            "type": "Entry",
+            "name": "Post-Graduation Thoughts_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

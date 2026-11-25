@@ -1,0 +1,17 @@
+{
+    "header_text": "Active Online",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The person you’re talking to leaves your message on delivered for hours, but you see them active online. You feel a knot in your stomach as you stare at their online icon, trying to guess what it means.  You remind yourself that behavior online isn’t always logical, and they are probably... "
+        },
+        {
+            "type": "Entry",
+            "name": "Active Online_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

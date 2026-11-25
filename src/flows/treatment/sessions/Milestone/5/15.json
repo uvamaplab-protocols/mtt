@@ -1,0 +1,25 @@
+{
+    "header_text": "Siblings Accomplishments Posted",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are scrolling on social media when you spot a post by one of your parents. As you read through, you see they are proudly postig about your sibling’s accomplishments online. Reading the post, you feel proud of your... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Siblings Accomplishments Posted_Milestone_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "sibling"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

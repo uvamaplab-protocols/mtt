@@ -1,0 +1,25 @@
+{
+    "header_text": "Blanking in Interview 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You blank out during a job interview question. The interviewer stares at you as the seconds stretch out, and you feel your stomach drop. You manage to answer the question, but assume you ruined your chance for the... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Blanking in Interview 2_Vocation_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "job"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 0
+}

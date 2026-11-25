@@ -1,0 +1,16 @@
+{
+    "header_text": "Late Parents",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Late Parents"
+        },
+        {
+            "type": "Media",
+            "url": "./images/404.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 0
+}

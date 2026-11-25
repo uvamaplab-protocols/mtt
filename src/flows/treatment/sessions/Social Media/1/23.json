@@ -1,0 +1,25 @@
+{
+    "header_text": "Valentine's Day Post",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The person you're dating doesn’t post you on Valentine’s Day, even though all your friends got posted. You start to worry they’re not as excited about you. It leaves you feeling..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Valentine's Day Post_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "unvalued"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 7
+}

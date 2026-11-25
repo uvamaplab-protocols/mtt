@@ -1,0 +1,25 @@
+{
+    "header_text": "Double Texting: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your crush hasn't responded in a few days. After long deliberation, you send a double text. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I send a third text immediately trying to walk back the second one.",
+                "I feel tempted to screenshot the conversation and send to another friend to ask for help, but manage to control the urge.",
+                "I put my phone down and go do something else after sending the text.",
+                "I want to check my phone every few minutes, but set it aside and give it real time.",
+                "I text another friend to distract myself."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Instagram Likes",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Instagram Likes"
+        },
+        {
+            "type": "Media",
+            "url": "./images/958.jpg"
+        }
+    ],
+    "type": "Negative",
+    "scenario_num": 0
+}

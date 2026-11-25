@@ -1,0 +1,17 @@
+{
+    "header_text": "Same School Rejection",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend posts a photo holding their college acceptance letter. You just got rejected from the same school. Then you remind yourself that rejection is part of the process for a lot of people, and you start to feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Same School Rejection_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

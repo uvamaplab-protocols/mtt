@@ -1,0 +1,17 @@
+{
+    "header_text": "Group Chat Argument",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You recall that people can argue with one another and still remain friends, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Group Chat Argument_Social Media_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 9
+}

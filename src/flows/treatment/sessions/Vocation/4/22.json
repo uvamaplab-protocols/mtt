@@ -1,0 +1,16 @@
+{
+    "header_text": "Typo in Email 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Typo in Email 3"
+        },
+        {
+            "type": "Media",
+            "url": "./images/406.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 7
+}

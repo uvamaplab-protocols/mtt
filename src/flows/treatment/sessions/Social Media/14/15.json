@@ -1,0 +1,17 @@
+{
+    "header_text": "Deleting Drafts",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You try to post something funny, but keep deleting drafts because it doesn’t feel clever enough. You start to wonder if you’re just not naturally funny. Then you remind yourself that humor is subjective, and you feel psyched to share your... "
+        },
+        {
+            "type": "Entry",
+            "name": "Deleting Drafts_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Abroad Photos",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see a former classmate posting beautiful photos from their travels abroad. You wonder if your life is boring in comparison, and find yourself feeling insecure. You try to remember that social media shows carefully curated moments, not whole lives, and you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Abroad Photos_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

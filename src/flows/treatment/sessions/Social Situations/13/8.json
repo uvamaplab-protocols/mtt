@@ -1,0 +1,17 @@
+{
+    "header_text": "Shaking Arms",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "In gym class, the teacher calls out reps while the clock ticks loudly on the wall. Your arms start shaking earlier than you expected, and you wonder who might notice. You know effort doesn’t always look the same, and your classmates are probably thinking about other... "
+        },
+        {
+            "type": "Entry",
+            "name": "Shaking Arms_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

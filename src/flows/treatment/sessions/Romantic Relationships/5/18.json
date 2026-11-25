@@ -1,0 +1,25 @@
+{
+    "header_text": "Tagged with a Heart",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A friend posts a picture with your partner and tags them with a heart. You feel a quick rush of jealousy before you fully process it. You remind yourself symbols online don’t tell the whole story, and you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Tagged with a Heart_Romantic Relationships_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "calmer"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Texting Crush 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You text your crush something funny. As you're waiting for a response, you see the three dots pop up, then disappear. Your crush is probably... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Texting Crush 3_Romantic Relationships_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "thinking"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

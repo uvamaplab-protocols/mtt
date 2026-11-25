@@ -1,0 +1,17 @@
+{
+    "header_text": "Not Resting 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After a few minutes, you remind yourself that worrying won't make you sleep faster, and you feel your body... "
+        },
+        {
+            "type": "Entry",
+            "name": "Not Resting 2_Health & Well-being_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

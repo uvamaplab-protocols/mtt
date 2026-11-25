@@ -1,0 +1,17 @@
+{
+    "header_text": "Mental Health Post 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Then you remind yourself that even if not everyone understands, your honesty might have helped someone, and this makes you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Mental Health Post 1_Health & Well-being_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

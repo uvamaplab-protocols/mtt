@@ -1,0 +1,25 @@
+{
+    "header_text": "Jokes in Math Class",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The teacher calls you to the board to complete a math problem. As you are working on the problem, you hear a loud burst of laughter behind you. Your classmates are probably laughing at a..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Jokes in Math Class_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "joke"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

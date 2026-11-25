@@ -1,0 +1,17 @@
+{
+    "header_text": "College and Climate 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your friends are starting to talk about what you want to study in college. As you talk, you worry certain fields will be useless in a climate-shifting world. You remind yourself that careers adjust with changing conditions, and you feel exctied to pursue your... "
+        },
+        {
+            "type": "Entry",
+            "name": "College and Climate 3_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

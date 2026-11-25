@@ -1,0 +1,17 @@
+{
+    "header_text": "New Foods",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're at a friend's house, and their mom makes some very spicy food for dinner. After eating some, your face begins to sweat, and you can feel your heart beating in your chest. You decide to focus on the conversation, and you experience the rest of dinner as... "
+        },
+        {
+            "type": "Entry",
+            "name": "New Foods_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

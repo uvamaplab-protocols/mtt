@@ -1,0 +1,16 @@
+{
+    "header_text": "Shaking Arms",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Shaking Arms"
+        },
+        {
+            "type": "Media",
+            "url": "./images/479.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 2
+}

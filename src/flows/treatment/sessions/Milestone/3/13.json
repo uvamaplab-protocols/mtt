@@ -1,0 +1,17 @@
+{
+    "header_text": "Fear of Judgement 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you open the door to his office, the counselor smiles, and you remember that he only wants to... "
+        },
+        {
+            "type": "Entry",
+            "name": "Fear of Judgement 1_Milestone_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 3
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Finger Pain 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're walking with some friends after lunch and suddenly feel tingling in your fingertips. This is something that you haven't really experienced before, and you worry it could be a sign of something... "
+        },
+        {
+            "type": "Entry",
+            "name": "Finger Pain 2_Health & Well-being_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 8
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Forgetting Instructions",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You forget how to clock in on your first day. For a second, you feel embarrassed asking for help. The cashier shows you how without making it a big deal, and you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Forgetting Instructions_Vocation_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "relieved"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

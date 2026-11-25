@@ -1,0 +1,17 @@
+{
+    "header_text": "Relationship Questions",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Someone you know posts a photo with their new boyfriend. You've never been in a relationship, and you start to wonder if you’re missing out on something important. You remind yourself that everyone moves at their own speed, and just because you don't have a relationship now doesn't mean you won't have one in the... "
+        },
+        {
+            "type": "Entry",
+            "name": "Relationship Questions_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

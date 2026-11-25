@@ -1,0 +1,17 @@
+{
+    "header_text": "Ex Follows Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are looking through your best friend's \"following\" list to find a mutual acquaintance. You feel a jolt as you notice that your ex still follows your best friend. You think about why this might be, and decide you are unconcerned that something might be going on between... "
+        },
+        {
+            "type": "Entry",
+            "name": "Ex Follows Friend_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

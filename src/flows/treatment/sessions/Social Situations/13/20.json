@@ -1,0 +1,17 @@
+{
+    "header_text": "Smiling witih Braces",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You notice your braces gleam in every photo your friend takes at lunch. You worry everyone will think your smile looks awkward. You remind yourself most people barely notice... "
+        },
+        {
+            "type": "Entry",
+            "name": "Smiling witih Braces_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Friend Acing Test",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Friend Acing Test"
+        },
+        {
+            "type": "Media",
+            "url": "./images/710.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 7
+}

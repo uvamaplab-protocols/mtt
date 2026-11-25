@@ -1,0 +1,17 @@
+{
+    "header_text": "Expecting a Comment",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You posted a selfie on social media a few hours ago. Your best friend hasn't commented on it yet, even though they usually comment on your posts immediately, and they just posted a photo of their own. You think that the post probably wasn't... "
+        },
+        {
+            "type": "Entry",
+            "name": "Expecting a Comment_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

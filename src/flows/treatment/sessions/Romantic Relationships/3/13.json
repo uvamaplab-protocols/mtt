@@ -1,0 +1,17 @@
+{
+    "header_text": "Painful Breakup",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remind yourself that healing can take time, and you feel accepting of your... "
+        },
+        {
+            "type": "Entry",
+            "name": "Painful Breakup_Romantic Relationships_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 3
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Writing Resumé 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you slow down and take it one step at a time, thinking about the experiences you have had, you begin to feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Writing Resumé 2_Vocation_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 8
+}

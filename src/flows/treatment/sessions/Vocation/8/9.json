@@ -1,0 +1,17 @@
+{
+    "header_text": "Blank Resume 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're staring at a blank résumé template for a school program. You can't think of anything impressive to add, and you assume it will look boring compared to everyone else’s. You pause and remember people often forget how ordinary their early résumés... "
+        },
+        {
+            "type": "Entry",
+            "name": "Blank Resume 3_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

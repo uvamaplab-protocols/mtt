@@ -1,0 +1,17 @@
+{
+    "header_text": "Test Talk at Lunch",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your friends are eating lunch in the cafeteria. Your friend shares a story about acing a test that you just badly failed. You don't say anything, but you feel a huge bolt of shame about your poor... "
+        },
+        {
+            "type": "Entry",
+            "name": "Test Talk at Lunch_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 9
+}

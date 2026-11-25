@@ -1,0 +1,16 @@
+{
+    "header_text": "Tall Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Tall Friend"
+        },
+        {
+            "type": "Media",
+            "url": "./images/677.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 7
+}

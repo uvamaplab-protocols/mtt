@@ -1,0 +1,17 @@
+{
+    "header_text": "Phone Energy 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are scrolling through your phone late at night when you come across an article about the climate change and phone use. You feel a twinge of eco-guilt imagining all the energy you waste just by scrolling. Even though you consider yourself climate conciouss, you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Phone Energy 2_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 2
+}

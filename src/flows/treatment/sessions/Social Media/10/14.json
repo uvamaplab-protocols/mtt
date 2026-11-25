@@ -1,0 +1,25 @@
+{
+    "header_text": "Video of Confident Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see a video of your friend giving a confident speech at school and getting praise in the comments. You feel anxious remembering how nervous you were just doing a class introduction. Then you remind yourself that growth looks different for everyone, and you feel kinder to..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Video of Confident Friend_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "yourself"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

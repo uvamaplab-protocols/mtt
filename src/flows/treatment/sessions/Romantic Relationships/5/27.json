@@ -1,0 +1,25 @@
+{
+    "header_text": "Time Alone",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You've just started dating a new person and you've been hanging out all the time. On Friday at school, the person you’re dating says they need Saturday to themselves. You consider that it is normal to want alone time while in a... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Time Alone_Romantic Relationships_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "relationship"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

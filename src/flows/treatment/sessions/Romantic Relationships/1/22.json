@@ -1,0 +1,17 @@
+{
+    "header_text": "Words of Affirmation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You’re thinking about saying “I really like you” but freeze before the words come out. You worry you’ll make things awkward. It leaves you feeling..."
+        },
+        {
+            "type": "Entry",
+            "name": "Words of Affirmation_Romantic Relationships_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 7
+}

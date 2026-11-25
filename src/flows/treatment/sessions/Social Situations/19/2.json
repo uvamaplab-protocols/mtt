@@ -1,0 +1,25 @@
+{
+    "header_text": "Misinformation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Someone posts a misleading meme that everyone seems to believe. You think about how easily misinformation spreads, and feel your mind start to spiral with uncertainty. The realization leaves you feeling anxious about the... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Misinformation_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "future"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 0
+}

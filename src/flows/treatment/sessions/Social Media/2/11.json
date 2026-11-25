@@ -1,0 +1,25 @@
+{
+    "header_text": "Misleading Post",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "On social media, you notice a misleading post and your heart sinks. You imagine people believing it instantly. The way misinformation spreads leaves you feeling..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Misleading Post_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "discouraged"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 3
+}

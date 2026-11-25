@@ -1,0 +1,25 @@
+{
+    "header_text": "Coughing in Class 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You cough during a quiet part of class, and everyone turns around. You instantly feel embarrassed and assume they think you’re... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Coughing in Class 2_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "contagious"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 8
+}

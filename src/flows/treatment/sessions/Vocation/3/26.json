@@ -1,0 +1,16 @@
+{
+    "header_text": "Friend's Internship",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Friend's Internship"
+        },
+        {
+            "type": "Media",
+            "url": "./images/168.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 8
+}

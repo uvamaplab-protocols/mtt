@@ -1,0 +1,17 @@
+{
+    "header_text": "Cleanup Event",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After a volunteer cleanup, dirt still under your nails, you sit in your car before driving home. The pride fades as you wonder whether a few trash bags mattered at all. You think small actions are still important when added...  "
+        },
+        {
+            "type": "Entry",
+            "name": "Cleanup Event_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

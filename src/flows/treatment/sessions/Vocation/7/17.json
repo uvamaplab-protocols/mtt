@@ -1,0 +1,17 @@
+{
+    "header_text": "New Job Jitters 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It is the first day at your new job, Everyone seems to know where they’re going except you. Your coworkers probably think you are... "
+        },
+        {
+            "type": "Entry",
+            "name": "New Job Jitters 3_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

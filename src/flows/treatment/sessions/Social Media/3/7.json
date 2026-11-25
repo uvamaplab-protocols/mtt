@@ -1,0 +1,17 @@
+{
+    "header_text": "Not Tagged 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You notice that a group photo was shared, but you weren’t tagged in it, even though everyone else is. You start wondering why they didn’t include you. You think they abandoned... "
+        },
+        {
+            "type": "Entry",
+            "name": "Not Tagged 1_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 2
+}

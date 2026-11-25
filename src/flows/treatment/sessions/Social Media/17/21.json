@@ -1,0 +1,16 @@
+{
+    "header_text": "Important DM",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Important DM"
+        },
+        {
+            "type": "Media",
+            "url": "./images/736.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 9
+}

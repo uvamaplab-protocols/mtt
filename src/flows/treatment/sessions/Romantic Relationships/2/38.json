@@ -1,0 +1,17 @@
+{
+    "header_text": "No Eye Contact",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You spot your crush in the hallway. They pass you without making eye contact, You immediately assume your crush is upset with... "
+        },
+        {
+            "type": "Entry",
+            "name": "No Eye Contact_Romantic Relationships_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 9
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Accidental Like 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Accidental Like 3"
+        },
+        {
+            "type": "Media",
+            "url": "./images/678.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 1
+}

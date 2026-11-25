@@ -1,0 +1,17 @@
+{
+    "header_text": "Friend Anniversary 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Then you remind yourself that many people don’t find their significant other at this age, and you feel hopeful thinking about who you might meet in the..."
+        },
+        {
+            "type": "Entry",
+            "name": "Friend Anniversary 2_Milestone_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 0
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Hallway Chat 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Hallway Chat 2"
+        },
+        {
+            "type": "Media",
+            "url": "./images/18.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 8
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Presentation Applause",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You finish a presentation, and there’s less applause than the one before yours. You immediately think yours was boring, and feel a flash of anxiety about your grade. As you sit back down, you think the class might be... "
+        },
+        {
+            "type": "Entry",
+            "name": "Presentation Applause_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

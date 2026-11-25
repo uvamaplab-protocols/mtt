@@ -1,0 +1,16 @@
+{
+    "header_text": "Sibling in Room",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Sibling in Room"
+        },
+        {
+            "type": "Media",
+            "url": "./images/524.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 8
+}

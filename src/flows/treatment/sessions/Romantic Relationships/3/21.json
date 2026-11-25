@@ -1,0 +1,17 @@
+{
+    "header_text": "Valentine's Day",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "At school on Valentines day, you see couples posing for matching photos. You are single, and begin to feel anxious that you'll never be in a relationship. Thinking about the future, you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Valentine's Day_Romantic Relationships_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

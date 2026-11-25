@@ -1,0 +1,16 @@
+{
+    "header_text": "Picture Day Haircut",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Picture Day Haircut"
+        },
+        {
+            "type": "Media",
+            "url": "./images/860.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 0
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Climate Futures 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As college discussions begin, you worry certain fields will be useless in a climate-shifting world. You imagine choosing the “wrong” path. You remind yourself that careers adjust with... "
+        },
+        {
+            "type": "Entry",
+            "name": "Climate Futures 3_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

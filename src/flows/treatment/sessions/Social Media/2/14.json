@@ -1,0 +1,17 @@
+{
+    "header_text": "Friend's Family Holiday",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see your friend post about their family holiday, and it makes you feel bad because your family is going through a tough time. You wonder if they’ll ever understand what you're going through. It leaves you feeling..."
+        },
+        {
+            "type": "Entry",
+            "name": "Friend's Family Holiday_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 4
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Stomach Twist 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Stomach Twist 1"
+        },
+        {
+            "type": "Media",
+            "url": "./images/527.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 2
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Commenting on Ex's Post",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see your crush comment under their ex’s post: “Proud of you.” You immediately think they still have feelings for each other. You remind yourself that connection doesn't just dissapear, and it is okay to be friends with an... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Commenting on Ex's Post_Romantic Relationships_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "ex"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

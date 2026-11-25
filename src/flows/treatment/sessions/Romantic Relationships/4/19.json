@@ -1,0 +1,16 @@
+{
+    "header_text": "No Reaction",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "No Reaction"
+        },
+        {
+            "type": "Media",
+            "url": "./images/37.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 6
+}

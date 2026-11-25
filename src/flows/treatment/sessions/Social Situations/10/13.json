@@ -1,0 +1,17 @@
+{
+    "header_text": "New Person at Lunch",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When you show up to the lunch room, your best friend is chatting excitedly with someone new. You feel a flash of anxiety, wondering if you’re being replaced. When you think about sitting with your friend and the new person, you feel enthusastic to meet... "
+        },
+        {
+            "type": "Entry",
+            "name": "New Person at Lunch_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

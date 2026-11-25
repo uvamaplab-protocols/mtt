@@ -1,0 +1,17 @@
+{
+    "header_text": "Job Interview 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Then you realize that interviewers know everyone gets nervous, and you feel relaxed about..."
+        },
+        {
+            "type": "Entry",
+            "name": "Job Interview 2_Vocation_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 1
+}

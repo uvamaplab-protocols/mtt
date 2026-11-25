@@ -1,0 +1,29 @@
+{
+    "header_text": "Dream Colleges 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friends probably see your college choice as..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Dream Colleges 3_Milestone_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "just as worthwhile as their own choices.",
+                "less impressive than where they're going."
+            ],
+            "column_Count": 1,
+            "correct_value": "just as worthwhile as their own choices."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 5
+}

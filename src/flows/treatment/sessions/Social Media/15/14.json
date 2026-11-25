@@ -1,0 +1,16 @@
+{
+    "header_text": "Short Reply",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Short Reply"
+        },
+        {
+            "type": "Media",
+            "url": "./images/723.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 6
+}

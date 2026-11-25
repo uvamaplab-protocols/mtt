@@ -1,0 +1,16 @@
+{
+    "header_text": "Late to Dinner",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Late to Dinner"
+        },
+        {
+            "type": "Media",
+            "url": "./images/883.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 1
+}

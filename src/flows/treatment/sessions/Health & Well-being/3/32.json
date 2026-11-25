@@ -1,0 +1,17 @@
+{
+    "header_text": "Shirt Fit 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You wear a shirt to school that hangs tightly around your armpits. In the middle of the day, you notice that you have sweat marks and immediately feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Shirt Fit 1_Health & Well-being_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 9
+}

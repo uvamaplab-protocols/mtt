@@ -1,0 +1,25 @@
+{
+    "header_text": "Messaging Crush: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You've been talking to your crush on Snapchat and they're usually quick to respond. You see that they opened your message a couple of hours ago and did not respond. \n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I'm worried this has something to do with me, but realize this person has a lot of other things going on in their life.",
+                "I'm sad that my crush didn't respond quickly, but know that I won't feel sad forever.",
+                "I'm eager to hear back.",
+                "I'm sad that my crush didn't message back immediately.",
+                "I feel happy with my ability to send fun messages."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

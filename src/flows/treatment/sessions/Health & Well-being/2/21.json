@@ -1,0 +1,16 @@
+{
+    "header_text": "Heat Advisory 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Heat Advisory 1"
+        },
+        {
+            "type": "Media",
+            "url": "./images/315.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 5
+}

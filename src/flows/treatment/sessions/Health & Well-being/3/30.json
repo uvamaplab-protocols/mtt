@@ -1,0 +1,17 @@
+{
+    "header_text": "Finger Pain 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remind yourself that tingling can be caused by posture or circulation, and you feel yourself... "
+        },
+        {
+            "type": "Entry",
+            "name": "Finger Pain 2_Health & Well-being_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 8
+}

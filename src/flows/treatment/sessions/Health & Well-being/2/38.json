@@ -1,0 +1,25 @@
+{
+    "header_text": "Stomach Cramp 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your stomach cramps up just before lunch and feels weirdly heavy. You panic that you ate something bad and are getting... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Stomach Cramp 1_Health & Well-being_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "sick"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 9
+}

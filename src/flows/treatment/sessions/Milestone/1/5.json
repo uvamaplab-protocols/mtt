@@ -1,0 +1,25 @@
+{
+    "header_text": "New Car 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Someone in your grade posts a picture of the car their parents got them for their 16th birthday. Your family shares a single car, and your parents would not be able to afford to buy another one. You think about the gifts your parents have given you over the years, and you feel let...  "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "New Car 1_Milestone_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "down"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 1
+}

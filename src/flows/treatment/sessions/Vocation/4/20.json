@@ -1,0 +1,25 @@
+{
+    "header_text": "College FOMO",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friends are posting about college visits, and you feel like you're missing out because you're not following the same route. You think they might judge your choice. Then you remember that many people find success without a four-year degree, and you feel happier about your..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "College FOMO_Vocation_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "decision"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "DMing Crush",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "DMing Crush"
+        },
+        {
+            "type": "Media",
+            "url": "./images/731.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 0
+}

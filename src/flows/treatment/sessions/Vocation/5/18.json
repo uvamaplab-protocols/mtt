@@ -1,0 +1,25 @@
+{
+    "header_text": "Work Life Balence 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You wake up exhausted after another night of studying after coming home from your part-time job and feel like you can’t do it anymore. You start to think you’re burning out. You remind yourself that rest is an important part of working... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Work Life Balence 3_Vocation_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "hard"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

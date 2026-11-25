@@ -1,0 +1,25 @@
+{
+    "header_text": "Job Offers 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It is your senior year and your friends are eating lunch outside. Everyone’s comparing job offers after graduation, but you feel a pit in your stomatch when you think about the future because you don't have a job yet. You think that it is uncommon not to have a job after... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Job Offers 2_Vocation_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "graduation"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 1
+}

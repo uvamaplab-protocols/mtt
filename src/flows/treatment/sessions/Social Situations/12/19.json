@@ -1,0 +1,17 @@
+{
+    "header_text": "Rainy Mondy",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You sit next to a classmate you don't know that well on a rainy Monday morning.  When you ask about their weekend, they give a short, terse answer, and you instantly take it as a sign they don’t like you. After a few minutes, you realize it's possible that they just had a bad weekend and don't feel like talking about it, and the awkwardness... "
+        },
+        {
+            "type": "Entry",
+            "name": "Rainy Mondy_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

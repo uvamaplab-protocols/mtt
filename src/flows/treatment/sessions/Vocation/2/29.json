@@ -1,0 +1,16 @@
+{
+    "header_text": "Leading a Meeting 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Leading a Meeting 2"
+        },
+        {
+            "type": "Media",
+            "url": "./images/394.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 7
+}

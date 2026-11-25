@@ -1,0 +1,29 @@
+{
+    "header_text": "Birthday Party Conflict 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend will probably...."
+        },
+        {
+            "type": "Buttons",
+            "name": "Birthday Party Conflict 3_Social Situations_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Forgive you",
+                "Be upset with you"
+            ],
+            "column_Count": 1,
+            "correct_value": "Forgive you"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 2
+}

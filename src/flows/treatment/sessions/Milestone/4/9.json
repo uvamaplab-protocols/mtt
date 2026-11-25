@@ -1,0 +1,29 @@
+{
+    "header_text": "Award Scrolling",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your path in life probably..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Award Scrolling_Milestone_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "doesn't need to look like anyone else's.",
+                "isn't measuring up compared to theirs."
+            ],
+            "column_Count": 1,
+            "correct_value": "doesn't need to look like anyone else's."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 2
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Single on Valentine's Day",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Single on Valentine's Day"
+        },
+        {
+            "type": "Media",
+            "url": "./images/711.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 0
+}

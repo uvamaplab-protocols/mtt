@@ -1,0 +1,25 @@
+{
+    "header_text": "Coming In Last",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You come in last during the mile run at school. You feel embarrassed and wonder if everyone sees you as weak.\nNo one says anything about it, and you decide that you are glad that you finished the... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Coming In Last_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "run"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

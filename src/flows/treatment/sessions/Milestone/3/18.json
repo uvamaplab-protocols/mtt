@@ -1,0 +1,17 @@
+{
+    "header_text": "Sibling Award",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your older sibling just won another award at school. You watch your parents clap as they walk to the stage to accept their prize. When you think about the difference between their accomplishments and yours, you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Sibling Award_Milestone_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 5
+}

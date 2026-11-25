@@ -1,0 +1,16 @@
+{
+    "header_text": "Unexpected Snap Streak",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Unexpected Snap Streak"
+        },
+        {
+            "type": "Media",
+            "url": "./images/39.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 9
+}

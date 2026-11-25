@@ -1,0 +1,29 @@
+{
+    "header_text": "No Views from Crush 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When your crush doesn't view your story, you think they..."
+        },
+        {
+            "type": "Buttons",
+            "name": "No Views from Crush 3_Romantic Relationships_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "just haven't gotten around to checking it yet.",
+                "aren't interested in you."
+            ],
+            "column_Count": 1,
+            "correct_value": "just haven't gotten around to checking it yet."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 5
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Friend's Dog",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see a friend post an old photo with their dog and write, “Still my best friend 🐶❤️.” You feel your chest tighten, thinking about the pet you just lost. You consider how grief is another from of...  "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Friend's Dog_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "love"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Coming In Last",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Coming In Last"
+        },
+        {
+            "type": "Media",
+            "url": "./images/470.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 1
+}

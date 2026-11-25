@@ -1,0 +1,16 @@
+{
+    "header_text": "Lessons Learned",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "Great job! You're making great progress trying out new perspectives tied to vocations! Take a few minutes to reflect on the short stories you've read so far. What have you learned? What are your main takeaways? For instance [placholder]"
+        },
+        {
+            "type": "Entry",
+            "name": "lessons_learned_Vocation_0"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 0
+}

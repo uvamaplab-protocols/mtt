@@ -1,0 +1,16 @@
+{
+    "header_text": "Height Comparison",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Height Comparison"
+        },
+        {
+            "type": "Media",
+            "url": "./images/933.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 5
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Blanking in Interview 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Blanking in Interview 2"
+        },
+        {
+            "type": "Media",
+            "url": "./images/392.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 0
+}

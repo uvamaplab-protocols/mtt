@@ -1,0 +1,16 @@
+{
+    "header_text": "Emoji Response",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Emoji Response"
+        },
+        {
+            "type": "Media",
+            "url": "./images/737.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 5
+}

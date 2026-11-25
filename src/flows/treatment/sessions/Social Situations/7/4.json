@@ -1,0 +1,16 @@
+{
+    "header_text": "Forgotten Essay ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Forgotten Essay "
+        },
+        {
+            "type": "Media",
+            "url": "./images/881.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 1
+}

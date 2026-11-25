@@ -1,0 +1,17 @@
+{
+    "header_text": "Phone Energy 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You think that activism is allowed to be... "
+        },
+        {
+            "type": "Entry",
+            "name": "Phone Energy 2_Social Media_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 2
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Heatwave Alert 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remind yourself that staying hydrated and indoors helps a lot, leaving you feeling... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Heatwave Alert 1_Health & Well-being_puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "better"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

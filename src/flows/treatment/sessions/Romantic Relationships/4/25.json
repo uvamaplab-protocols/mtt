@@ -1,0 +1,16 @@
+{
+    "header_text": "No Post Review",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "No Post Review"
+        },
+        {
+            "type": "Media",
+            "url": "./images/38.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 8
+}

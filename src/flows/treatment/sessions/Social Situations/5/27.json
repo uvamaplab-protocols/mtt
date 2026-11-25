@@ -1,0 +1,25 @@
+{
+    "header_text": "Dietary Restrictions",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have dietary restrictions, and as a result, you can't eat most of the food at the family gathering. You worry people are judging you and think you're weird. You think about how the way you eat is just a part of who you are, and it wouldn't be fair for your family to judge you because of that. You feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Dietary Restrictions_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "centered"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

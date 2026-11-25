@@ -1,0 +1,17 @@
+{
+    "header_text": "Mistaken Wave 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Someone you like waves at you from across the room during lunch. Thinking they are waving at you, you wave back, but they point to a person behind you. You feel a burning rush of embarrassment and worry that you came across as... "
+        },
+        {
+            "type": "Entry",
+            "name": "Mistaken Wave 2_Romantic Relationships_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 5
+}

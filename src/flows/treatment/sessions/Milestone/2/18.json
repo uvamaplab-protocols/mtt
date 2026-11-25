@@ -1,0 +1,25 @@
+{
+    "header_text": "Eye Doctor ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "At the eye doctor, you’re told you need glasses for the first time. You imagine people at school saying you look weird. The thought makes you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Eye Doctor _Milestone_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "self-conscious"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

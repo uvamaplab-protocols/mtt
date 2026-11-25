@@ -1,0 +1,17 @@
+{
+    "header_text": "Science Fair 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "However, you also think about how much fun you had building the project, and you shrug off their remarks, feeling pleased with your... "
+        },
+        {
+            "type": "Entry",
+            "name": "Science Fair 2_Social Situations_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 0
+}

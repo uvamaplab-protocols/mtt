@@ -1,0 +1,17 @@
+{
+    "header_text": "Romantic Text",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You send a somewhat romantic text to your crush, feeling a thrill of excitement. When you check your phone, you notice they only sent a smiley face back, and your stomach drops as you wonder if they don't like you. You remind yourself that some people respond simply when uncertain, and a smiley face isn't a... "
+        },
+        {
+            "type": "Entry",
+            "name": "Romantic Text_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

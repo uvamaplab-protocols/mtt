@@ -1,0 +1,16 @@
+{
+    "header_text": "Dream Colleges 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Dream Colleges 1"
+        },
+        {
+            "type": "Media",
+            "url": "./images/86.jpg"
+        }
+    ],
+    "type": "Negative",
+    "scenario_num": 8
+}

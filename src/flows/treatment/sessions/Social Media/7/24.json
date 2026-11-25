@@ -1,0 +1,17 @@
+{
+    "header_text": "Selfie Reaction 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You spend a while taking the perfect selfie to send to the person you're talking to. They react with a simple emoji instead of words, and you start overanalyzing whether they actually liked it. The uncertainty makes you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Selfie Reaction 2_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 7
+}

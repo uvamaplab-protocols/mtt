@@ -1,0 +1,16 @@
+{
+    "header_text": "Homemade Birthday Card",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Homemade Birthday Card"
+        },
+        {
+            "type": "Media",
+            "url": "./images/924.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 6
+}

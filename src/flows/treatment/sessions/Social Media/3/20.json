@@ -1,0 +1,16 @@
+{
+    "header_text": "Fitness Journey 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Fitness Journey 2"
+        },
+        {
+            "type": "Media",
+            "url": "./images/528.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 6
+}

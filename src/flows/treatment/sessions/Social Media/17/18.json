@@ -1,0 +1,17 @@
+{
+    "header_text": "Delayed Reply",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You send your friend a funny meme and they don’t respond all day. You wonder if they’re ignoring you on purpose and begin to feel stressed. A few hours later, they reply with \"lol I just saw this now,\" and you realize they were just... "
+        },
+        {
+            "type": "Entry",
+            "name": "Delayed Reply_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

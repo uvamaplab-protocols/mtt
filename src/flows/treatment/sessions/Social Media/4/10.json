@@ -1,0 +1,25 @@
+{
+    "header_text": "Crush Liking Posts 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are scrolling social media one night, and see your crush made a new post. Your heart plummets when you see they posted a picture with someone else. You start to wonder if they like that person more than you and you feel a bit... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Crush Liking Posts 2_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "jealous"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 2
+}

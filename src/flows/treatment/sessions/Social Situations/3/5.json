@@ -1,0 +1,17 @@
+{
+    "header_text": "Zero Waste Project 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "At school, one of your friends is doing a new \"zero waste\" project and collecting all the trash they use for a week in a single plastic bag .When someone praises your friend for their sustainability project, you instantly feel uncomfortable, wondering if you seem uncaring in comparison. When you think about your friend's zero waste project, you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Zero Waste Project 1_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 1
+}

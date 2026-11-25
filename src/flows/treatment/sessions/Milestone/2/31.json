@@ -1,0 +1,25 @@
+{
+    "header_text": "Casual Outfit",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After a few minutes, you consider that your outfit makes you feel comfortable and happy, and you come away feeling satisfied with your... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Casual Outfit_Milestone_puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "choice"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 7
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Leg Pain",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Then you remember growing pains can feel sudden like this, and you start to feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Leg Pain_Health & Well-being_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

@@ -1,0 +1,29 @@
+{
+    "header_text": "Stomach Cramp 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Next time you feel cramps, you will..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Stomach Cramp 1_Health & Well-being_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Go to urgent care",
+                "Consider eating something"
+            ],
+            "column_Count": 1,
+            "correct_value": "Consider eating something"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Resilience",
+    "scenario_num": 9
+}

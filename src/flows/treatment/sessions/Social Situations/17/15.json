@@ -1,0 +1,25 @@
+{
+    "header_text": "Blank Mind 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your teacher asks a question to your English class about the chapter assigned for homework. You raise your hand, and your teacher calls on you. As you begin talking, you stumble over your words a bit and worry that your classmates think you are... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Blank Mind 2_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "dumb"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 3
+}

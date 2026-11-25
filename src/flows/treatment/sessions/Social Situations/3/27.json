@@ -1,0 +1,25 @@
+{
+    "header_text": "Asking for Help",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your teacher hands out an in-class assignment and lets you know it's graded for completion, not accuracy. As you read through the sheet you feel your cheeks heat up - you are confused and want to ask for help, but are embarrassed to raise your hand in the silent classroom.  You remind yourself that asking questions is part of learning, and calmly raise your... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Asking for Help_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "hand"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

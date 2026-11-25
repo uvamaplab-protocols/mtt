@@ -1,0 +1,25 @@
+{
+    "header_text": "Falling Behind",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You scroll through posts about people achieving awards or internships. You feel like you’re falling behind. Then you remind yourself that your path doesn’t need to look like theirs, and you feel the sense of pressure... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Falling Behind_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "ease"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "No First Kiss 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "No First Kiss 2"
+        },
+        {
+            "type": "Media",
+            "url": "./images/21.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 0
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Thoughtful Caption 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Thoughtful Caption 3"
+        },
+        {
+            "type": "Media",
+            "url": "./images/716.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 7
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Fear of Judgement 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your counselor calls you in to discuss scheduling for next semester and talk about future plans. You haven't thought much about what you want to do after college and your heart hammers as you walk towards his office. When you tell your counselor you feel unsure, you think he will be..."
+        },
+        {
+            "type": "Entry",
+            "name": "Fear of Judgement 1_Milestone_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 3
+}

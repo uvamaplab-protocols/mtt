@@ -1,0 +1,17 @@
+{
+    "header_text": "Small Role 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are assigned to act out a scene in your English class, and your group assigns you a very small role. You feel a flush of embarrassment, wondering if your group thinks you're... "
+        },
+        {
+            "type": "Entry",
+            "name": "Small Role 2_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 3
+}

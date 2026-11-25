@@ -1,0 +1,17 @@
+{
+    "header_text": "Pending Follow Request",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You send a new friend a follow request, and it’s still pending after a few days. You wonder if they’re ignoring you. After a while, you deicde they are probably... "
+        },
+        {
+            "type": "Entry",
+            "name": "Pending Follow Request_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

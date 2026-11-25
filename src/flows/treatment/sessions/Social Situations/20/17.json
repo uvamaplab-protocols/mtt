@@ -1,0 +1,16 @@
+{
+    "header_text": "Submitted Without You 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Submitted Without You 2"
+        },
+        {
+            "type": "Media",
+            "url": "./images/805.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 5
+}

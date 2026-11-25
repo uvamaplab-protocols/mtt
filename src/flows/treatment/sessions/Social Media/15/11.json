@@ -1,0 +1,17 @@
+{
+    "header_text": "Voice Message",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You send a voice message to a new friend, and they don't reply. You start to worry that your voice sounded weird or that your new friend doesn't like voice messages. You remember your friend doesn't check their messages that much and probably hasn't seen it...  "
+        },
+        {
+            "type": "Entry",
+            "name": "Voice Message_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

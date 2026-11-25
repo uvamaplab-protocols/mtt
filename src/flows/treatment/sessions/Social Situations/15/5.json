@@ -1,0 +1,17 @@
+{
+    "header_text": "Text from a Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your friend had a small disagreement over text before you went to bed. When you wake up the next morning, you see a notification on your phone screen indicating they've sent you a message. Your first thought is that they’re trying to... "
+        },
+        {
+            "type": "Entry",
+            "name": "Text from a Friend_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

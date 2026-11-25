@@ -1,0 +1,17 @@
+{
+    "header_text": "Clever Caption",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post a picture with a caption you thought was clever. A few people comment, but no one mentions the caption. You think most people proabbly skipped the... "
+        },
+        {
+            "type": "Entry",
+            "name": "Clever Caption_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Uncertain Relationship",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You bring up the idea of going on a real date somewhere nice to the person you're dating, and they say they’re “not sure” without explaining why. You start worrying they don’t want to put in the effort. It leaves you feeling..."
+        },
+        {
+            "type": "Entry",
+            "name": "Uncertain Relationship_Romantic Relationships_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 8
+}

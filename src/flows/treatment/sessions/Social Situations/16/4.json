@@ -1,0 +1,15 @@
+{
+    "header_text": "Loud Parent",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your parent is dropping you off at your sports practice. As they drop you off, they are really loud and everyone on your team looks at you. \n\nClick Next to see some thoughts."
+        },
+        {
+            "type": "Media",
+            "url": "./images/966.jpg",
+            "border": true
+        }
+    ]
+}

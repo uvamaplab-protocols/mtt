@@ -1,0 +1,17 @@
+{
+    "header_text": "First Job 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You start your first part-time job and make a small mistake on your first shift. Your manager sighs and looks annoyed but tells you that it's okay. They probably think you are... "
+        },
+        {
+            "type": "Entry",
+            "name": "First Job 1_Milestone_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 6
+}

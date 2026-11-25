@@ -1,0 +1,25 @@
+{
+    "header_text": "Extended Family Tiktok",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see a TikTok of someone’s holiday party with cousins, uncles, grandparents—everyone dancing and singing. You feel the sting of knowing your extended family doesn’t talk much anymore. Then you remind yourself that chosen families and quieter holidays still hold value, and you feel okay with..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Extended Family Tiktok_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "yours"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

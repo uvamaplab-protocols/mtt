@@ -1,0 +1,17 @@
+{
+    "header_text": "Waving at Crush",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remind yourself that people get absorbed in their screens, and your crush is probably... "
+        },
+        {
+            "type": "Entry",
+            "name": "Waving at Crush_Romantic Relationships_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 2
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Getting an Allowance",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your classmates talk about saving money from their jobs. You still get an allowance. You remind yourself that independence looks different for everyone, and you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Getting an Allowance_Milestone_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "lighter"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

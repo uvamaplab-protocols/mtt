@@ -1,0 +1,17 @@
+{
+    "header_text": "Night Out FOMO 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see your friends posting group photos from a night out, and you realize you weren't invited. You start to wonder if they’ve been hanging out without you for a while. You feel left..."
+        },
+        {
+            "type": "Entry",
+            "name": "Night Out FOMO 1_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 6
+}

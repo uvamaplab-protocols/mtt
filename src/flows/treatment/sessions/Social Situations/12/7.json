@@ -1,0 +1,17 @@
+{
+    "header_text": "Pop Quiz Freeze",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your teacher is giving a verbal pop quiz during a morning class. You freeze when your teacher calls on you, even though you knew the answer last night. The teacher calls on someone else, and you feel your face burning, wondering if you just aren't smart enough to talk in class. When the teacher asks another question, you feel determind to rasie your hand... "
+        },
+        {
+            "type": "Entry",
+            "name": "Pop Quiz Freeze_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

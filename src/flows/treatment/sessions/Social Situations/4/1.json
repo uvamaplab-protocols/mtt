@@ -1,0 +1,16 @@
+{
+    "header_text": "Awkward Joke",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Awkward Joke"
+        },
+        {
+            "type": "Media",
+            "url": "./images/884.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 0
+}

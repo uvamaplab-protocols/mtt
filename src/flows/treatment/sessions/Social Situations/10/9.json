@@ -1,0 +1,17 @@
+{
+    "header_text": "New Hair",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You look in the mirror and see new hair on your body. You worry it looks odd and feel uncertainty tighten your chest. You remind yourself hair growth is normal during your teens, and other people probably won't focus on... "
+        },
+        {
+            "type": "Entry",
+            "name": "New Hair_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

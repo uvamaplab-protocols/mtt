@@ -1,0 +1,17 @@
+{
+    "header_text": "Post-Grad Plans 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Then you remind yourself that most people are figuring it out too, and you end up feeling..."
+        },
+        {
+            "type": "Entry",
+            "name": "Post-Grad Plans 2_Milestone_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

@@ -1,0 +1,29 @@
+{
+    "header_text": "Typo in Email 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your boss will probably think your typo is..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Typo in Email 2_Vocation_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "A small, understandable error",
+                "A sign of laziness"
+            ],
+            "column_Count": 1,
+            "correct_value": "A small, understandable error"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Resilience",
+    "scenario_num": 5
+}

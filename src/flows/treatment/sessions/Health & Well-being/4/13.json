@@ -1,0 +1,17 @@
+{
+    "header_text": "Catching the Bus",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have a strong urge to get off the bus and go back home, but you sit down at the nearest seat. Instead of exiting, you decide to observe these sensations and stay... "
+        },
+        {
+            "type": "Entry",
+            "name": "Catching the Bus_Health & Well-being_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 3
+}

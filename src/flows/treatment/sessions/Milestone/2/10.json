@@ -1,0 +1,25 @@
+{
+    "header_text": "Learner's Permit",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You've been waiting to take your driving test for weeks, and you feel a thrill of excitment when you pass. You send a photo, but no one responds. You think your friends must find the photo... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Learner's Permit_Milestone_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "annoying"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 2
+}

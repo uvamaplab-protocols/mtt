@@ -1,0 +1,29 @@
+{
+    "header_text": "Misinformation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You think most people are..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Misinformation_Social Situations_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Able to spot obvious misinformation",
+                "Totally duped by misinformation"
+            ],
+            "column_Count": 1,
+            "correct_value": "Able to spot obvious misinformation"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Resilience",
+    "scenario_num": 0
+}

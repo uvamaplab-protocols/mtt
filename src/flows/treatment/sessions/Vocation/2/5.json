@@ -1,0 +1,16 @@
+{
+    "header_text": "Job Offers 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Job Offers 2"
+        },
+        {
+            "type": "Media",
+            "url": "./images/161.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 1
+}

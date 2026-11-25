@@ -1,0 +1,17 @@
+{
+    "header_text": "Late Night Homework 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You stay up late finishing an essay after work and still don't feel it’s perfect. Your thoughts start to spiral, asking if anything you do is ever good enough. You think this one essy is unlikley to determine your future... "
+        },
+        {
+            "type": "Entry",
+            "name": "Late Night Homework 3_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

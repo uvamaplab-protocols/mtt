@@ -1,0 +1,16 @@
+{
+    "header_text": "Tagging a New Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Tagging a New Friend"
+        },
+        {
+            "type": "Media",
+            "url": "./images/952.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 8
+}

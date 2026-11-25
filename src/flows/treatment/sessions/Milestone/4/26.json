@@ -1,0 +1,25 @@
+{
+    "header_text": "Sibling Social Comparison",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your sibling's friend group seems huge while yours feels small. You start to think something’s wrong with you. You remind yourself that connection is about quality, not size, and you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Sibling Social Comparison_Milestone_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "satisfied"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

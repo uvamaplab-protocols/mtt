@@ -1,0 +1,17 @@
+{
+    "header_text": "New Acne",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "In the bathroom mirror at school, you notice a small pimple that looks much bigger under the harsh lights. You worry everyone who sees you will stare at it.You remind yourself that when it comes to apperance, most people are focused on... "
+        },
+        {
+            "type": "Entry",
+            "name": "New Acne_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

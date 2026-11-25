@@ -1,0 +1,16 @@
+{
+    "header_text": "Unheard Ideas",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Unheard Ideas"
+        },
+        {
+            "type": "Media",
+            "url": "./images/861.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 8
+}

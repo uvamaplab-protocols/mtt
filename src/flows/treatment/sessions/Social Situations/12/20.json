@@ -1,0 +1,16 @@
+{
+    "header_text": "Running on a Treadmill",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Running on a Treadmill"
+        },
+        {
+            "type": "Media",
+            "url": "./images/473.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 9
+}

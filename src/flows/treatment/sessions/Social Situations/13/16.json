@@ -1,0 +1,17 @@
+{
+    "header_text": "Sleepy Audience Member",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You’re in the middle of an important presentation for your favorite class. As you scan the classroom, you see someone yawning. You think that they must be... "
+        },
+        {
+            "type": "Entry",
+            "name": "Sleepy Audience Member_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

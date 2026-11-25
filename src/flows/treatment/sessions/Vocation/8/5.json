@@ -1,0 +1,17 @@
+{
+    "header_text": "FOMO From Work 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You get home from your job and see your friends posting about hanging out. You feel a flash of FOMO and wonder if you’re missing your “teen years.” Then you think about how everyone finds their own balance, and you feel content remembering you find time for what..."
+        },
+        {
+            "type": "Entry",
+            "name": "FOMO From Work 3_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Academic Insecurity",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You get a C on an exam in math class. As you scan through the test, you wonder what your new girlfriend will think of your grades. You imagine talking to her about it, and feel you will be supported by... "
+        },
+        {
+            "type": "Entry",
+            "name": "Academic Insecurity_Romantic Relationships_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

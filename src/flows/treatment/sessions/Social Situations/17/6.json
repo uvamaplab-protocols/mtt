@@ -1,0 +1,16 @@
+{
+    "header_text": "Application Question",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Application Question"
+        },
+        {
+            "type": "Media",
+            "url": "./images/798.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 1
+}

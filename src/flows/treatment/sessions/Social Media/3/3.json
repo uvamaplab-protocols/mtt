@@ -1,0 +1,17 @@
+{
+    "header_text": "Friend's Pet",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You notice your friend’s post with their pet, and you feel a pang of sadness since you just lost yours. You wonder if others will understand why you’re upset, and it leaves you feeling..."
+        },
+        {
+            "type": "Entry",
+            "name": "Friend's Pet_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 0
+}

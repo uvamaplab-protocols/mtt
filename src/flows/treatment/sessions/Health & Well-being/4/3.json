@@ -1,0 +1,17 @@
+{
+    "header_text": "Toothache 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You tell your caregiver that your tooth has been hurting recently, so they schedule a dentist appointment for you. As you think about the pain in your tooth and what it might be from, you begin to... "
+        },
+        {
+            "type": "Entry",
+            "name": "Toothache 1_Health & Well-being_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 0
+}

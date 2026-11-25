@@ -1,0 +1,17 @@
+{
+    "header_text": "Story Poll",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post a poll on your story. Only a small handful of people vote in it, though many more view the story. You consider that voting in social media polls takes time, and people are probably..."
+        },
+        {
+            "type": "Entry",
+            "name": "Story Poll_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Slow Likes 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Slow Likes 3"
+        },
+        {
+            "type": "Media",
+            "url": "./images/719.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 2
+}

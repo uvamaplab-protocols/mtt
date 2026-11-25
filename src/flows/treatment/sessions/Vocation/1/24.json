@@ -1,0 +1,17 @@
+{
+    "header_text": "Feedback from Boss 1 ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are having a busy afternoon at work, and your boss gives you quick feedback that you weren’t expecting. You feel a small sting, wondering if you did something wrong. You think about how getting feedback at works means you are... "
+        },
+        {
+            "type": "Entry",
+            "name": "Feedback from Boss 1 _Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 8
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Active Online",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Active Online"
+        },
+        {
+            "type": "Media",
+            "url": "./images/706.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 1
+}

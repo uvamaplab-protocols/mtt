@@ -1,0 +1,17 @@
+{
+    "header_text": "Highlight Reel 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You scroll through your feed and see a friend’s post showing their academic achievements. You think about how your grades aren't as good, and start feeling like you're not measuring up. It leaves you feeling..."
+        },
+        {
+            "type": "Entry",
+            "name": "Highlight Reel 1_Milestone_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 8
+}

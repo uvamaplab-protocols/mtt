@@ -1,0 +1,17 @@
+{
+    "header_text": "Overloaded Schedule",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You look at your calendar packed with practice, homework, and job stuff, and it feels like too much all at once. You want to cut down on your non-essential commitments, but you feel guilty for canceling. You think people will probably be understanding of your... "
+        },
+        {
+            "type": "Entry",
+            "name": "Overloaded Schedule_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

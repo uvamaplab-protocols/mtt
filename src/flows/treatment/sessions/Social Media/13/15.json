@@ -1,0 +1,17 @@
+{
+    "header_text": "Cute Classmate",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You meet a cute classmate in one of your classes. After school, they request to follow you on social media. Before you let them follow you, you look over your own feed and feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Cute Classmate_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

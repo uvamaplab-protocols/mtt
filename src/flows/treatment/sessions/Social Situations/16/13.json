@@ -1,0 +1,25 @@
+{
+    "header_text": "Loud Parent: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your parent is dropping you off at your sports practice. As they drop you off, they are really loud and everyone on your team looks at you. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I start warming up for practice.",
+                "I smile at my friends as I get out of the car.",
+                "I avoid making eye contact with anyone on my team.",
+                "I feel the urge to pretend I'm sick so I don't have to face my friends, but then push myself to face my fears and go to practice.",
+                "I want to run away, but know that my teammates are counting on me to be at practice."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

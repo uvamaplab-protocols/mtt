@@ -1,0 +1,17 @@
+{
+    "header_text": "Writing Resumé 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You'e looking forward to applying for jobs, but you are having trouble writing your first resumè. As you stare at the blank page, you worry that you don't have enough experiene to qualify for the jobs you want. You think your application will probably be... "
+        },
+        {
+            "type": "Entry",
+            "name": "Writing Resumé 2_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 8
+}

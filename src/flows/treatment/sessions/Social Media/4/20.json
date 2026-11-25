@@ -1,0 +1,29 @@
+{
+    "header_text": "Friend's Sibling",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You think that complicated family dynamics..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Friend's Sibling_Social Media_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Can change over time",
+                "Are impossible to change"
+            ],
+            "column_Count": 1,
+            "correct_value": "Can change over time"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Resilience",
+    "scenario_num": 4
+}

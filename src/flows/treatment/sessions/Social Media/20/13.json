@@ -1,0 +1,17 @@
+{
+    "header_text": "Playlist Link",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post a playlist link that you spent along time making. After a few hours, barely anyone has clicked on it. You open the playlist to look at it again, and feel pleased with your taste in... "
+        },
+        {
+            "type": "Entry",
+            "name": "Playlist Link_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

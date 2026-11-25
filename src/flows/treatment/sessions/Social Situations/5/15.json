@@ -1,0 +1,25 @@
+{
+    "header_text": "Coughing in Class 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You cough during a quiet part of class and everyone turns around.You instantly feel hot and assume they think you’re contagious. But the teacher just hands you a tissue and moves on, which makes it seem like maybe it wasn’t a big..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Coughing in Class 3_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "deal"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

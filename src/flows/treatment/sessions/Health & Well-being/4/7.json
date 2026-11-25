@@ -1,0 +1,17 @@
+{
+    "header_text": "Getting Dressed 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You take a moment to remind yourself that bodies shift during growth, and you feel a bit..."
+        },
+        {
+            "type": "Entry",
+            "name": "Getting Dressed 1_Health & Well-being_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 1
+}

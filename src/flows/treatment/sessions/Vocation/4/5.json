@@ -1,0 +1,25 @@
+{
+    "header_text": "Babysitting 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are babysitting for a new family and one of their little kids won't stop crying. You feel yourself starting to panic, and you want to call the child's parents for advice, but you worry about ruining their evening. The parents will probably be understanding that you called to... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Babysitting 3_Vocation_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "check-in"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

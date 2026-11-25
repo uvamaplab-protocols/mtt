@@ -1,0 +1,17 @@
+{
+    "header_text": "Missing the Catch",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your gym class is playing softball outside on a nice spring day. You miss an easy catch and trip in the grass. Your face burns as you stand up, imagining everyone laughing behind you. You notice people are just focused on the next play, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Missing the Catch_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

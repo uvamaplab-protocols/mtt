@@ -1,0 +1,17 @@
+{
+    "header_text": "Supervisor Explanation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During training at your part-time job, your supervisor explains something twice. You worry that needing repetition makes you look unprepared. You know learning curves look different for everyone, and asking for reminders is... "
+        },
+        {
+            "type": "Entry",
+            "name": "Supervisor Explanation_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

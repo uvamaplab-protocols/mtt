@@ -1,0 +1,17 @@
+{
+    "header_text": "Untagged Group Photo",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You weren’t tagged in a group photo, but everyone else was. You start to wonder if they purposely left you out. You remind yourself that tagging mistakes happen all the time, and you start to feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Untagged Group Photo_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

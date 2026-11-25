@@ -1,0 +1,17 @@
+{
+    "header_text": "No First Kiss 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You then think back on the moment and how you enjoyed it, and you feel confident in your... "
+        },
+        {
+            "type": "Entry",
+            "name": "No First Kiss 2_Romantic Relationships_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 0
+}

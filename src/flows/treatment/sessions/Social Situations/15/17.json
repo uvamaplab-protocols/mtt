@@ -1,0 +1,17 @@
+{
+    "header_text": "Tripping on the Stairs",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are running a few minutes late to class, and you race up the main staircase. As you are running, you trip and fall in an awkward way, and your face turns red as you feel a rush of humiliation. The other people in the hallway are probably wondering if you are... "
+        },
+        {
+            "type": "Entry",
+            "name": "Tripping on the Stairs_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Mulitple Climate Stories",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Mulitple Climate Stories"
+        },
+        {
+            "type": "Media",
+            "url": "./images/706.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 3
+}

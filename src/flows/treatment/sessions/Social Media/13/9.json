@@ -1,0 +1,25 @@
+{
+    "header_text": "Friend Driving Test",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friends sends a photo that says \"new driver!!!\" and you realize they passed their driving test. You have failed it twice. You remind yourself that you will pass eventually, and this makes you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Friend Driving Test_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "anticipation"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "First Kiss: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're the only one in your friend group who hasn't had your first kiss. When your friends talk about their experiecnes, you feel embarassed and left out\n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I want to change the subject abruptly in a way that signals my discomfort, but let the conversation run its natural course instead.",
+                "I stay engaged in the conversation and ask questions.",
+                "I tell my friends that I'm excited to have my first kiss in the future.",
+                "I feel the urge to go home and fixate on what's wrong with me, but push myeslf to stay and be present.",
+                "I make up a story about a first kiss to avoid feeling left out."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

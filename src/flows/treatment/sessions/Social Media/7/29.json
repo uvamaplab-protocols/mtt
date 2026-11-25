@@ -1,0 +1,16 @@
+{
+    "header_text": "Group Chat Argument",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Group Chat Argument"
+        },
+        {
+            "type": "Media",
+            "url": "./images/704.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 9
+}

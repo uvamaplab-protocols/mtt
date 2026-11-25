@@ -1,0 +1,29 @@
+{
+    "header_text": "Instagram Comments 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You think your friendship is..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Instagram Comments 2_Social Media_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Strong enough to be unharmed",
+                "Ruined by your mistake"
+            ],
+            "column_Count": 1,
+            "correct_value": "Strong enough to be unharmed"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Resilience",
+    "scenario_num": 3
+}

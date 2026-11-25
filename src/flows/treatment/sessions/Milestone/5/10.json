@@ -1,0 +1,29 @@
+{
+    "header_text": "Best Friend Driving",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You decide that still getting rides from your parents is..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Best Friend Driving_Milestone_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "something you can feel grateful for right now.",
+                "proof that you're less independent than your friend."
+            ],
+            "column_Count": 1,
+            "correct_value": "something you can feel grateful for right now."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 2
+}

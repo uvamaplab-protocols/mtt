@@ -1,0 +1,25 @@
+{
+    "header_text": "New Driver 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You finally get your driver’s license and ask your dad to borrow the family car to drive to the movies. As your dad hands you the keys, he looks tense and nervous. As you walk to the car, you think that his reaction to you driving alone for the first time is... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "New Driver 1_Milestone_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "untrusting"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 0
+}

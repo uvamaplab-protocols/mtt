@@ -1,0 +1,16 @@
+{
+    "header_text": "Work Life Balence 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Work Life Balence 3"
+        },
+        {
+            "type": "Media",
+            "url": "./images/413.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 5
+}

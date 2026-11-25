@@ -1,0 +1,16 @@
+{
+    "header_text": "Story Views 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Story Views 3"
+        },
+        {
+            "type": "Media",
+            "url": "./images/851.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 7
+}

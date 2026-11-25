@@ -1,0 +1,25 @@
+{
+    "header_text": "Glancing at Reflection",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "In the restroom, someone glances at your reflection in the mirror and then looks away. You worry they noticed something embarrassing. You remind yourself that they were probably just looking at... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Glancing at Reflection_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "themselves"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

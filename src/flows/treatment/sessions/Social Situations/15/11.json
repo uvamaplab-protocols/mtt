@@ -1,0 +1,17 @@
+{
+    "header_text": "Track Team",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You've been trying out for your school's track team for a few semesters and finally made varsity. At the first practice, you feel awkward around older players, and you worry you don’t belong. You remind yourself that with time, things will feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Track Team_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

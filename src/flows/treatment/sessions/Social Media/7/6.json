@@ -1,0 +1,17 @@
+{
+    "header_text": "No Social Media",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You do not want to get on social media. You have been pressured by several people and friends about getting it. The thought of feeling left out makes you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "No Social Media_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 1
+}

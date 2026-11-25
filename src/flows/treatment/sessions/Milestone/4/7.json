@@ -1,0 +1,16 @@
+{
+    "header_text": "Award Scrolling",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Award Scrolling"
+        },
+        {
+            "type": "Media",
+            "url": "./images/121.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 2
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "School Picture Day",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're getting ready before school picture day. As you're looking in the mirror, you notice a breakout on your forehead. You feel embarrassed about having acne in your yearbook..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "School Picture Day_Milestone_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "photo"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 8
+}

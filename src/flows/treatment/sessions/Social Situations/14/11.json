@@ -1,0 +1,17 @@
+{
+    "header_text": "Stumbling During Workout",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The gym smells like rubber mats and sweat as you line up for timed sprints, your shoes squeaking on the floor. Halfway through, you stumble slightly and feel heat rush to your face, wondering if anyone noticed. You think your classmates are probably focused on... "
+        },
+        {
+            "type": "Entry",
+            "name": "Stumbling During Workout_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

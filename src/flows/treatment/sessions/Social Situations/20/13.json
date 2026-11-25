@@ -1,0 +1,17 @@
+{
+    "header_text": "Small Role 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you practice your lines, you realize your assignment probably wasn't... "
+        },
+        {
+            "type": "Entry",
+            "name": "Small Role 2_Social Situations_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 3
+}

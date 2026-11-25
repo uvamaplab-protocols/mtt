@@ -1,0 +1,16 @@
+{
+    "header_text": "Laughing at Locker 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Laughing at Locker 1"
+        },
+        {
+            "type": "Media",
+            "url": "./images/945.jpg"
+        }
+    ],
+    "type": "Negative",
+    "scenario_num": 4
+}

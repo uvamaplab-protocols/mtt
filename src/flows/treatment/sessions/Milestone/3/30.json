@@ -1,0 +1,25 @@
+{
+    "header_text": "Community College",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You've decided to go to community college after high school. You don't know anyone who is going to community college, and all of your friends are going to 4-year colleges. When you think about your decision, you feel like it's right for... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Community College_Milestone_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "you"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

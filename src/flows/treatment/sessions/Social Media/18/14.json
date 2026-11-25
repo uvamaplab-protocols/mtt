@@ -1,0 +1,16 @@
+{
+    "header_text": "Unexpected Social Media Reaction",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Unexpected Social Media Reaction"
+        },
+        {
+            "type": "Media",
+            "url": "./images/738.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 6
+}

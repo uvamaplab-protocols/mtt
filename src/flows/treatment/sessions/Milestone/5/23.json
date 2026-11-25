@@ -1,0 +1,16 @@
+{
+    "header_text": "SAT Ready 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "SAT Ready 2"
+        },
+        {
+            "type": "Media",
+            "url": "./images/137.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 7
+}

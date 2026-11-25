@@ -1,0 +1,16 @@
+{
+    "header_text": "Missing a Shot",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Missing a Shot"
+        },
+        {
+            "type": "Media",
+            "url": "./images/890.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 8
+}

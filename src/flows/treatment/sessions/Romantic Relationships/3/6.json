@@ -1,0 +1,17 @@
+{
+    "header_text": "Laughing at Lunch 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "At lunch, the person you’re dating laughs with someone you don’t know. As you sit down next to them, your date doesn’t introduce you to their friend. You worry they like that person more, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Laughing at Lunch 2_Romantic Relationships_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 1
+}

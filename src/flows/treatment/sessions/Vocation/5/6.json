@@ -1,0 +1,25 @@
+{
+    "header_text": "Internship Talk",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend talks nonstop about internships, and you can’t relate. You start to worry you’re unambitious. Then you remember your goals just look different, and you start to feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Internship Talk_Vocation_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "confident"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

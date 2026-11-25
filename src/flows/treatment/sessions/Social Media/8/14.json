@@ -1,0 +1,25 @@
+{
+    "header_text": "High Tempratures ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "While scrolling the news before bed, you notice several headlines about record-breaking temperatures in different parts of the world. Your chest tightens as you wonder whether this means things are speeding up beyond control. You remind yourself that headlines highlight extremes, not the whole picture, and you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "High Tempratures _Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "calmer"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Volunteer Event 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You volunteer at an event at the place you want to work someday. You accidentally drop your backpack and your stuff spills everywhere. A few people glance over, and your cheeks burn. You think this type of mistake is... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Volunteer Event 3_Vocation_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "forgiveable"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

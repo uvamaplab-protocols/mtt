@@ -1,0 +1,16 @@
+{
+    "header_text": "Voice Message",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Voice Message"
+        },
+        {
+            "type": "Media",
+            "url": "./images/850.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 4
+}

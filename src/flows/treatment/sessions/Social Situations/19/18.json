@@ -1,0 +1,25 @@
+{
+    "header_text": "Not Tagged 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You don’t get tagged in a group photo on Instagram even though you were there. You wonder if the person posting it didn’t want people to know you were part of the group. Thinking about the people you took the photo with, you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Not Tagged 2_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "abandoned"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Style Comparison",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see your friend’s stylish jacket and suddenly feel like your clothes look plain. You worry people will judge your outfits as boring. You remind yourself style is personal and not a... "
+        },
+        {
+            "type": "Entry",
+            "name": "Style Comparison_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

@@ -1,0 +1,29 @@
+{
+    "header_text": "Leadership Comparison",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remind yourself that not having a leadership role yet means..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Leadership Comparison_Milestone_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "you're already falling behind your classmates.",
+                "everyone follows their own path and timing."
+            ],
+            "column_Count": 1,
+            "correct_value": "everyone follows their own path and timing."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 6
+}

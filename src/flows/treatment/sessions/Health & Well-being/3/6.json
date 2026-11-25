@@ -1,0 +1,25 @@
+{
+    "header_text": "Cleared to Practice 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "For the first time, you've been cleared to practice the movement that led to your injury. Initially you're excited, but when you go to execute the movement, memories of the moment you got injured flood back. You feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Cleared to Practice 1_Health & Well-being_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "unsafe"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 1
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Pictures with Friends",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Pictures with Friends"
+        },
+        {
+            "type": "Media",
+            "url": "./images/221.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 1
+}

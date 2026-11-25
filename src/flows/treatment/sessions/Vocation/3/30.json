@@ -1,0 +1,25 @@
+{
+    "header_text": "Impact of Work ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're been spending a lot of time after school working at your part-time job. You’re begin to worry that working so much might affect your grades, but you don’t want to quit. You sit down to make a plan of how to balence everything, and feel secure in your ability to make it all...  "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Impact of Work _Vocation_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "work"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

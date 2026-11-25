@@ -1,0 +1,25 @@
+{
+    "header_text": "Clothing Comparison",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You notice your friends wearing cool, edgy clothes you’ve wanted for months, but your parents still won’t let you buy them. You start to worry you’ll look out of place. You remind yourself trends change... \n"
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Clothing Comparison_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "fast"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

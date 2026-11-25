@@ -1,0 +1,16 @@
+{
+    "header_text": "Video Game Mistake",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Video Game Mistake"
+        },
+        {
+            "type": "Media",
+            "url": "./images/605.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 1
+}

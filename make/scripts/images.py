@@ -22,19 +22,26 @@ with open(f"{dir_csv}/images.csv", "r", encoding="utf-8") as read_obj:
         url,name = row
         try:
             if "unsplash" in url:
-                id = url.split("-")[-1]
+                # Unsplash ids are the last 11 characters and may contain "-" (e.g. ...-iO2d-KYp5JU)
+                id = url.strip().rstrip("/")[-11:]
 
                 if not Path(f"./src/images/{name}").exists():
                     with open(f"./src/images/{name}", mode='wb+') as f:
 
-                        subprocess.run(["curl","-L", f"https://unsplash.com/photos/{id}/download"], stdout=f)
+                        result = subprocess.run(["curl","-L","-f", f"https://unsplash.com/photos/{id}/download"], stdout=f)
+                    if result.returncode != 0:
+                        Path(f"./src/images/{name}").unlink()  # don't leave a 404 page behind as a .jpg
+                        raise Exception(f"curl failed with exit code {result.returncode}")
 
             elif "box.com" in url:
                 id = url.split("/")[4]
                 app = "virginia.app.box.com" in url
                 if not Path(f"./src/images/{name}").exists():
                     with open(f"./src/images/{name}", mode='wb+') as f:
-                        subprocess.run(["curl","-L",f"https://virginia{".app" if app else ""}.box.com/shared/static/{id}"], stdout=f)
+                        result = subprocess.run(["curl","-L","-f",f"https://virginia{'.app' if app else ''}.box.com/shared/static/{id}"], stdout=f)
+                    if result.returncode != 0:
+                        Path(f"./src/images/{name}").unlink()
+                        raise Exception(f"curl failed with exit code {result.returncode}")
 
             else:
                 if "/view" in url:

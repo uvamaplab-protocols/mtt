@@ -1,0 +1,25 @@
+{
+    "header_text": "Independent Sibling",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your sibling already moved out and seems completely independent. You start to feel like you’ll never catch up. You remind yourself that independence happens in stages, and you feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Independent Sibling_Milestone_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "content"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

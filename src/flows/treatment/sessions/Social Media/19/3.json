@@ -1,0 +1,17 @@
+{
+    "header_text": "Unexpected Reply Onlline",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You DM someone a funny meme you find online. After a few minutes, they reply “lol” with no emoji. You consider that this short response signals interest in what you... "
+        },
+        {
+            "type": "Entry",
+            "name": "Unexpected Reply Onlline_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

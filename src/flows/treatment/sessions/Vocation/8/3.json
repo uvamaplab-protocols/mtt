@@ -1,0 +1,17 @@
+{
+    "header_text": "Online Application 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You’re filling out an online application for a weekend job, and one question asks for “relevant experience.” You don't have many work experiences, and feel uncomfortable looking at your limited resume. The employers will probably think this is... "
+        },
+        {
+            "type": "Entry",
+            "name": "Online Application 3_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

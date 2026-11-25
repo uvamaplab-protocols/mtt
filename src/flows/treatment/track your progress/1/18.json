@@ -1,0 +1,22 @@
+{
+    "header_text": "Strength of Relationship Scale (Mentee)",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When something is bugging me, my mentor listens while I talk about it."
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "1::1",
+                "2::2",
+                "3::3",
+                "4::4",
+                "5::5"
+            ],
+            "selectable": true,
+            "variable_name": "9"
+        }
+    ]
+}

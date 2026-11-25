@@ -1,0 +1,17 @@
+{
+    "header_text": "Customer Clarification 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A customer asks for clarification on their order, holding the bag halfway open. You’re not sure whether they’re confused or just checking. You think questions don’t always mean problems, and feel calm as you ask them to... "
+        },
+        {
+            "type": "Entry",
+            "name": "Customer Clarification 3_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

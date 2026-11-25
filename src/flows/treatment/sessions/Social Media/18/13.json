@@ -1,0 +1,17 @@
+{
+    "header_text": "Emoji Response",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post a video, and someone replies with a single emoji. You feel uncertain and wonder if they’re mocking you. You think people sometimes interpret emojis differently, and feel yourself starting to... "
+        },
+        {
+            "type": "Entry",
+            "name": "Emoji Response_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

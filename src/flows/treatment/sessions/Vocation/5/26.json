@@ -1,0 +1,16 @@
+{
+    "header_text": "Lack of Experience",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Lack of Experience"
+        },
+        {
+            "type": "Media",
+            "url": "./images/416.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 8
+}

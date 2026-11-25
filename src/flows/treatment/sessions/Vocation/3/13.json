@@ -1,0 +1,17 @@
+{
+    "header_text": "Drive-Thru Mishap 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remind yourself small errors happen during rushes, and even if the customer is annoyed, you will be... "
+        },
+        {
+            "type": "Entry",
+            "name": "Drive-Thru Mishap 2_Vocation_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 3
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Fear of Judgement 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "As you open the door to his office, the counselor smiles, and you remember that he only wants to... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Fear of Judgement 2_Vocation_puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "help"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 3
+}

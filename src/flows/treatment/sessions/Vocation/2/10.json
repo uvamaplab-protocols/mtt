@@ -1,0 +1,25 @@
+{
+    "header_text": "Career Day",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your whole class is doing a career day exercise. A teacher asks what career you’re aiming for, and your mind goes blank. Your teacher probably thinks you are... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Career Day_Vocation_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "lazy"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 2
+}

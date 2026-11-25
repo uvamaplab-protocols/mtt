@@ -1,0 +1,16 @@
+{
+    "header_text": "Glancing at Reflection",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Glancing at Reflection"
+        },
+        {
+            "type": "Media",
+            "url": "./images/897.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 7
+}

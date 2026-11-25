@@ -1,0 +1,25 @@
+{
+    "header_text": "Cleared to Practice 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You then recount all of the hard work you've put in to strengthen your body since the injury, and you continue your training with a greater sense of..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Cleared to Practice 1_Health & Well-being_puzzle_word2",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "trust"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 1
+}

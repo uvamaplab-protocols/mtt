@@ -1,0 +1,16 @@
+{
+    "header_text": "Financial Literacy",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Financial Literacy"
+        },
+        {
+            "type": "Media",
+            "url": "./images/133.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 3
+}

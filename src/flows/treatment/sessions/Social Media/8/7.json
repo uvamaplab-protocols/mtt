@@ -1,0 +1,16 @@
+{
+    "header_text": "Climate Issue Post",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Climate Issue Post"
+        },
+        {
+            "type": "Media",
+            "url": "./images/345.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 2
+}

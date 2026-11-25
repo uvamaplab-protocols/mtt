@@ -1,0 +1,25 @@
+{
+    "header_text": "Friend's Correction",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're working on math homework with a few friends. You say an answer to the first question, and your friend quickly notices a problem in your work and corrects your answer. As you are looking over your work, you realize you made a mistake, and that's... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Friend's Correction_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "okay"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

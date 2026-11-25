@@ -1,0 +1,17 @@
+{
+    "header_text": "Trembling Audition 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remind yourself that trembling can be a sign of adrenaline, and you feel ready to..."
+        },
+        {
+            "type": "Entry",
+            "name": "Trembling Audition 1_Health & Well-being_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 2
+}

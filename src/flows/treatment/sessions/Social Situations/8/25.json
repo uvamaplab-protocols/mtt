@@ -1,0 +1,16 @@
+{
+    "header_text": "Interuppted Story 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Interuppted Story 3"
+        },
+        {
+            "type": "Media",
+            "url": "./images/813.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 8
+}

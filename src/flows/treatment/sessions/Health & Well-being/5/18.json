@@ -1,0 +1,25 @@
+{
+    "header_text": "Mom Coughing 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your mom coughs a lot one night and looks pale the next morning. As you make breakfast, you beging to worry that she's caught something bad. You consider the liklehood that she's sick with something serious is... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Mom Coughing 2_Health & Well-being_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "low"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

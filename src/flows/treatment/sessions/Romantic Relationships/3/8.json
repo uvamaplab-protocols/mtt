@@ -1,0 +1,16 @@
+{
+    "header_text": "Waving at Crush",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Waving at Crush"
+        },
+        {
+            "type": "Media",
+            "url": "./images/23.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 2
+}

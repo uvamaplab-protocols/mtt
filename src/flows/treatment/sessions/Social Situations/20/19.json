@@ -1,0 +1,17 @@
+{
+    "header_text": "Submitted Without You 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remind yourself that you tried your best, and your group just wanted the assignment to be... "
+        },
+        {
+            "type": "Entry",
+            "name": "Submitted Without You 2_Social Situations_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 5
+}

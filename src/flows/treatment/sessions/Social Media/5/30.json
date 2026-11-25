@@ -1,0 +1,17 @@
+{
+    "header_text": "Family Trip 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You have a really fun trip with your family over the weekend and you make a post on Instagram. As you post the photos, you realize you've already posted twice that week about fun things that happened at school, and you think your followers will be... "
+        },
+        {
+            "type": "Entry",
+            "name": "Family Trip 2_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 7
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Situationship Post",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your situationship posts a party story with you cropped off the edge. You assume they hid you because you didn’t look good enough. They explain that they weren't sure you were comfortable being posted, so you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Situationship Post_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "New Person at the Study Table",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The person you’re seeing casually brings an attractive classmate to the study table without warning. You start to feel insecure and wonder if they like this other classmate more. They explain that they invited the classmates because they always score the highest, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "New Person at the Study Table_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Laughing at Locker 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are putting some books in your locker before your first period class, trying to dispel your tiredness. All of a sudden, you hear people laughing near your locker and glance over. You think they are mocking... "
+        },
+        {
+            "type": "Entry",
+            "name": "Laughing at Locker 1_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 4
+}

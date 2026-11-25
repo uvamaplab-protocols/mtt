@@ -1,0 +1,17 @@
+{
+    "header_text": "Friend Driving Test 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend posts a photo that says \"new driver!!!\" and you realize they passed their driving test. You have failed it twice, and you feel a pinch of insecurity as you think of all the things you're missing out on without your... "
+        },
+        {
+            "type": "Entry",
+            "name": "Friend Driving Test 2_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 0
+}

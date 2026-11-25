@@ -1,0 +1,17 @@
+{
+    "header_text": "Video Game Mistake",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You're playing a multiplayer video game with your friends and having a lot of fun. You make a mistake that causes your team to lose the round, and you feel heat rise in your cheeks, wondering if your friends are mad at you. You remind yourself that everyone has off games, and mistakes are... "
+        },
+        {
+            "type": "Entry",
+            "name": "Video Game Mistake_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

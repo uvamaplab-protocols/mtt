@@ -1,0 +1,17 @@
+{
+    "header_text": "Finger Cut 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "At a picnic with family, you accidentally cut your finger while slicing fruit. Because you are outside, you cannot wash it out immediately with soap and water. You feel your heart rate increasing as you worry it will become... "
+        },
+        {
+            "type": "Entry",
+            "name": "Finger Cut 1_Health & Well-being_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 5
+}

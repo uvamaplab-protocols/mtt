@@ -1,0 +1,17 @@
+{
+    "header_text": "Sharing a Joke 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend probably didn't laugh because they're... "
+        },
+        {
+            "type": "Entry",
+            "name": "Sharing a Joke 2_Social Media_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 8
+}

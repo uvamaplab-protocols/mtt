@@ -1,0 +1,10 @@
+{
+    "header_text": "GAD-7",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Over the last two weeks, how often have you been bothered by the following problems?"
+        }
+    ]
+}

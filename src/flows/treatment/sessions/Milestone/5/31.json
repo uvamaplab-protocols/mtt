@@ -1,0 +1,29 @@
+{
+    "header_text": "Varsity Trip",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remind yourself that not being on the varsity trip yet means..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Varsity Trip_Milestone_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "everyone starts somewhere and works their way up.",
+                "you don't really belong on the team."
+            ],
+            "column_Count": 1,
+            "correct_value": "everyone starts somewhere and works their way up."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 9
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Solo Prom 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remind yourself that you can still enjoy the night even if you have a different experience than your friends, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Solo Prom 2_Social Situations_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

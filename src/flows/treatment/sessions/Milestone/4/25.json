@@ -1,0 +1,16 @@
+{
+    "header_text": "Sibling Social Comparison",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Sibling Social Comparison"
+        },
+        {
+            "type": "Media",
+            "url": "./images/127.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 8
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Crush's New Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are scrolling social media late one night. You notice your crush added someone new on social media and liked several of their posts. You think they added this person because they want to be... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Crush's New Friend_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "friends"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

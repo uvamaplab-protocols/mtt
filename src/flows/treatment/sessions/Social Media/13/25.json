@@ -1,0 +1,17 @@
+{
+    "header_text": "Crush Liking Posts 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You notice your crush liked someone else’s post but not yours. Your stomach drops, wondering if they like that person more or just don’t care about you. You remind yourself that people sometimes interact randomly online, and it doesn't necessarily mean... "
+        },
+        {
+            "type": "Entry",
+            "name": "Crush Liking Posts 3_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

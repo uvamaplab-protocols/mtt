@@ -1,0 +1,17 @@
+{
+    "header_text": "Climate Change News",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When scrolling through social media, you come across a headline about climate change. Reading about delayed climate action, you suddenly fear policymakers won’t adapt fast enough. You imagine being stuck with consequences you didn’t choose and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Climate Change News_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 3
+}

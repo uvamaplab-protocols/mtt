@@ -1,0 +1,16 @@
+{
+    "header_text": "Friend's Allowance: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A group of your friends are talking about getting allowance from their parents. Your parents can't afford to give you an allowence, and you have to work a job after school to make money. \n\nPlease take 30 seconds to write different behaviors. The next button will appear automatically.\n\nBehaviors you might do in the moment:"
+        }
+    ],
+    "navigation_conditions": [
+        {
+            "wait_for_time": 30000
+        },
+        "wait_for_click"
+    ]
+}

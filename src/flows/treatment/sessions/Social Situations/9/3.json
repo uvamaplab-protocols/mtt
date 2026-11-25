@@ -1,0 +1,25 @@
+{
+    "header_text": "Late Growth Spurt",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It seems like everyone you know is getting taller, but you still haven't had your growth spurt. You feel embarrassed and childish compared to your classmates. You then remember that everyone develops at their own pace, and everyone has their own insecurities. You start to feel confident in..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Late Growth Spurt_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "yourself"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

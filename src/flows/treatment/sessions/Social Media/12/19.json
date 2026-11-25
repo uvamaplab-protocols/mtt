@@ -1,0 +1,16 @@
+{
+    "header_text": "Classmate Heart Emoji",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Classmate Heart Emoji"
+        },
+        {
+            "type": "Media",
+            "url": "./images/47.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 6
+}

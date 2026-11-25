@@ -1,0 +1,17 @@
+{
+    "header_text": "Tagging a New Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You notice a friend keeps tagging someone else in all their photos lately. You start to worry they’re replacing you. But when you check your messages, you see they’ve been talking to you just as much, so you start to feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Tagging a New Friend_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

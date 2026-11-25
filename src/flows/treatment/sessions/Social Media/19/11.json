@@ -1,0 +1,17 @@
+{
+    "header_text": "Snapmap Exclusion",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are checking Snapchat and go to look at your best friend's location on the Snapmap. You see that she's at her house with a few other girls from your grade, and briefly feel sad that she's hanging out without you. However, you remember that she has other friends, and that is... "
+        },
+        {
+            "type": "Entry",
+            "name": "Snapmap Exclusion_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

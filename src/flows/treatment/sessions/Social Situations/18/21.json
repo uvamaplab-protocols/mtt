@@ -1,0 +1,16 @@
+{
+    "header_text": "Last Picked 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Last Picked 2"
+        },
+        {
+            "type": "Media",
+            "url": "./images/940.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 5
+}

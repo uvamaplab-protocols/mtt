@@ -1,0 +1,16 @@
+{
+    "header_text": "Stumbling During Workout",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Stumbling During Workout"
+        },
+        {
+            "type": "Media",
+            "url": "./images/476.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 4
+}

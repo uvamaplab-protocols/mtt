@@ -1,0 +1,16 @@
+{
+    "header_text": "Friend's Family Dinner",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Friend's Family Dinner"
+        },
+        {
+            "type": "Media",
+            "url": "./images/895.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 3
+}

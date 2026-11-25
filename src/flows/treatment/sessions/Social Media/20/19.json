@@ -1,0 +1,17 @@
+{
+    "header_text": "No Likes",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post a photo of your outfit and barely get any responses. You start to think maybe people don’t think you look good. You think your friends are probably... "
+        },
+        {
+            "type": "Entry",
+            "name": "No Likes_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

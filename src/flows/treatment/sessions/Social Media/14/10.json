@@ -1,0 +1,16 @@
+{
+    "header_text": "Following Back",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Following Back"
+        },
+        {
+            "type": "Media",
+            "url": "./images/713.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 4
+}

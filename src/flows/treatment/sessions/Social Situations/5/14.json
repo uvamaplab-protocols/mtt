@@ -1,0 +1,16 @@
+{
+    "header_text": "Coughing in Class 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Coughing in Class 3"
+        },
+        {
+            "type": "Media",
+            "url": "./images/941.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 4
+}

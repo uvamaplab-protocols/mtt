@@ -1,0 +1,17 @@
+{
+    "header_text": "Long Shift 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are working a long shift at your job and have started to lag behind on some orders. A customer snaps at you for being slow when you bring her order. The customer is probably... "
+        },
+        {
+            "type": "Entry",
+            "name": "Long Shift 1_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 7
+}

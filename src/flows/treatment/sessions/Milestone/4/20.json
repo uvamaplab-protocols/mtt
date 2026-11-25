@@ -1,0 +1,25 @@
+{
+    "header_text": "Increased Appetite",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You notice your appetite has increased a lot lately. You worry people will think you eat too much. You remind yourself that your body needs the fuel to..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Increased Appetite_Milestone_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "grow"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

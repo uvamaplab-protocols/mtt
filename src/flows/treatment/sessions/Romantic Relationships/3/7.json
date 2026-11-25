@@ -1,0 +1,17 @@
+{
+    "header_text": "Laughing at Lunch 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remind yourself that people get distracted in conversation, and you feel secure in your... "
+        },
+        {
+            "type": "Entry",
+            "name": "Laughing at Lunch 2_Romantic Relationships_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 1
+}

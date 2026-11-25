@@ -1,0 +1,17 @@
+{
+    "header_text": "No Eye Contact",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You remind yourself there could be dozens of explanations for your crush's behavior, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "No Eye Contact_Romantic Relationships_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 9
+}

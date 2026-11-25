@@ -1,0 +1,16 @@
+{
+    "header_text": "Lessons Learned",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "Text": "Great job! You're making great progress trying out new perspectives tied to romantic relationships! Take a few minutes to reflect on the short stories you've read so far. What have you learned? What are your main takeaways? For instance, you might notice that occasional conflict is a healthy and normal part of relationships."
+        },
+        {
+            "type": "Entry",
+            "name": "lessons_learned_Romantic Relationships_0"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 0
+}

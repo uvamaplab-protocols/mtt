@@ -1,0 +1,17 @@
+{
+    "header_text": "Searching for Jobs",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friends already have their first summer jobs lined up. You feel behind for not applying earlier. You think about sending in your applications, and you feel confident in your chances of getting... "
+        },
+        {
+            "type": "Entry",
+            "name": "Searching for Jobs_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

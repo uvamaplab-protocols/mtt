@@ -1,0 +1,29 @@
+{
+    "header_text": "Texting Crush 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When the typing dots disappear, you think your crush is..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Texting Crush 3_Romantic Relationships_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "deciding not to respond to you at all.",
+                "still figuring out the best way to reply."
+            ],
+            "column_Count": 1,
+            "correct_value": "still figuring out the best way to reply."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 1
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Tall Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": " You think about how lots of teens are still growing at different speeds, and you start to feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Tall Friend_Social Situations_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 7
+}

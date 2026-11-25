@@ -1,0 +1,17 @@
+{
+    "header_text": "Future of Learning",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During class, the topic of future job skills comes up unexpectedly. You wonder whether what you’re learning now will actually matter later. You remind yourself learning continues after school is... "
+        },
+        {
+            "type": "Entry",
+            "name": "Future of Learning_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

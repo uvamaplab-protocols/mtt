@@ -1,0 +1,17 @@
+{
+    "header_text": "Relationship Disclosure",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You’ve been dating someone for a while and think about telling them this is your first real relationship. You worry they’ll think you’re inexperienced. It leaves you feeling..."
+        },
+        {
+            "type": "Entry",
+            "name": "Relationship Disclosure_Romantic Relationships_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 6
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Single on Valentine's Day",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your feed is full of heart emojis, couples posing with flowers, and “lucky in love” captions. You start to feel like something must be wrong with you for always being single on Valentine’s Day. When you think about your future romantic prospects, you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Single on Valentine's Day_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

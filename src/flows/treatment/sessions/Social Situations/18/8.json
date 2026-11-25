@@ -1,0 +1,29 @@
+{
+    "header_text": "Group Chat Argument",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When it comes to arguments between friends, you feel...."
+        },
+        {
+            "type": "Buttons",
+            "name": "Group Chat Argument_Social Situations_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Responsible for fixing everything",
+                "Able to support without interfering"
+            ],
+            "column_Count": 1,
+            "correct_value": "Able to support without interfering"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Resilience",
+    "scenario_num": 1
+}

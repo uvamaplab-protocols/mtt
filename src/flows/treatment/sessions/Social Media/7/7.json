@@ -1,0 +1,17 @@
+{
+    "header_text": "No Social Media",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You think about getting social media more, and still decide not to make an account. You think that this makes you... "
+        },
+        {
+            "type": "Entry",
+            "name": "No Social Media_Social Media_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 1
+}

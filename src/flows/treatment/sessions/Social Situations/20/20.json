@@ -1,0 +1,16 @@
+{
+    "header_text": "Sweet Sixteen",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Sweet Sixteen"
+        },
+        {
+            "type": "Media",
+            "url": "./images/415.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 6
+}

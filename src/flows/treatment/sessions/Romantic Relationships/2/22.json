@@ -1,0 +1,25 @@
+{
+    "header_text": "No Relationship Yet",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Someone you know sends a photo with their new boyfriend. You've never had a boyfriend, and you start to wonder if you’re missing out on something important. You think about being left behind your peers and feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "No Relationship Yet_Romantic Relationships_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "uncomfortable"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 5
+}

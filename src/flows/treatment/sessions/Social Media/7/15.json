@@ -1,0 +1,17 @@
+{
+    "header_text": "Casual Outfit",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You’re getting ready for the school dance and your friends are all texting in the group chat. You notice your outfit suddenly looks way more casual than what your friends say they’re wearing. You suddenly worry your outfit is..."
+        },
+        {
+            "type": "Entry",
+            "name": "Casual Outfit_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

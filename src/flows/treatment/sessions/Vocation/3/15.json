@@ -1,0 +1,17 @@
+{
+    "header_text": "Earning Tips 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "After a long shift, you go on break. In the break room, you count the cash tips you earned that shift. You think about how small the amount feels compared to your effort and feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Earning Tips 2_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 4
+}

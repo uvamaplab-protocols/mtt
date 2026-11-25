@@ -1,0 +1,16 @@
+{
+    "header_text": "Selfie Reaction ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Selfie Reaction "
+        },
+        {
+            "type": "Media",
+            "url": "./images/702.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 1
+}

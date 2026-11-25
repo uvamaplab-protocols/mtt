@@ -1,0 +1,17 @@
+{
+    "header_text": "Picture Day Haircut",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Today is picture day and you got a new haircut for it. You don't like the way it turned out. When you think about others seeing your new haircut in the yearbook, you feel...."
+        },
+        {
+            "type": "Entry",
+            "name": "Picture Day Haircut_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

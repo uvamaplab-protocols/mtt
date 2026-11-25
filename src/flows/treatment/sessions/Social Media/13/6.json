@@ -1,0 +1,25 @@
+{
+    "header_text": "Family Photos",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your mom took a bunch of photos of you at a family wedding. You are looking through all of the photos trying to decide what to post, and begin to feel stressed about choosing the \"perfect\" photo to post. You consider that the differences between the photos are probably... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Family Photos_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "insignificant"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

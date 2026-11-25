@@ -1,0 +1,29 @@
+{
+    "header_text": "No Repsonse from Crush",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You think double texting is..."
+        },
+        {
+            "type": "Buttons",
+            "name": "No Repsonse from Crush_Romantic Relationships_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Something everyone does sometimes",
+                "A sign of desparation"
+            ],
+            "column_Count": 1,
+            "correct_value": "Something everyone does sometimes"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 7
+}

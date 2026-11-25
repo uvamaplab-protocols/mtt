@@ -1,0 +1,17 @@
+{
+    "header_text": "Birthday Party Conflict 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your best friend is having her birthday party at the same time as you are scheduled to work. Although you want to celebrate your friend, you know you aren’t supposed to miss a shift, and you are feeling very torn. As you think about your decision, you admit that no matter what choice you make it is going to be... "
+        },
+        {
+            "type": "Entry",
+            "name": "Birthday Party Conflict 3_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

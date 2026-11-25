@@ -1,0 +1,25 @@
+{
+    "header_text": "Local Colleges",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You hear your friends proudly talk about getting into highly ranked colleges. You feel embarrassed about applying mainly to local schools, and your stomach tightens. You remind yourself you'll grow wherever you go, and you start to feel..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Local Colleges_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "enthusiastic"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Double Texting: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your crush hasn't responded in a few days. After long deliberation, you send a double text. \n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I'm relieved to have followed up.",
+                "I'm proud that I did something that scared me.",
+                "I'm a little embarassed, but remind myself that reaching out is not something to be ashamed of.",
+                "I feel immediate regret and wish I could unsend it.",
+                "I feel vulnerable, but know that vulnerability is an important part of developing connection."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

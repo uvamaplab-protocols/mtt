@@ -1,0 +1,17 @@
+{
+    "header_text": "Job Envy",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You and your friend are competing for a summer job. The day of decisions arrives, and you feel a jolt of envy when you see your friend post that they got the job. The envy curdles to despair in your stomach, until you remind yourself that one opportunity doesn't define your path, and you start to feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Job Envy_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

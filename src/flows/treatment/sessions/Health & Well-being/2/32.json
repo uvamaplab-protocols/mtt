@@ -1,0 +1,29 @@
+{
+    "header_text": "Calling Grandmother 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When you think about your grandmother, you feel"
+        },
+        {
+            "type": "Buttons",
+            "name": "Calling Grandmother 1_Health & Well-being_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Excited to talk to her",
+                "Worried about her"
+            ],
+            "column_Count": 1,
+            "correct_value": "Excited to talk to her"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Resilience",
+    "scenario_num": 7
+}

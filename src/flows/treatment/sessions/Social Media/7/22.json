@@ -1,0 +1,17 @@
+{
+    "header_text": "Misinformation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "When you think about the ability of people your age to spot false information and AI-generated content, you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Misinformation_Social Media_entry2"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 6
+}

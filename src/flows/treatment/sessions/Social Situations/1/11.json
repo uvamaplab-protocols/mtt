@@ -1,0 +1,25 @@
+{
+    "header_text": "Birthday Party Conflict 1 ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your best friend is having her birthday party at the same time as your practice. Although you want to celebrate your friend, you know you aren’t supposed to miss practice, and you are feeling very torn. As you think about your decision, you admit that no matter what choice you make, you are going to... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Birthday Party Conflict 1 _Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "disappoint"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 3
+}

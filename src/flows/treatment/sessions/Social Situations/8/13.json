@@ -1,0 +1,16 @@
+{
+    "header_text": "Having Friends Over",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Having Friends Over"
+        },
+        {
+            "type": "Media",
+            "url": "./images/636.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 4
+}

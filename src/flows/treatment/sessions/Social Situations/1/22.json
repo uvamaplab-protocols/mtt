@@ -1,0 +1,16 @@
+{
+    "header_text": "Dance Without Date",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Dance Without Date"
+        },
+        {
+            "type": "Media",
+            "url": "./images/920.jpg"
+        }
+    ],
+    "type": "Negative",
+    "scenario_num": 7
+}

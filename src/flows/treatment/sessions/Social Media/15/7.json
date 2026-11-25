@@ -1,0 +1,17 @@
+{
+    "header_text": "Distant Childhood Friend",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your friend posts a TikTok of their childhood best friend surprising them with coffee. You think about how distant you and your childhood best friend have become. Then you remind yourself that it's normal for relationships go through rough patches, and you start to feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Distant Childhood Friend_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 2
+}

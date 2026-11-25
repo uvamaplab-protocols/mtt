@@ -1,0 +1,16 @@
+{
+    "header_text": "No Repsonse from Crush",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "No Repsonse from Crush"
+        },
+        {
+            "type": "Media",
+            "url": "./images/48.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 7
+}

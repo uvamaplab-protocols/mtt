@@ -1,0 +1,17 @@
+{
+    "header_text": "Sitting with a New Group",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You meet a friend’s other friend group for the first time, and they don’t ask you many direct questions. You feel hurt and left out of the conversation, worrying that they don't like you. You realize that they are probably also shy around new people and waiting for you to make the first... \n"
+        },
+        {
+            "type": "Entry",
+            "name": "Sitting with a New Group_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

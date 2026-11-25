@@ -1,0 +1,17 @@
+{
+    "header_text": "Leading a Meeting 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You’re asked to lead a short team meeting at your job. Your stomach flips, worried you’ll forget what to say or get something wrong in front of everyone. Your coworkers will probably think you are doing... "
+        },
+        {
+            "type": "Entry",
+            "name": "Leading a Meeting 3_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 9
+}

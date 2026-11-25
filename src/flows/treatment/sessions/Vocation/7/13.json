@@ -1,0 +1,17 @@
+{
+    "header_text": "Job Interview 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You finish an important job interview and shut your computer. Right away, you start second-guessing everything you said. You think you might have sounded..."
+        },
+        {
+            "type": "Entry",
+            "name": "Job Interview 3_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 5
+}

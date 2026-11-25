@@ -1,0 +1,16 @@
+{
+    "header_text": "Work Question 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Work Question 2"
+        },
+        {
+            "type": "Media",
+            "url": "./images/398.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 2
+}

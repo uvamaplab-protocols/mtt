@@ -1,0 +1,25 @@
+{
+    "header_text": "Application Question",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Someone asks where you're applying, and they react with a polite smile. You worry they're secretly judging your decision and feel heat rise in your cheeks. You think their smile probably means they are mocking... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Application Question_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "you"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 1
+}

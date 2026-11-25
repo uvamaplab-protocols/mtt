@@ -1,0 +1,17 @@
+{
+    "header_text": "Volunteer Event 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You volunteer at an event at the place you want to work someday and accidentally drop a box of supplies. Heat rises to your face as people glance over. They probably think you are... "
+        },
+        {
+            "type": "Entry",
+            "name": "Volunteer Event 2_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 5
+}

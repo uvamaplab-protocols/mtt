@@ -1,0 +1,17 @@
+{
+    "header_text": "Unaccepted Friend Request",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You’re checking your notifications, and notice someone still hasn’t accepted your friend request. You wonder if it means they don’t like you. You feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Unaccepted Friend Request_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 5
+}

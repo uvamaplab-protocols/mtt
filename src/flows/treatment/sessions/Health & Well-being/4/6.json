@@ -1,0 +1,17 @@
+{
+    "header_text": "Getting Dressed 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You notice your clothes fit differently this year. You worry your body is changing too fast. You feel a wave of... "
+        },
+        {
+            "type": "Entry",
+            "name": "Getting Dressed 1_Health & Well-being_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 1
+}

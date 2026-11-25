@@ -1,0 +1,25 @@
+{
+    "header_text": "Friend's Allowance: Behaviors",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A group of your friends are talking about getting allowance from their parents. Your parents can't afford to give you an allowence, and you have to work a job after school to make money. \n\nHere are some behaviors that someone might do at that moment or in the future:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I lie and invent an allowance amount so I fit into the conversation.",
+                "I steer the conversation toward something everyone can relate to.",
+                "I feel the urge to pretend I also get an allowance, but choose to stay quiet instead.",
+                "I remind myself later of something I bought or did with money I earned on my own",
+                "I want to leave the conversation abruptly, but stay and let it run its course instead."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

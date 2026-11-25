@@ -1,0 +1,16 @@
+{
+    "header_text": "Submitted Without You 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Submitted Without You 3"
+        },
+        {
+            "type": "Media",
+            "url": "./images/805.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 6
+}

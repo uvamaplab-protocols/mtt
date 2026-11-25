@@ -1,0 +1,16 @@
+{
+    "header_text": "Shaking Before Competition 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Shaking Before Competition 1"
+        },
+        {
+            "type": "Media",
+            "url": "./images/447.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 3
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "Science Fair 2",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The science fair is next week and you've been working hard on your project. You overheard your classmates joking that only \"nerds\" participate. You think about all the work you've put in preparing your project, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Science Fair 2_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 0
+}

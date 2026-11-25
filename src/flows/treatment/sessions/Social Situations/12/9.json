@@ -1,0 +1,17 @@
+{
+    "header_text": "Post Engagement",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You notice your friend stopped interacting with your Instagram content. You wonder if they’ve stopped liking you altogether. You remind yourself that people go through phases with downloading and deleting Instagram, and you friend is probably... "
+        },
+        {
+            "type": "Entry",
+            "name": "Post Engagement_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

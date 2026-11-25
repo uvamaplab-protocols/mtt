@@ -1,0 +1,16 @@
+{
+    "header_text": "Cancelled Events",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Cancelled Events"
+        },
+        {
+            "type": "Media",
+            "url": "./images/126.jpg"
+        }
+    ],
+    "type": "Positive",
+    "scenario_num": 7
+}

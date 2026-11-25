@@ -1,0 +1,17 @@
+{
+    "header_text": "Going Viral ",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see someone your age has gone viral for something cool. You feel like you’re not doing anything meaningful. Then you remind yourself that going viral isn’t the same as being fulfilled, and you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Going Viral _Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 6
+}

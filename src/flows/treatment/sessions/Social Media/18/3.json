@@ -1,0 +1,17 @@
+{
+    "header_text": "Getting Replaced",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see a picture of your best friend laughing with new people they met over the summer. You feel anxious, worried that you’re being replaced by a cooler group. Your friend is probably expanding their social... "
+        },
+        {
+            "type": "Entry",
+            "name": "Getting Replaced_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 0
+}

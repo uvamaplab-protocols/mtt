@@ -1,0 +1,25 @@
+{
+    "header_text": "Breakout Rooms 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During a Zoom class, you're placed into breakout rooms. When you start the discussion, your camera is on, but everyone else leaves their cameras off and their mics muted. You wonder if others will think you are a..."
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Breakout Rooms 1_Social Situations_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "try-hard"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 5
+}

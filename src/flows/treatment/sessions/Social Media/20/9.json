@@ -1,0 +1,17 @@
+{
+    "header_text": "Posting a Selfie",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You post a selfie on your Instagram story right before dinner. During the meal, you keep checking your notifications for likes. You think about not getting any likes on your selfie, and feel confident in your decision to post... "
+        },
+        {
+            "type": "Entry",
+            "name": "Posting a Selfie_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

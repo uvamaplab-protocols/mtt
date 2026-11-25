@@ -1,0 +1,29 @@
+{
+    "header_text": "No Like From Crush",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You consider that your crush hasn't liked your picture because they..."
+        },
+        {
+            "type": "Buttons",
+            "name": "No Like From Crush_Romantic Relationships_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "are purposely ignoring your post.",
+                "might be offline or busy with something else."
+            ],
+            "column_Count": 1,
+            "correct_value": "might be offline or busy with something else."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 7
+}

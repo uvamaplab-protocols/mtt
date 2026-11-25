@@ -1,0 +1,29 @@
+{
+    "header_text": "Different Lunch",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "At lunch you will probably...."
+        },
+        {
+            "type": "Buttons",
+            "name": "Different Lunch_Social Situations_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Find a new group to sit with",
+                "Sit alone"
+            ],
+            "column_Count": 1,
+            "correct_value": "Find a new group to sit with"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 9
+}

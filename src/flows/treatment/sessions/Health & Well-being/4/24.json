@@ -1,0 +1,25 @@
+{
+    "header_text": "Science Presentation",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You are giving an important presentation in your science class. You feel your face start to heat up, and your hands start to shake, and you worry that all of your classmates are judging you. You take a deep breath and remember that a little anxiety during a presentation is... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Science Presentation_Health & Well-being_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "adaptive"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

@@ -1,0 +1,16 @@
+{
+    "header_text": "Posting Post Breakup",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Posting Post Breakup"
+        },
+        {
+            "type": "Media",
+            "url": "./images/15.jpg"
+        }
+    ],
+    "type": "Resilience",
+    "scenario_num": 3
+}

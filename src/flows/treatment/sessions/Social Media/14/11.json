@@ -1,0 +1,17 @@
+{
+    "header_text": "Following Back",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You follow someone new you met in one of your classes. After a few days, they still haven't followed you back. You feel happy to talk to them in class the next... "
+        },
+        {
+            "type": "Entry",
+            "name": "Following Back_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 4
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "New School Lunch",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "It's your first day at a new school, and it's lunch time. A group of students goes quiet after you ask them if you can sit at their table. You think they are probably just..."
+        },
+        {
+            "type": "Entry",
+            "name": "New School Lunch_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 8
+}

@@ -1,0 +1,17 @@
+{
+    "header_text": "AI Anxiety 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "A classmate claims AI will make most jobs disappear, and your stomach dips. You imagine having fewer options than you hoped for. You remember that new skills can be learned over time, and you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "AI Anxiety 3_Vocation_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 1
+}

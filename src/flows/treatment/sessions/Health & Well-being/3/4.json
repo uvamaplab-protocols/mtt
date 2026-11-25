@@ -1,0 +1,29 @@
+{
+    "header_text": "Winded After Practice",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You think health is..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Winded After Practice_Health & Well-being_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "Defined by specific numbers",
+                "Possible at many sizes"
+            ],
+            "column_Count": 1,
+            "correct_value": "Possible at many sizes"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Resilience",
+    "scenario_num": 0
+}

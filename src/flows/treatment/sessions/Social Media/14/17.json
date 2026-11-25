@@ -1,0 +1,17 @@
+{
+    "header_text": "Thoughtful Caption 3",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You try to make a thoughtful caption, but second-guess yourself before posting. You worry people will think it’s cringe. Then you remind yourself it reflects your real thoughts, and you feel proud for being..."
+        },
+        {
+            "type": "Entry",
+            "name": "Thoughtful Caption 3_Social Media_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 7
+}

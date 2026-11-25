@@ -1,0 +1,25 @@
+{
+    "header_text": "Cold Run",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "During warm-ups outside, cold air hits your lungs and your legs feel heavier than usual. You wonder if your body is trying to tell you something before practice really starts. You consider that some days just feel different and you are probably... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Cold Run_Health & Well-being_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "okay"
+            ],
+            "missing_letter_count": 1
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Positive",
+    "scenario_num": 3
+}

@@ -1,0 +1,25 @@
+{
+    "header_text": "Global Conflict 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You see news about rising tensions between countries, and your nerves spark. You imagine instability lasting for years. You conider your lack of ability to control the situation, and you feel... "
+        },
+        {
+            "type": "WordPuzzle",
+            "name": "Global Conflict 1_Social Media_puzzle1",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "display_delay": 2000,
+            "words": [
+                "anxious"
+            ],
+            "missing_letter_count": 2
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 2
+}

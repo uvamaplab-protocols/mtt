@@ -1,0 +1,25 @@
+{
+    "header_text": "Loud Parent: Feelings",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Your parent is dropping you off at your sports practice. As they drop you off, they are really loud and everyone on your team looks at you. \n\nHere are some feelings that might happen in the moment:"
+        },
+        {
+            "type": "TimedText",
+            "texts": [
+                "I'm energized to find out what we learn today at practice.",
+                "I'm ashamed that my parent is so loud.",
+                "I'm scared to face my friends, but remind myself that I can tolerate these feelings.",
+                "I'm happy that the sun is shining at it seems like a great day to be outside with my teammates.",
+                "I'm embarrassed that my parent seems like the only one. Then, I remember that another friend has a loud parent, and I don't judge that friend for her parent."
+            ],
+            "Duration": 15000
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

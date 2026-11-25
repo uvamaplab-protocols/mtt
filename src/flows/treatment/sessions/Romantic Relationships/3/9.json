@@ -1,0 +1,17 @@
+{
+    "header_text": "Waving at Crush",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You walk into class and spot your crush across the room. You wave at them, but they don't look up from their phone. You start thinking they’re ignoring you, and you feel... "
+        },
+        {
+            "type": "Entry",
+            "name": "Waving at Crush_Romantic Relationships_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Resilience",
+    "scenario_num": 2
+}

@@ -1,0 +1,29 @@
+{
+    "header_text": "Left on Delivered",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The next time this happens, you will tell yourself your partner..."
+        },
+        {
+            "type": "Buttons",
+            "name": "Left on Delivered_Romantic Relationships_comp_question",
+            "correct_feedback": "Correct!",
+            "incorrect_feedback": "Oops! That doesn't seem right. Please wait a moment and try again.",
+            "incorrect_delay": 5000,
+            "buttons": [
+                "will watch it when they get a free moment.",
+                "doesn't care about the things you send them."
+            ],
+            "column_Count": 1,
+            "correct_value": "will watch it when they get a free moment."
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_correct",
+        "wait_for_click"
+    ],
+    "type": "Positive",
+    "scenario_num": 2
+}

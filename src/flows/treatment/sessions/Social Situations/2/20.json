@@ -1,0 +1,17 @@
+{
+    "header_text": "Politics Discussion 1",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You overhear classmates arguing about politics, and your chest tightens. You imagine conversations around you getting even more heated. It occurs to you that tensions may keep rising, and you feel..."
+        },
+        {
+            "type": "Entry",
+            "name": "Politics Discussion 1_Social Situations_entry1"
+        }
+    ],
+    "navigation_conditions": "wait_for_correct",
+    "type": "Negative",
+    "scenario_num": 7
+}
